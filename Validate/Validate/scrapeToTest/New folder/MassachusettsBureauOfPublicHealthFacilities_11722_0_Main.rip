@@ -1,0 +1,3619 @@
+<?xml version="1.0"?>
+<WrProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProxyServers />
+  <ProxyPageLoads>0</ProxyPageLoads>
+  <IsProxyEnabled>false</IsProxyEnabled>
+  <IsProxyConfigurationScript>false</IsProxyConfigurationScript>
+  <SharedDatabaseConfiguration>
+    <DataSourceType>SqlDatabase</DataSourceType>
+    <IsEnabled>false</IsEnabled>
+    <SqlDatabase>
+      <Server>(local)</Server>
+      <UseWindowsAuthentication>true</UseWindowsAuthentication>
+      <UserName />
+      <Password />
+      <Database />
+    </SqlDatabase>
+    <MySqlDatabase>
+      <Server>localhost</Server>
+      <UserName />
+      <Password />
+      <CommandTimeout>30000</CommandTimeout>
+      <Port>3306</Port>
+      <CharSet />
+      <MaxIndexKeyLength>767</MaxIndexKeyLength>
+      <Database />
+    </MySqlDatabase>
+    <OleDbConnectionString />
+    <OracleConnectionString>g+GDs8NStA9LhoQ1LE5F8PP6QmtBLG8QsZK1HikbkOhHrTlAGNQKZPD4wvTvxEP6/v78Ws+hjwrJ/e7P4hIlgSDjSTxnNZApQI88c06q2VEsQ66uuTT7KLB/4+EbWBQg1FFcA2v9ugT/9YBmzMmvAgYN5mY8</OracleConnectionString>
+    <OleDbConnectionStringEncrypt />
+    <OracleConnectionStringEncrypt>Data Source=//localhost:1521/SID;User Id=USER_NAME;Password=PASSWORD;</OracleConnectionStringEncrypt>
+  </SharedDatabaseConfiguration>
+  <IsPostProcessAlways>false</IsPostProcessAlways>
+  <IsPostProcessAfterScheduledRun>false</IsPostProcessAfterScheduledRun>
+  <IsPostProcessAfterDataConversion>false</IsPostProcessAfterDataConversion>
+  <PostProcessProcedure />
+  <PostProcessAssembly />
+  <MainTableName />
+  <IsTruncateTable>true</IsTruncateTable>
+  <IsResetData>true</IsResetData>
+  <DataSource>
+    <DataSourceType>XLS</DataSourceType>
+    <SqlDatabase>
+      <Server>(local)</Server>
+      <UseWindowsAuthentication>true</UseWindowsAuthentication>
+      <UserName />
+      <Password />
+      <Database />
+    </SqlDatabase>
+    <MySqlDatabase>
+      <Server>localhost</Server>
+      <UserName />
+      <Password />
+      <CommandTimeout>30000</CommandTimeout>
+      <Port>3306</Port>
+      <CharSet />
+      <MaxIndexKeyLength>767</MaxIndexKeyLength>
+      <Database />
+    </MySqlDatabase>
+    <OleDbConnectionString />
+    <OleDbKeyType />
+    <OleDbTextType />
+    <OutputFolder />
+    <LogFolder />
+    <FilesOutputFolder />
+    <CsvFileEncoding>ascii</CsvFileEncoding>
+    <CsvSeparator>,</CsvSeparator>
+    <IsDefaultOutputFolder>true</IsDefaultOutputFolder>
+    <IsFlattenData>false</IsFlattenData>
+    <IsTimeStampOutputFile>false</IsTimeStampOutputFile>
+    <IsClearOutputFolder>false</IsClearOutputFolder>
+    <UseOriginalFileNames>false</UseOriginalFileNames>
+    <IsSynchDatabaseKeys>false</IsSynchDatabaseKeys>
+    <IsTruncateTable>true</IsTruncateTable>
+    <IsResetData>true</IsResetData>
+    <DataExtractionMethod>ReplaceExistingData</DataExtractionMethod>
+  </DataSource>
+  <InputDataSource>
+    <Sql />
+    <DataSourceType>SqlDatabase</DataSourceType>
+    <IsEnabled>false</IsEnabled>
+    <SqlDatabase>
+      <Server>(local)</Server>
+      <UseWindowsAuthentication>true</UseWindowsAuthentication>
+      <UserName />
+      <Password />
+      <Database />
+    </SqlDatabase>
+    <MySqlDatabase>
+      <Server>localhost</Server>
+      <UserName />
+      <Password />
+      <CommandTimeout>30000</CommandTimeout>
+      <Port>3306</Port>
+      <CharSet />
+      <MaxIndexKeyLength>767</MaxIndexKeyLength>
+      <Database />
+    </MySqlDatabase>
+    <OleDbConnectionString />
+    <FilePath />
+    <CsvSeparator>Comma</CsvSeparator>
+    <CsvCharacterset>ANSI</CsvCharacterset>
+    <DesignRowIndex>0</DesignRowIndex>
+    <InputDataScript>
+      <IsEnabled>false</IsEnabled>
+      <ScriptType>InputDataScript</ScriptType>
+      <ScriptLanguage>Csharp</ScriptLanguage>
+      <Script />
+      <IsRegexOnHtml>false</IsRegexOnHtml>
+    </InputDataScript>
+    <OleDbConnectionStringEncrypt />
+  </InputDataSource>
+  <UseOriginalFileNames>false</UseOriginalFileNames>
+  <Version>3000016</Version>
+  <Name>MassachusettsBureauOfPublicHealthFacilities_11722_0_Main</Name>
+  <ProjectProxy>
+    <ProxyList>
+      <IsRemoveSkippedProxies>false</IsRemoveSkippedProxies>
+      <ProxyAddresses>
+        <ProxyAddress>
+          <ProxyAddress>172.241.245.180:29842</ProxyAddress>
+          <Username />
+          <Password />
+        </ProxyAddress>
+        <ProxyAddress>
+          <ProxyAddress>172.241.232.32:29842</ProxyAddress>
+          <Username />
+          <Password />
+        </ProxyAddress>
+        <ProxyAddress>
+          <ProxyAddress>172.241.244.29:29842</ProxyAddress>
+          <Username />
+          <Password />
+        </ProxyAddress>
+        <ProxyAddress>
+          <ProxyAddress>172.241.245.113:29842</ProxyAddress>
+          <Username />
+          <Password />
+        </ProxyAddress>
+        <ProxyAddress>
+          <ProxyAddress>172.241.244.199:29842</ProxyAddress>
+          <Username />
+          <Password />
+        </ProxyAddress>
+        <ProxyAddress>
+          <ProxyAddress>23.108.16.116:29842</ProxyAddress>
+          <Username />
+          <Password />
+        </ProxyAddress>
+        <ProxyAddress>
+          <ProxyAddress>172.241.244.242:29842</ProxyAddress>
+          <Username />
+          <Password />
+        </ProxyAddress>
+        <ProxyAddress>
+          <ProxyAddress>172.241.245.204:29842</ProxyAddress>
+          <Username />
+          <Password />
+        </ProxyAddress>
+        <ProxyAddress>
+          <ProxyAddress>172.241.245.104:29842</ProxyAddress>
+          <Username />
+          <Password />
+        </ProxyAddress>
+        <ProxyAddress>
+          <ProxyAddress>23.108.16.131:29842</ProxyAddress>
+          <Username />
+          <Password />
+        </ProxyAddress>
+        <ProxyAddress>
+          <ProxyAddress>172.241.244.154:29842</ProxyAddress>
+          <Username />
+          <Password />
+        </ProxyAddress>
+        <ProxyAddress>
+          <ProxyAddress>23.105.0.119:29842</ProxyAddress>
+          <Username />
+          <Password />
+        </ProxyAddress>
+        <ProxyAddress>
+          <ProxyAddress>172.241.232.119:29842</ProxyAddress>
+          <Username />
+          <Password />
+        </ProxyAddress>
+        <ProxyAddress>
+          <ProxyAddress>172.241.232.51:29842</ProxyAddress>
+          <Username />
+          <Password />
+        </ProxyAddress>
+        <ProxyAddress>
+          <ProxyAddress>23.108.16.120:29842</ProxyAddress>
+          <Username />
+          <Password />
+        </ProxyAddress>
+        <ProxyAddress>
+          <ProxyAddress>23.108.16.233:29842</ProxyAddress>
+          <Username />
+          <Password />
+        </ProxyAddress>
+      </ProxyAddresses>
+      <IsVerifyProxies>false</IsVerifyProxies>
+      <IsVerifyConnectivityOnly>false</IsVerifyConnectivityOnly>
+      <IsSkipUnavailableProxies>true</IsSkipUnavailableProxies>
+      <VerificationTimeoutSeconds>15</VerificationTimeoutSeconds>
+    </ProxyList>
+    <ProxyPageLoads>1</ProxyPageLoads>
+    <ProxyRotationMinutes>1</ProxyRotationMinutes>
+    <ProxySource>ProxyList</ProxySource>
+    <RotationMode>PageLoad</RotationMode>
+  </ProjectProxy>
+  <IsSaveBeforeRun>true</IsSaveBeforeRun>
+  <IsReopenProjectAfterRun>false</IsReopenProjectAfterRun>
+  <IsQuickRun>false</IsQuickRun>
+  <Schedule>
+    <StartDateTime>2017-07-03T10:57:36.2727605+00:00</StartDateTime>
+    <NextRunDateTime>0001-01-01T00:00:00</NextRunDateTime>
+    <HasChanged>false</HasChanged>
+    <ScheduleType>Day</ScheduleType>
+    <Interval>1</Interval>
+    <DocumentPath>D:\Users\najab\Documents\Visual Web Ripper</DocumentPath>
+    <LocalAppPath>D:\Users\najab\AppData\Local</LocalAppPath>
+    <EmailServer />
+    <EmailServerPort>25</EmailServerPort>
+    <UseEmailServerSsl>false</UseEmailServerSsl>
+    <EmailUsername />
+    <EmailPassword />
+    <IsNotificationsEnabled>false</IsNotificationsEnabled>
+    <NotifyAlways>false</NotifyAlways>
+    <NotifyOnCriticalError>true</NotifyOnCriticalError>
+    <NotifyOnMissingRequiredElements>false</NotifyOnMissingRequiredElements>
+    <NotifyOnMissingRequiredElementsCount>5</NotifyOnMissingRequiredElementsCount>
+    <NotifyOnProcessedLessPages>false</NotifyOnProcessedLessPages>
+    <NotifyOnProcessedLessPagesCount>1</NotifyOnProcessedLessPagesCount>
+  </Schedule>
+  <he>false</he>
+  <IsMuteDuringProcessing>true</IsMuteDuringProcessing>
+  <LogLevel>0</LogLevel>
+  <IsInputDataSourceUrl>true</IsInputDataSourceUrl>
+  <InputDataSourceUrlColumnName>PostingUrl</InputDataSourceUrlColumnName>
+  <IsManualUrlList>false</IsManualUrlList>
+  <IsOverrideJavascripts>false</IsOverrideJavascripts>
+  <IsInjectJavascript>false</IsInjectJavascript>
+  <IsInjectJavascriptAfterNavigate>false</IsInjectJavascriptAfterNavigate>
+  <IsAlwaysLoadFrames>false</IsAlwaysLoadFrames>
+  <Javascripts />
+  <StartUrls />
+  <StartUrl>https://massanf.taleo.net/careersection/ex/jobdetail.ftl?job=20000535</StartUrl>
+  <Template>
+    <ID>a5d7a05d-756d-4771-aa7f-855fe1b72f74</ID>
+    <RepeatedAjaxCalls>false</RepeatedAjaxCalls>
+    <RepeatedAjaxCallsMaxCount>0</RepeatedAjaxCallsMaxCount>
+    <AjaxCheckElementName />
+    <IsReselectAjaxCheckElement>false</IsReselectAjaxCheckElement>
+    <FormFieldPostbackType>AutoDetect</FormFieldPostbackType>
+    <JavaScriptAction>Asynchronous</JavaScriptAction>
+    <AjaxDelayMilliseconds>100</AjaxDelayMilliseconds>
+    <WaitForAjaxOnAsynchronousAction>true</WaitForAjaxOnAsynchronousAction>
+    <FormFieldActionOnEdit>false</FormFieldActionOnEdit>
+    <FormFieldActionAlways>false</FormFieldActionAlways>
+    <IsFormFieldOptional>false</IsFormFieldOptional>
+    <FormFieldMultipleValues>false</FormFieldMultipleValues>
+    <IsAjaxBeforeFullPageLoad>false</IsAjaxBeforeFullPageLoad>
+    <UseEmptyFormFieldValues>false</UseEmptyFormFieldValues>
+    <UseFormFieldOptionText>false</UseFormFieldOptionText>
+    <Name>MassachusettsBureauOfPublicHealthFacilities_11722_0_Main</Name>
+    <IsSaveContent>true</IsSaveContent>
+    <IsCleanHtml>false</IsCleanHtml>
+    <IsCleanXml>false</IsCleanXml>
+    <IsMakeLineBreaks>false</IsMakeLineBreaks>
+    <IsCleanText>false</IsCleanText>
+    <IsAllParagraphs>false</IsAllParagraphs>
+    <IsIncludeSiblings>false</IsIncludeSiblings>
+    <SiblingCount>0</SiblingCount>
+    <PageTransformation>Custom</PageTransformation>
+    <FixedValue />
+    <FixedFileExtension />
+    <IsFilenameTransformationIncludesExtension>false</IsFilenameTransformationIncludesExtension>
+    <IsReuseExistingFiles>false</IsReuseExistingFiles>
+    <IsRequired>false</IsRequired>
+    <ContentType>Element</ContentType>
+    <ContentAttributeType>Text</ContentAttributeType>
+    <IsSaveFormElementValue>false</IsSaveFormElementValue>
+    <IsSaveFormElementText>false</IsSaveFormElementText>
+    <IsRepeatFormElement>true</IsRepeatFormElement>
+    <IsCheckFormSelectValues>false</IsCheckFormSelectValues>
+    <IsFormValuesRequired>false</IsFormValuesRequired>
+    <IsMultipleInputFields>false</IsMultipleInputFields>
+    <MultipleInputFieldsResetValue>no</MultipleInputFieldsResetValue>
+    <MultipleInputFieldsSetValue>yes</MultipleInputFieldsSetValue>
+    <FormFieldGroup />
+    <RepeatFormElementStartIndex>0</RepeatFormElementStartIndex>
+    <RepeatFormElementCount>0</RepeatFormElementCount>
+    <RepeatFormElementSkipLastRowCount>0</RepeatFormElementSkipLastRowCount>
+    <FormElementTemplateName />
+    <FormElementName />
+    <IsFormSelectValueRegexMatch>false</IsFormSelectValueRegexMatch>
+    <FormCaptchaElement />
+    <RetryCaptchaIfElementExists>true</RetryCaptchaIfElementExists>
+    <ElementCheckPoint>0</ElementCheckPoint>
+    <NodePath>
+      <Path />
+      <IncludeAttributes />
+      <Accuracy>0</Accuracy>
+      <IsOptimizePath>true</IsOptimizePath>
+      <RepeatPathLevel>0</RepeatPathLevel>
+      <RepeatPathLevelSecondary>0</RepeatPathLevelSecondary>
+      <RepeatPathCondition />
+      <IsOptimizeWithoutIds>false</IsOptimizeWithoutIds>
+    </NodePath>
+    <PageAreaNodePath />
+    <IsSingleSelection>false</IsSingleSelection>
+    <IsLinkRedirected>false</IsLinkRedirected>
+    <IsLinkRedirectedOnMetaRefresh>false</IsLinkRedirectedOnMetaRefresh>
+    <TagAttributes />
+    <PageAttribute />
+    <IsManualPath>false</IsManualPath>
+    <ClickedElementPath />
+    <DataFieldMode>Manual</DataFieldMode>
+    <InputDataSource>
+      <Sql />
+      <DataSourceType>CSVDirect</DataSourceType>
+      <IsEnabled>true</IsEnabled>
+      <SqlDatabase>
+        <Server>(local)</Server>
+        <UseWindowsAuthentication>true</UseWindowsAuthentication>
+        <UserName />
+        <Password />
+        <Database />
+      </SqlDatabase>
+      <MySqlDatabase>
+        <Server>localhost</Server>
+        <UserName />
+        <Password />
+        <CommandTimeout>30000</CommandTimeout>
+        <Port>3306</Port>
+        <CharSet />
+        <MaxIndexKeyLength>767</MaxIndexKeyLength>
+        <Database />
+      </MySqlDatabase>
+      <OleDbConnectionString />
+      <FilePath>V:\Output\StartUrls\MassachusettsBureauOfPublicHealthFacilities_11722_0_StartUrls.csv</FilePath>
+      <CsvSeparator>Comma</CsvSeparator>
+      <CsvCharacterset>ANSI</CsvCharacterset>
+      <DesignRowIndex>0</DesignRowIndex>
+      <InputDataScript>
+        <IsEnabled>false</IsEnabled>
+        <ScriptType>InputDataScript</ScriptType>
+        <ScriptLanguage>Csharp</ScriptLanguage>
+        <Script />
+        <IsRegexOnHtml>false</IsRegexOnHtml>
+      </InputDataScript>
+      <OleDbConnectionStringEncrypt />
+    </InputDataSource>
+    <DataFieldColumn />
+    <InputDataTemplateId />
+    <PathCondition />
+    <PathAttributeCondition />
+    <PathAttributeTextCondition />
+    <PathIgnorePositionsCondition>false</PathIgnorePositionsCondition>
+    <PathSpecialCondition>None</PathSpecialCondition>
+    <IsNoAjaxWaitOnFirstLink>false</IsNoAjaxWaitOnFirstLink>
+    <IsOptionalAjaxWait>false</IsOptionalAjaxWait>
+    <IsOptionalAjaxWaitOnFirstLinkOnly>true</IsOptionalAjaxWaitOnFirstLinkOnly>
+    <TranformationScript>
+      <IsEnabled>false</IsEnabled>
+      <ScriptType>ContentTransformation</ScriptType>
+      <ScriptLanguage>Csharp</ScriptLanguage>
+      <Script />
+      <IsRegexOnHtml>false</IsRegexOnHtml>
+    </TranformationScript>
+    <AjaxWaitConditionScript>
+      <IsEnabled>false</IsEnabled>
+      <ScriptType>ContentTransformation</ScriptType>
+      <ScriptLanguage>Csharp</ScriptLanguage>
+      <Script />
+      <IsRegexOnHtml>false</IsRegexOnHtml>
+    </AjaxWaitConditionScript>
+    <IsWaitForAjaxAfterPageLoad>false</IsWaitForAjaxAfterPageLoad>
+    <ElementWaitConditionScript>
+      <IsEnabled>false</IsEnabled>
+      <ScriptType>ContentTransformation</ScriptType>
+      <ScriptLanguage>Csharp</ScriptLanguage>
+      <Script />
+      <IsRegexOnHtml>false</IsRegexOnHtml>
+    </ElementWaitConditionScript>
+    <Scripts />
+    <WaitUntilElementExists>false</WaitUntilElementExists>
+    <ConditionFailAction>CancelTemplate</ConditionFailAction>
+    <ConditionFailActionKeepDataRow>false</ConditionFailActionKeepDataRow>
+    <ConditionFailActionRemoveAllFailData>false</ConditionFailActionRemoveAllFailData>
+    <ConditionCancelTemplate />
+    <IsConditionCancelList>false</IsConditionCancelList>
+    <IsConditionFailWhenMissing>false</IsConditionFailWhenMissing>
+    <IsDuplicateCheck>false</IsDuplicateCheck>
+    <IsEmptyDuplicateCheck>true</IsEmptyDuplicateCheck>
+    <FormFieldExcludedValues />
+    <ClickedFormFieldValue />
+    <WebBrowserFrameIndex>-1</WebBrowserFrameIndex>
+    <WebFrame>
+      <FrameIndex>-1</FrameIndex>
+      <FrameName />
+      <UseNameOnly>true</UseNameOnly>
+    </WebFrame>
+    <OutputSortOrder>0</OutputSortOrder>
+    <IsOutputOrderByName>false</IsOutputOrderByName>
+    <IsSaveFileUrl>false</IsSaveFileUrl>
+    <ContentScriptOptions>
+      <ExecuteScriptAfterElement />
+      <ExecuteScript>Last</ExecuteScript>
+    </ContentScriptOptions>
+    <IsProcessLast>false</IsProcessLast>
+    <ActionEvents />
+    <IsJQueryEvent>false</IsJQueryEvent>
+    <ActionJavaScript />
+    <DelayBetweenEventsMilliseconds>0</DelayBetweenEventsMilliseconds>
+    <DelayAfterCompletedActionMilliseconds>0</DelayAfterCompletedActionMilliseconds>
+    <ErrorRetryAttempts>0</ErrorRetryAttempts>
+    <PauseWhenMissing>false</PauseWhenMissing>
+    <DataColumnNameContent />
+    <IsDownloadWithoutSessionInfo>false</IsDownloadWithoutSessionInfo>
+    <AllowAutoRedirect>false</AllowAutoRedirect>
+    <SaveInParentTable>Default</SaveInParentTable>
+    <SingleColumnValueSeparator />
+    <ContentTypeScreenConfig>
+      <FixedWidth>0</FixedWidth>
+      <FixedHeight>0</FixedHeight>
+      <ThumbnailWidth>0</ThumbnailWidth>
+      <ThumbnailHeight>0</ThumbnailHeight>
+      <IsAdjustHeight>false</IsAdjustHeight>
+    </ContentTypeScreenConfig>
+    <TransformHtml />
+    <IsPageTransformationEnabled>true</IsPageTransformationEnabled>
+    <IsFileUpLoad>false</IsFileUpLoad>
+    <FileUpLoadOpenButtonName>&amp;OPEN</FileUpLoadOpenButtonName>
+    <IsEncrypt>false</IsEncrypt>
+    <ColumnType>ShortText</ColumnType>
+    <IsBlockMainDocumentRedirect>false</IsBlockMainDocumentRedirect>
+    <IsAjaxPostback>false</IsAjaxPostback>
+    <IsStayInPageAreaAfterAjax>false</IsStayInPageAreaAfterAjax>
+    <Action>FullPageLoad</Action>
+    <IsWaitForMainDocumentRedirect>true</IsWaitForMainDocumentRedirect>
+    <LinkAreaStartIndex>0</LinkAreaStartIndex>
+    <LinkAreaCount>0</LinkAreaCount>
+    <IsRepeatElement>false</IsRepeatElement>
+    <IsRepeatFirstElement>false</IsRepeatFirstElement>
+    <RepeatStartIndex>0</RepeatStartIndex>
+    <RepeatCount>0</RepeatCount>
+    <RepeatCache>0</RepeatCache>
+    <IsRepeatCacheExport>false</IsRepeatCacheExport>
+    <IsRepeatCacheRestartBrowser>false</IsRepeatCacheRestartBrowser>
+    <RepeatSkipLastRowCount>0</RepeatSkipLastRowCount>
+    <IsClickOnExactElement>true</IsClickOnExactElement>
+    <TemplateType>StartUrl</TemplateType>
+    <IsPostbackFormSubmitTemplate>false</IsPostbackFormSubmitTemplate>
+    <FormSubmitType>SubmitButton</FormSubmitType>
+    <FormDirectUrl />
+    <IsWebCrawlerFormFileDownload>false</IsWebCrawlerFormFileDownload>
+    <IsWebCrawlerFormSubmitLink>false</IsWebCrawlerFormSubmitLink>
+    <CanSkipTemplate>false</CanSkipTemplate>
+    <UseBrowserBackHistory>true</UseBrowserBackHistory>
+    <PageAreaRowSpan>0</PageAreaRowSpan>
+    <RedirectType>UrlRedirect</RedirectType>
+    <RedirectUrl />
+    <RedirectFrameIndex>0</RedirectFrameIndex>
+    <RedirectWebFrame>
+      <FrameIndex>-1</FrameIndex>
+      <FrameName />
+      <UseNameOnly>true</UseNameOnly>
+    </RedirectWebFrame>
+    <PageNavigationType>NextPageLink</PageNavigationType>
+    <PageNavigationCount>0</PageNavigationCount>
+    <PageNavigationDynamicCompareMethod>Text</PageNavigationDynamicCompareMethod>
+    <ProcessorType>Default</ProcessorType>
+    <TransferSessionToWebCrawler>true</TransferSessionToWebCrawler>
+    <VisitEachPageOnlyOnce>false</VisitEachPageOnlyOnce>
+    <FollowLinkContentOnlyOnce>false</FollowLinkContentOnlyOnce>
+    <IsDisabled>false</IsDisabled>
+    <IsExtractText>true</IsExtractText>
+    <RepeatType>FreeRepeat</RepeatType>
+    <RepeatUtilElementPath />
+    <SelectionTargetTemplate />
+    <SelectionType>AddToSelection</SelectionType>
+    <ProcessInNewBrowser>true</ProcessInNewBrowser>
+    <NewBrowserTabMethod>Default</NewBrowserTabMethod>
+    <IsClickToGetNewBrowserUrl>false</IsClickToGetNewBrowserUrl>
+    <IsEndBrowserSessionBeforeAction>false</IsEndBrowserSessionBeforeAction>
+    <Contents>
+      <Content>
+        <ID>89968a0c-4519-4841-a50c-c242b4c82a27</ID>
+        <RepeatedAjaxCalls>false</RepeatedAjaxCalls>
+        <RepeatedAjaxCallsMaxCount>0</RepeatedAjaxCallsMaxCount>
+        <AjaxCheckElementName />
+        <IsReselectAjaxCheckElement>false</IsReselectAjaxCheckElement>
+        <FormFieldPostbackType>AutoDetect</FormFieldPostbackType>
+        <JavaScriptAction>Asynchronous</JavaScriptAction>
+        <AjaxDelayMilliseconds>100</AjaxDelayMilliseconds>
+        <WaitForAjaxOnAsynchronousAction>true</WaitForAjaxOnAsynchronousAction>
+        <FormFieldActionOnEdit>false</FormFieldActionOnEdit>
+        <FormFieldActionAlways>false</FormFieldActionAlways>
+        <IsFormFieldOptional>false</IsFormFieldOptional>
+        <FormFieldMultipleValues>false</FormFieldMultipleValues>
+        <IsAjaxBeforeFullPageLoad>false</IsAjaxBeforeFullPageLoad>
+        <UseEmptyFormFieldValues>false</UseEmptyFormFieldValues>
+        <UseFormFieldOptionText>false</UseFormFieldOptionText>
+        <Name>JobDescription</Name>
+        <IsSaveContent>true</IsSaveContent>
+        <IsCleanHtml>false</IsCleanHtml>
+        <IsCleanXml>false</IsCleanXml>
+        <IsMakeLineBreaks>false</IsMakeLineBreaks>
+        <IsCleanText>false</IsCleanText>
+        <IsAllParagraphs>false</IsAllParagraphs>
+        <IsIncludeSiblings>false</IsIncludeSiblings>
+        <SiblingCount>0</SiblingCount>
+        <PageTransformation>Custom</PageTransformation>
+        <FixedValue />
+        <FixedFileExtension />
+        <IsFilenameTransformationIncludesExtension>false</IsFilenameTransformationIncludesExtension>
+        <IsReuseExistingFiles>false</IsReuseExistingFiles>
+        <IsRequired>true</IsRequired>
+        <ContentType>Element</ContentType>
+        <ContentAttributeType>Text</ContentAttributeType>
+        <IsSaveFormElementValue>false</IsSaveFormElementValue>
+        <IsSaveFormElementText>false</IsSaveFormElementText>
+        <IsRepeatFormElement>true</IsRepeatFormElement>
+        <IsCheckFormSelectValues>false</IsCheckFormSelectValues>
+        <IsFormValuesRequired>false</IsFormValuesRequired>
+        <IsMultipleInputFields>false</IsMultipleInputFields>
+        <MultipleInputFieldsResetValue>no</MultipleInputFieldsResetValue>
+        <MultipleInputFieldsSetValue>yes</MultipleInputFieldsSetValue>
+        <FormFieldGroup />
+        <RepeatFormElementStartIndex>0</RepeatFormElementStartIndex>
+        <RepeatFormElementCount>0</RepeatFormElementCount>
+        <RepeatFormElementSkipLastRowCount>0</RepeatFormElementSkipLastRowCount>
+        <FormElementTemplateName />
+        <FormElementName />
+        <IsFormSelectValueRegexMatch>false</IsFormSelectValueRegexMatch>
+        <FormCaptchaElement />
+        <RetryCaptchaIfElementExists>true</RetryCaptchaIfElementExists>
+        <ElementCheckPoint>0</ElementCheckPoint>
+        <NodePath>
+          <Path>//span[text()="The job is no longer available."]|//div[@class='contentlinepanel'][2] | //div[@class='contentlinepanel'][3]</Path>
+          <IncludeAttributes />
+          <Accuracy>0</Accuracy>
+          <IsOptimizePath>true</IsOptimizePath>
+          <RepeatPathLevel>0</RepeatPathLevel>
+          <RepeatPathLevelSecondary>0</RepeatPathLevelSecondary>
+          <RepeatPathCondition />
+          <IsOptimizeWithoutIds>false</IsOptimizeWithoutIds>
+        </NodePath>
+        <PageAreaNodePath />
+        <IsSingleSelection>false</IsSingleSelection>
+        <IsLinkRedirected>false</IsLinkRedirected>
+        <IsLinkRedirectedOnMetaRefresh>false</IsLinkRedirectedOnMetaRefresh>
+        <TagAttributes />
+        <PageAttribute />
+        <IsManualPath>true</IsManualPath>
+        <ClickedElementPath />
+        <DataFieldMode>Manual</DataFieldMode>
+        <InputDataSource>
+          <Sql />
+          <DataSourceType>SqlDatabase</DataSourceType>
+          <IsEnabled>false</IsEnabled>
+          <SqlDatabase>
+            <Server>(local)</Server>
+            <UseWindowsAuthentication>true</UseWindowsAuthentication>
+            <UserName />
+            <Password />
+            <Database />
+          </SqlDatabase>
+          <MySqlDatabase>
+            <Server>localhost</Server>
+            <UserName />
+            <Password />
+            <CommandTimeout>30000</CommandTimeout>
+            <Port>3306</Port>
+            <CharSet />
+            <MaxIndexKeyLength>767</MaxIndexKeyLength>
+            <Database />
+          </MySqlDatabase>
+          <OleDbConnectionString />
+          <FilePath />
+          <CsvSeparator>Comma</CsvSeparator>
+          <CsvCharacterset>ANSI</CsvCharacterset>
+          <DesignRowIndex>0</DesignRowIndex>
+          <InputDataScript>
+            <IsEnabled>false</IsEnabled>
+            <ScriptType>InputDataScript</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script />
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </InputDataScript>
+          <OleDbConnectionStringEncrypt />
+        </InputDataSource>
+        <DataFieldColumn />
+        <InputDataTemplateId />
+        <PathCondition />
+        <PathAttributeCondition />
+        <PathAttributeTextCondition />
+        <PathIgnorePositionsCondition>false</PathIgnorePositionsCondition>
+        <PathSpecialCondition>None</PathSpecialCondition>
+        <IsNoAjaxWaitOnFirstLink>false</IsNoAjaxWaitOnFirstLink>
+        <IsOptionalAjaxWait>false</IsOptionalAjaxWait>
+        <IsOptionalAjaxWaitOnFirstLinkOnly>true</IsOptionalAjaxWaitOnFirstLinkOnly>
+        <TranformationScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </TranformationScript>
+        <AjaxWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </AjaxWaitConditionScript>
+        <IsWaitForAjaxAfterPageLoad>false</IsWaitForAjaxAfterPageLoad>
+        <ElementWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </ElementWaitConditionScript>
+        <Scripts>
+          <WrScript>
+            <IsEnabled>true</IsEnabled>
+            <ScriptType>ContentTransformation</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script>using System;
+using VisualWebRipper.Internal.SimpleHtmlParser;
+using VisualWebRipper;
+public class Script
+{
+	//See help for a definition of WrContentTransformationArguments.
+	public static string TransformContent(WrContentTransformationArguments args)
+	{
+		try
+		{
+			if (args.Content.Contains("The job is no longer available."))
+			{
+				return "";
+			}
+			else
+			{
+				return args.Content;
+			}
+		}
+		catch(Exception exp)
+		{
+			//Place error handling here
+			args.WriteDebug("Custom script error: " + exp.Message);
+			return "Custom script error";
+		}
+	}
+}</Script>
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </WrScript>
+          <WrScript>
+            <IsEnabled>true</IsEnabled>
+            <ScriptType>ElementWaitScript</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script>using System;
+using mshtml;
+using VisualWebRipper;
+public class Script
+{
+	//See help for a definition of WrWaitScriptArguments.
+	public static bool IsAjaxCallCompleted(WrWaitScriptArguments args)
+	{
+		try
+		{
+			//Place your condition code here.
+			//This example waits until the old content has been replaced with new content,
+			//but waits a maximum of 3 seconds.
+
+			if(args.SecondsWaited&gt;5)
+				return true;
+
+			if(!args.OldContent.Equals(args.NewContent))
+				return true;
+
+			return false;
+		}
+		catch(Exception exp)
+		{
+			args.WriteDebug("Custom script error: " + exp.Message);
+				return true;
+		}
+	}
+}</Script>
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </WrScript>
+        </Scripts>
+        <WaitUntilElementExists>true</WaitUntilElementExists>
+        <ConditionFailAction>CancelTemplate</ConditionFailAction>
+        <ConditionFailActionKeepDataRow>false</ConditionFailActionKeepDataRow>
+        <ConditionFailActionRemoveAllFailData>false</ConditionFailActionRemoveAllFailData>
+        <ConditionCancelTemplate />
+        <IsConditionCancelList>false</IsConditionCancelList>
+        <IsConditionFailWhenMissing>false</IsConditionFailWhenMissing>
+        <IsDuplicateCheck>false</IsDuplicateCheck>
+        <IsEmptyDuplicateCheck>true</IsEmptyDuplicateCheck>
+        <FormFieldExcludedValues />
+        <ClickedFormFieldValue />
+        <WebBrowserFrameIndex>-1</WebBrowserFrameIndex>
+        <WebFrame>
+          <FrameIndex>-1</FrameIndex>
+          <FrameName />
+          <UseNameOnly>true</UseNameOnly>
+        </WebFrame>
+        <OutputSortOrder>0</OutputSortOrder>
+        <IsOutputOrderByName>false</IsOutputOrderByName>
+        <IsSaveFileUrl>false</IsSaveFileUrl>
+        <ContentScriptOptions>
+          <ExecuteScriptAfterElement />
+          <ExecuteScript>Last</ExecuteScript>
+        </ContentScriptOptions>
+        <IsProcessLast>false</IsProcessLast>
+        <ActionEvents />
+        <IsJQueryEvent>false</IsJQueryEvent>
+        <ActionJavaScript />
+        <DelayBetweenEventsMilliseconds>0</DelayBetweenEventsMilliseconds>
+        <DelayAfterCompletedActionMilliseconds>0</DelayAfterCompletedActionMilliseconds>
+        <ErrorRetryAttempts>0</ErrorRetryAttempts>
+        <PauseWhenMissing>false</PauseWhenMissing>
+        <DataColumnNameContent />
+        <IsDownloadWithoutSessionInfo>false</IsDownloadWithoutSessionInfo>
+        <AllowAutoRedirect>false</AllowAutoRedirect>
+        <SaveInParentTable>Default</SaveInParentTable>
+        <SingleColumnValueSeparator />
+        <ContentTypeScreenConfig>
+          <FixedWidth>0</FixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <ThumbnailWidth>0</ThumbnailWidth>
+          <ThumbnailHeight>0</ThumbnailHeight>
+          <IsAdjustHeight>false</IsAdjustHeight>
+        </ContentTypeScreenConfig>
+        <TransformHtml />
+        <IsPageTransformationEnabled>true</IsPageTransformationEnabled>
+        <IsFileUpLoad>false</IsFileUpLoad>
+        <FileUpLoadOpenButtonName>&amp;OPEN</FileUpLoadOpenButtonName>
+        <IsEncrypt>false</IsEncrypt>
+        <ColumnType>LongText</ColumnType>
+        <IsBlockMainDocumentRedirect>false</IsBlockMainDocumentRedirect>
+      </Content>
+      <Content>
+        <ID>aafcba53-6b3f-4fb4-9ef9-bb798a9db56c</ID>
+        <RepeatedAjaxCalls>false</RepeatedAjaxCalls>
+        <RepeatedAjaxCallsMaxCount>0</RepeatedAjaxCallsMaxCount>
+        <AjaxCheckElementName />
+        <IsReselectAjaxCheckElement>false</IsReselectAjaxCheckElement>
+        <FormFieldPostbackType>AutoDetect</FormFieldPostbackType>
+        <JavaScriptAction>Asynchronous</JavaScriptAction>
+        <AjaxDelayMilliseconds>100</AjaxDelayMilliseconds>
+        <WaitForAjaxOnAsynchronousAction>true</WaitForAjaxOnAsynchronousAction>
+        <FormFieldActionOnEdit>false</FormFieldActionOnEdit>
+        <FormFieldActionAlways>false</FormFieldActionAlways>
+        <IsFormFieldOptional>false</IsFormFieldOptional>
+        <FormFieldMultipleValues>false</FormFieldMultipleValues>
+        <IsAjaxBeforeFullPageLoad>false</IsAjaxBeforeFullPageLoad>
+        <UseEmptyFormFieldValues>false</UseEmptyFormFieldValues>
+        <UseFormFieldOptionText>false</UseFormFieldOptionText>
+        <Name>JobDescriptionHtml</Name>
+        <IsSaveContent>true</IsSaveContent>
+        <IsCleanHtml>false</IsCleanHtml>
+        <IsCleanXml>false</IsCleanXml>
+        <IsMakeLineBreaks>false</IsMakeLineBreaks>
+        <IsCleanText>false</IsCleanText>
+        <IsAllParagraphs>false</IsAllParagraphs>
+        <IsIncludeSiblings>false</IsIncludeSiblings>
+        <SiblingCount>0</SiblingCount>
+        <PageTransformation>Custom</PageTransformation>
+        <FixedValue />
+        <FixedFileExtension />
+        <IsFilenameTransformationIncludesExtension>false</IsFilenameTransformationIncludesExtension>
+        <IsReuseExistingFiles>false</IsReuseExistingFiles>
+        <IsRequired>false</IsRequired>
+        <ContentType>Element</ContentType>
+        <ContentAttributeType>Html</ContentAttributeType>
+        <IsSaveFormElementValue>false</IsSaveFormElementValue>
+        <IsSaveFormElementText>false</IsSaveFormElementText>
+        <IsRepeatFormElement>true</IsRepeatFormElement>
+        <IsCheckFormSelectValues>false</IsCheckFormSelectValues>
+        <IsFormValuesRequired>false</IsFormValuesRequired>
+        <IsMultipleInputFields>false</IsMultipleInputFields>
+        <MultipleInputFieldsResetValue>no</MultipleInputFieldsResetValue>
+        <MultipleInputFieldsSetValue>yes</MultipleInputFieldsSetValue>
+        <FormFieldGroup />
+        <RepeatFormElementStartIndex>0</RepeatFormElementStartIndex>
+        <RepeatFormElementCount>0</RepeatFormElementCount>
+        <RepeatFormElementSkipLastRowCount>0</RepeatFormElementSkipLastRowCount>
+        <FormElementTemplateName />
+        <FormElementName />
+        <IsFormSelectValueRegexMatch>false</IsFormSelectValueRegexMatch>
+        <FormCaptchaElement />
+        <RetryCaptchaIfElementExists>true</RetryCaptchaIfElementExists>
+        <ElementCheckPoint>0</ElementCheckPoint>
+        <NodePath>
+          <Path>//span[text()="The job is no longer available."]|//div[@class='contentlinepanel'][2] | //div[@class='contentlinepanel'][3]</Path>
+          <IncludeAttributes />
+          <Accuracy>0</Accuracy>
+          <IsOptimizePath>true</IsOptimizePath>
+          <RepeatPathLevel>0</RepeatPathLevel>
+          <RepeatPathLevelSecondary>0</RepeatPathLevelSecondary>
+          <RepeatPathCondition />
+          <IsOptimizeWithoutIds>false</IsOptimizeWithoutIds>
+        </NodePath>
+        <PageAreaNodePath />
+        <IsSingleSelection>false</IsSingleSelection>
+        <IsLinkRedirected>false</IsLinkRedirected>
+        <IsLinkRedirectedOnMetaRefresh>false</IsLinkRedirectedOnMetaRefresh>
+        <TagAttributes />
+        <PageAttribute />
+        <IsManualPath>true</IsManualPath>
+        <ClickedElementPath />
+        <DataFieldMode>Manual</DataFieldMode>
+        <InputDataSource>
+          <Sql />
+          <DataSourceType>SqlDatabase</DataSourceType>
+          <IsEnabled>false</IsEnabled>
+          <SqlDatabase>
+            <Server>(local)</Server>
+            <UseWindowsAuthentication>true</UseWindowsAuthentication>
+            <UserName />
+            <Password />
+            <Database />
+          </SqlDatabase>
+          <MySqlDatabase>
+            <Server>localhost</Server>
+            <UserName />
+            <Password />
+            <CommandTimeout>30000</CommandTimeout>
+            <Port>3306</Port>
+            <CharSet />
+            <MaxIndexKeyLength>767</MaxIndexKeyLength>
+            <Database />
+          </MySqlDatabase>
+          <OleDbConnectionString />
+          <FilePath />
+          <CsvSeparator>Comma</CsvSeparator>
+          <CsvCharacterset>ANSI</CsvCharacterset>
+          <DesignRowIndex>0</DesignRowIndex>
+          <InputDataScript>
+            <IsEnabled>false</IsEnabled>
+            <ScriptType>InputDataScript</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script />
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </InputDataScript>
+          <OleDbConnectionStringEncrypt />
+        </InputDataSource>
+        <DataFieldColumn />
+        <InputDataTemplateId />
+        <PathCondition />
+        <PathAttributeCondition />
+        <PathAttributeTextCondition />
+        <PathIgnorePositionsCondition>false</PathIgnorePositionsCondition>
+        <PathSpecialCondition>None</PathSpecialCondition>
+        <IsNoAjaxWaitOnFirstLink>false</IsNoAjaxWaitOnFirstLink>
+        <IsOptionalAjaxWait>false</IsOptionalAjaxWait>
+        <IsOptionalAjaxWaitOnFirstLinkOnly>true</IsOptionalAjaxWaitOnFirstLinkOnly>
+        <TranformationScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </TranformationScript>
+        <AjaxWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </AjaxWaitConditionScript>
+        <IsWaitForAjaxAfterPageLoad>false</IsWaitForAjaxAfterPageLoad>
+        <ElementWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </ElementWaitConditionScript>
+        <Scripts>
+          <WrScript>
+            <IsEnabled>false</IsEnabled>
+            <ScriptType>ElementWaitScript</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script />
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </WrScript>
+          <WrScript>
+            <IsEnabled>true</IsEnabled>
+            <ScriptType>ContentTransformation</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script>using System;
+using VisualWebRipper.Internal.SimpleHtmlParser;
+using VisualWebRipper;
+public class Script
+{
+	//See help for a definition of WrContentTransformationArguments.
+	public static string TransformContent(WrContentTransformationArguments args)
+	{
+		try
+		{
+			if (args.Content.Contains("The job is no longer available."))
+			{
+				return "";
+			}
+			else
+			{
+				return args.Content;
+			}
+		}
+		catch(Exception exp)
+		{
+			//Place error handling here
+			args.WriteDebug("Custom script error: " + exp.Message);
+			return "Custom script error";
+		}
+	}
+}</Script>
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </WrScript>
+        </Scripts>
+        <WaitUntilElementExists>false</WaitUntilElementExists>
+        <ConditionFailAction>CancelTemplate</ConditionFailAction>
+        <ConditionFailActionKeepDataRow>false</ConditionFailActionKeepDataRow>
+        <ConditionFailActionRemoveAllFailData>false</ConditionFailActionRemoveAllFailData>
+        <ConditionCancelTemplate />
+        <IsConditionCancelList>false</IsConditionCancelList>
+        <IsConditionFailWhenMissing>false</IsConditionFailWhenMissing>
+        <IsDuplicateCheck>false</IsDuplicateCheck>
+        <IsEmptyDuplicateCheck>true</IsEmptyDuplicateCheck>
+        <FormFieldExcludedValues />
+        <ClickedFormFieldValue />
+        <WebBrowserFrameIndex>-1</WebBrowserFrameIndex>
+        <WebFrame>
+          <FrameIndex>-1</FrameIndex>
+          <FrameName />
+          <UseNameOnly>true</UseNameOnly>
+        </WebFrame>
+        <OutputSortOrder>0</OutputSortOrder>
+        <IsOutputOrderByName>false</IsOutputOrderByName>
+        <IsSaveFileUrl>false</IsSaveFileUrl>
+        <ContentScriptOptions>
+          <ExecuteScriptAfterElement />
+          <ExecuteScript>Last</ExecuteScript>
+        </ContentScriptOptions>
+        <IsProcessLast>false</IsProcessLast>
+        <ActionEvents />
+        <IsJQueryEvent>false</IsJQueryEvent>
+        <ActionJavaScript />
+        <DelayBetweenEventsMilliseconds>0</DelayBetweenEventsMilliseconds>
+        <DelayAfterCompletedActionMilliseconds>0</DelayAfterCompletedActionMilliseconds>
+        <ErrorRetryAttempts>0</ErrorRetryAttempts>
+        <PauseWhenMissing>false</PauseWhenMissing>
+        <DataColumnNameContent />
+        <IsDownloadWithoutSessionInfo>false</IsDownloadWithoutSessionInfo>
+        <AllowAutoRedirect>false</AllowAutoRedirect>
+        <SaveInParentTable>Default</SaveInParentTable>
+        <SingleColumnValueSeparator />
+        <ContentTypeScreenConfig>
+          <FixedWidth>0</FixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <ThumbnailWidth>0</ThumbnailWidth>
+          <ThumbnailHeight>0</ThumbnailHeight>
+          <IsAdjustHeight>false</IsAdjustHeight>
+        </ContentTypeScreenConfig>
+        <TransformHtml />
+        <IsPageTransformationEnabled>true</IsPageTransformationEnabled>
+        <IsFileUpLoad>false</IsFileUpLoad>
+        <FileUpLoadOpenButtonName>&amp;OPEN</FileUpLoadOpenButtonName>
+        <IsEncrypt>false</IsEncrypt>
+        <ColumnType>LongText</ColumnType>
+        <IsBlockMainDocumentRedirect>false</IsBlockMainDocumentRedirect>
+      </Content>
+      <Content>
+        <ID>2235c311-2f1c-424d-849d-7e5f2af5f33b</ID>
+        <RepeatedAjaxCalls>false</RepeatedAjaxCalls>
+        <RepeatedAjaxCallsMaxCount>0</RepeatedAjaxCallsMaxCount>
+        <AjaxCheckElementName />
+        <IsReselectAjaxCheckElement>false</IsReselectAjaxCheckElement>
+        <FormFieldPostbackType>AutoDetect</FormFieldPostbackType>
+        <JavaScriptAction>Asynchronous</JavaScriptAction>
+        <AjaxDelayMilliseconds>100</AjaxDelayMilliseconds>
+        <WaitForAjaxOnAsynchronousAction>true</WaitForAjaxOnAsynchronousAction>
+        <FormFieldActionOnEdit>false</FormFieldActionOnEdit>
+        <FormFieldActionAlways>false</FormFieldActionAlways>
+        <IsFormFieldOptional>false</IsFormFieldOptional>
+        <FormFieldMultipleValues>false</FormFieldMultipleValues>
+        <IsAjaxBeforeFullPageLoad>false</IsAjaxBeforeFullPageLoad>
+        <UseEmptyFormFieldValues>false</UseEmptyFormFieldValues>
+        <UseFormFieldOptionText>false</UseFormFieldOptionText>
+        <Name>JobTitle</Name>
+        <IsSaveContent>true</IsSaveContent>
+        <IsCleanHtml>false</IsCleanHtml>
+        <IsCleanXml>false</IsCleanXml>
+        <IsMakeLineBreaks>false</IsMakeLineBreaks>
+        <IsCleanText>false</IsCleanText>
+        <IsAllParagraphs>false</IsAllParagraphs>
+        <IsIncludeSiblings>false</IsIncludeSiblings>
+        <SiblingCount>0</SiblingCount>
+        <PageTransformation>Custom</PageTransformation>
+        <FixedValue>Investigator</FixedValue>
+        <FixedFileExtension />
+        <IsFilenameTransformationIncludesExtension>false</IsFilenameTransformationIncludesExtension>
+        <IsReuseExistingFiles>false</IsReuseExistingFiles>
+        <IsRequired>false</IsRequired>
+        <ContentType>FixedValue</ContentType>
+        <ContentAttributeType>Text</ContentAttributeType>
+        <IsSaveFormElementValue>false</IsSaveFormElementValue>
+        <IsSaveFormElementText>false</IsSaveFormElementText>
+        <IsRepeatFormElement>false</IsRepeatFormElement>
+        <IsCheckFormSelectValues>false</IsCheckFormSelectValues>
+        <IsFormValuesRequired>false</IsFormValuesRequired>
+        <IsMultipleInputFields>false</IsMultipleInputFields>
+        <MultipleInputFieldsResetValue>no</MultipleInputFieldsResetValue>
+        <MultipleInputFieldsSetValue>yes</MultipleInputFieldsSetValue>
+        <FormFieldGroup />
+        <RepeatFormElementStartIndex>0</RepeatFormElementStartIndex>
+        <RepeatFormElementCount>0</RepeatFormElementCount>
+        <RepeatFormElementSkipLastRowCount>0</RepeatFormElementSkipLastRowCount>
+        <FormElementTemplateName />
+        <FormElementName />
+        <IsFormSelectValueRegexMatch>false</IsFormSelectValueRegexMatch>
+        <FormCaptchaElement />
+        <RetryCaptchaIfElementExists>true</RetryCaptchaIfElementExists>
+        <ElementCheckPoint>0</ElementCheckPoint>
+        <NodePath>
+          <Path />
+          <IncludeAttributes />
+          <Accuracy>0</Accuracy>
+          <IsOptimizePath>true</IsOptimizePath>
+          <RepeatPathLevel>0</RepeatPathLevel>
+          <RepeatPathLevelSecondary>0</RepeatPathLevelSecondary>
+          <RepeatPathCondition />
+          <IsOptimizeWithoutIds>false</IsOptimizeWithoutIds>
+        </NodePath>
+        <PageAreaNodePath />
+        <IsSingleSelection>false</IsSingleSelection>
+        <IsLinkRedirected>false</IsLinkRedirected>
+        <IsLinkRedirectedOnMetaRefresh>false</IsLinkRedirectedOnMetaRefresh>
+        <TagAttributes />
+        <PageAttribute />
+        <IsManualPath>true</IsManualPath>
+        <ClickedElementPath />
+        <DataFieldMode>DataField</DataFieldMode>
+        <InputDataSource>
+          <Sql />
+          <DataSourceType>SqlDatabase</DataSourceType>
+          <IsEnabled>false</IsEnabled>
+          <SqlDatabase>
+            <Server>(local)</Server>
+            <UseWindowsAuthentication>true</UseWindowsAuthentication>
+            <UserName />
+            <Password />
+            <Database />
+          </SqlDatabase>
+          <MySqlDatabase>
+            <Server>localhost</Server>
+            <UserName />
+            <Password />
+            <CommandTimeout>30000</CommandTimeout>
+            <Port>3306</Port>
+            <CharSet />
+            <MaxIndexKeyLength>767</MaxIndexKeyLength>
+            <Database />
+          </MySqlDatabase>
+          <OleDbConnectionString />
+          <FilePath />
+          <CsvSeparator>Comma</CsvSeparator>
+          <CsvCharacterset>ANSI</CsvCharacterset>
+          <DesignRowIndex>0</DesignRowIndex>
+          <InputDataScript>
+            <IsEnabled>false</IsEnabled>
+            <ScriptType>InputDataScript</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script />
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </InputDataScript>
+          <OleDbConnectionStringEncrypt />
+        </InputDataSource>
+        <DataFieldColumn>JobTitle</DataFieldColumn>
+        <InputDataTemplateId>a5d7a05d-756d-4771-aa7f-855fe1b72f74</InputDataTemplateId>
+        <PathCondition />
+        <PathAttributeCondition />
+        <PathAttributeTextCondition />
+        <PathIgnorePositionsCondition>false</PathIgnorePositionsCondition>
+        <PathSpecialCondition>None</PathSpecialCondition>
+        <IsNoAjaxWaitOnFirstLink>false</IsNoAjaxWaitOnFirstLink>
+        <IsOptionalAjaxWait>false</IsOptionalAjaxWait>
+        <IsOptionalAjaxWaitOnFirstLinkOnly>true</IsOptionalAjaxWaitOnFirstLinkOnly>
+        <TranformationScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </TranformationScript>
+        <AjaxWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </AjaxWaitConditionScript>
+        <IsWaitForAjaxAfterPageLoad>false</IsWaitForAjaxAfterPageLoad>
+        <ElementWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </ElementWaitConditionScript>
+        <Scripts>
+          <WrScript>
+            <IsEnabled>false</IsEnabled>
+            <ScriptType>ContentTransformation</ScriptType>
+            <ScriptLanguage>Regex</ScriptLanguage>
+            <Script />
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </WrScript>
+        </Scripts>
+        <WaitUntilElementExists>false</WaitUntilElementExists>
+        <ConditionFailAction>CancelTemplate</ConditionFailAction>
+        <ConditionFailActionKeepDataRow>false</ConditionFailActionKeepDataRow>
+        <ConditionFailActionRemoveAllFailData>false</ConditionFailActionRemoveAllFailData>
+        <ConditionCancelTemplate />
+        <IsConditionCancelList>false</IsConditionCancelList>
+        <IsConditionFailWhenMissing>false</IsConditionFailWhenMissing>
+        <IsDuplicateCheck>false</IsDuplicateCheck>
+        <IsEmptyDuplicateCheck>true</IsEmptyDuplicateCheck>
+        <FormFieldExcludedValues />
+        <ClickedFormFieldValue />
+        <WebBrowserFrameIndex>-1</WebBrowserFrameIndex>
+        <WebFrame>
+          <FrameIndex>-1</FrameIndex>
+          <FrameName />
+          <UseNameOnly>true</UseNameOnly>
+        </WebFrame>
+        <OutputSortOrder>0</OutputSortOrder>
+        <IsOutputOrderByName>false</IsOutputOrderByName>
+        <IsSaveFileUrl>false</IsSaveFileUrl>
+        <ContentScriptOptions>
+          <ExecuteScriptAfterElement />
+          <ExecuteScript>Last</ExecuteScript>
+        </ContentScriptOptions>
+        <IsProcessLast>false</IsProcessLast>
+        <ActionEvents />
+        <IsJQueryEvent>false</IsJQueryEvent>
+        <ActionJavaScript />
+        <DelayBetweenEventsMilliseconds>0</DelayBetweenEventsMilliseconds>
+        <DelayAfterCompletedActionMilliseconds>0</DelayAfterCompletedActionMilliseconds>
+        <ErrorRetryAttempts>0</ErrorRetryAttempts>
+        <PauseWhenMissing>false</PauseWhenMissing>
+        <DataColumnNameContent />
+        <IsDownloadWithoutSessionInfo>false</IsDownloadWithoutSessionInfo>
+        <AllowAutoRedirect>false</AllowAutoRedirect>
+        <SaveInParentTable>Default</SaveInParentTable>
+        <SingleColumnValueSeparator />
+        <ContentTypeScreenConfig>
+          <FixedWidth>0</FixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <ThumbnailWidth>0</ThumbnailWidth>
+          <ThumbnailHeight>0</ThumbnailHeight>
+          <IsAdjustHeight>false</IsAdjustHeight>
+        </ContentTypeScreenConfig>
+        <TransformHtml />
+        <IsPageTransformationEnabled>true</IsPageTransformationEnabled>
+        <IsFileUpLoad>false</IsFileUpLoad>
+        <FileUpLoadOpenButtonName>&amp;OPEN</FileUpLoadOpenButtonName>
+        <IsEncrypt>false</IsEncrypt>
+        <ColumnType>ShortText</ColumnType>
+        <IsBlockMainDocumentRedirect>false</IsBlockMainDocumentRedirect>
+      </Content>
+      <Content>
+        <ID>170d9126-3c98-4118-ac6e-6311baf351e4</ID>
+        <RepeatedAjaxCalls>false</RepeatedAjaxCalls>
+        <RepeatedAjaxCallsMaxCount>0</RepeatedAjaxCallsMaxCount>
+        <AjaxCheckElementName />
+        <IsReselectAjaxCheckElement>false</IsReselectAjaxCheckElement>
+        <FormFieldPostbackType>AutoDetect</FormFieldPostbackType>
+        <JavaScriptAction>Asynchronous</JavaScriptAction>
+        <AjaxDelayMilliseconds>100</AjaxDelayMilliseconds>
+        <WaitForAjaxOnAsynchronousAction>true</WaitForAjaxOnAsynchronousAction>
+        <FormFieldActionOnEdit>false</FormFieldActionOnEdit>
+        <FormFieldActionAlways>false</FormFieldActionAlways>
+        <IsFormFieldOptional>false</IsFormFieldOptional>
+        <FormFieldMultipleValues>false</FormFieldMultipleValues>
+        <IsAjaxBeforeFullPageLoad>false</IsAjaxBeforeFullPageLoad>
+        <UseEmptyFormFieldValues>false</UseEmptyFormFieldValues>
+        <UseFormFieldOptionText>false</UseFormFieldOptionText>
+        <Name>ScrapeTime</Name>
+        <IsSaveContent>true</IsSaveContent>
+        <IsCleanHtml>false</IsCleanHtml>
+        <IsCleanXml>false</IsCleanXml>
+        <IsMakeLineBreaks>false</IsMakeLineBreaks>
+        <IsCleanText>false</IsCleanText>
+        <IsAllParagraphs>false</IsAllParagraphs>
+        <IsIncludeSiblings>false</IsIncludeSiblings>
+        <SiblingCount>0</SiblingCount>
+        <PageTransformation>Custom</PageTransformation>
+        <FixedValue>2020-07-15 06:00:49 PM</FixedValue>
+        <FixedFileExtension />
+        <IsFilenameTransformationIncludesExtension>false</IsFilenameTransformationIncludesExtension>
+        <IsReuseExistingFiles>false</IsReuseExistingFiles>
+        <IsRequired>false</IsRequired>
+        <ContentType>FixedValue</ContentType>
+        <ContentAttributeType>Text</ContentAttributeType>
+        <IsSaveFormElementValue>false</IsSaveFormElementValue>
+        <IsSaveFormElementText>false</IsSaveFormElementText>
+        <IsRepeatFormElement>true</IsRepeatFormElement>
+        <IsCheckFormSelectValues>false</IsCheckFormSelectValues>
+        <IsFormValuesRequired>false</IsFormValuesRequired>
+        <IsMultipleInputFields>false</IsMultipleInputFields>
+        <MultipleInputFieldsResetValue>no</MultipleInputFieldsResetValue>
+        <MultipleInputFieldsSetValue>yes</MultipleInputFieldsSetValue>
+        <FormFieldGroup />
+        <RepeatFormElementStartIndex>0</RepeatFormElementStartIndex>
+        <RepeatFormElementCount>0</RepeatFormElementCount>
+        <RepeatFormElementSkipLastRowCount>0</RepeatFormElementSkipLastRowCount>
+        <FormElementTemplateName />
+        <FormElementName />
+        <IsFormSelectValueRegexMatch>false</IsFormSelectValueRegexMatch>
+        <FormCaptchaElement />
+        <RetryCaptchaIfElementExists>true</RetryCaptchaIfElementExists>
+        <ElementCheckPoint>0</ElementCheckPoint>
+        <NodePath>
+          <Path />
+          <IncludeAttributes />
+          <Accuracy>0</Accuracy>
+          <IsOptimizePath>true</IsOptimizePath>
+          <RepeatPathLevel>0</RepeatPathLevel>
+          <RepeatPathLevelSecondary>0</RepeatPathLevelSecondary>
+          <RepeatPathCondition />
+          <IsOptimizeWithoutIds>false</IsOptimizeWithoutIds>
+        </NodePath>
+        <PageAreaNodePath />
+        <IsSingleSelection>false</IsSingleSelection>
+        <IsLinkRedirected>false</IsLinkRedirected>
+        <IsLinkRedirectedOnMetaRefresh>false</IsLinkRedirectedOnMetaRefresh>
+        <TagAttributes />
+        <PageAttribute />
+        <IsManualPath>false</IsManualPath>
+        <ClickedElementPath />
+        <DataFieldMode>Manual</DataFieldMode>
+        <InputDataSource>
+          <Sql />
+          <DataSourceType>SqlDatabase</DataSourceType>
+          <IsEnabled>false</IsEnabled>
+          <SqlDatabase>
+            <Server>(local)</Server>
+            <UseWindowsAuthentication>true</UseWindowsAuthentication>
+            <UserName />
+            <Password />
+            <Database />
+          </SqlDatabase>
+          <MySqlDatabase>
+            <Server>localhost</Server>
+            <UserName />
+            <Password />
+            <CommandTimeout>30000</CommandTimeout>
+            <Port>3306</Port>
+            <CharSet />
+            <MaxIndexKeyLength>767</MaxIndexKeyLength>
+            <Database />
+          </MySqlDatabase>
+          <OleDbConnectionString />
+          <FilePath />
+          <CsvSeparator>Comma</CsvSeparator>
+          <CsvCharacterset>ANSI</CsvCharacterset>
+          <DesignRowIndex>0</DesignRowIndex>
+          <InputDataScript>
+            <IsEnabled>false</IsEnabled>
+            <ScriptType>InputDataScript</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script />
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </InputDataScript>
+          <OleDbConnectionStringEncrypt />
+        </InputDataSource>
+        <DataFieldColumn>PostingUrl</DataFieldColumn>
+        <InputDataTemplateId>a5d7a05d-756d-4771-aa7f-855fe1b72f74</InputDataTemplateId>
+        <PathCondition />
+        <PathAttributeCondition />
+        <PathAttributeTextCondition />
+        <PathIgnorePositionsCondition>false</PathIgnorePositionsCondition>
+        <PathSpecialCondition>None</PathSpecialCondition>
+        <IsNoAjaxWaitOnFirstLink>false</IsNoAjaxWaitOnFirstLink>
+        <IsOptionalAjaxWait>false</IsOptionalAjaxWait>
+        <IsOptionalAjaxWaitOnFirstLinkOnly>true</IsOptionalAjaxWaitOnFirstLinkOnly>
+        <TranformationScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </TranformationScript>
+        <AjaxWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </AjaxWaitConditionScript>
+        <IsWaitForAjaxAfterPageLoad>false</IsWaitForAjaxAfterPageLoad>
+        <ElementWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </ElementWaitConditionScript>
+        <Scripts>
+          <WrScript>
+            <IsEnabled>true</IsEnabled>
+            <ScriptType>ContentTransformation</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script>using System;
+using VisualWebRipper.Internal.SimpleHtmlParser;
+using VisualWebRipper;
+public class Script
+{
+	//See help for a definition of WrContentTransformationArguments.
+	public static string TransformContent(WrContentTransformationArguments args)
+	{
+		try
+		{
+			DateTime now = DateTime.UtcNow;
+			string nowFormatted = now.ToString("yyyy") + "-" + now.ToString("MM") + "-" + now.ToString("dd") +
+				" " + now.ToString("hh") + ":" + now.ToString("mm") + ":" + now.ToString("ss") + " " + now.ToString("tt");
+			return nowFormatted;
+
+		}
+		catch(Exception exp)
+		{
+			//Place error handling here
+			args.WriteDebug("Custom script error: " + exp.Message);
+			return "Custom script error";
+		}
+	}
+}</Script>
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </WrScript>
+        </Scripts>
+        <WaitUntilElementExists>false</WaitUntilElementExists>
+        <ConditionFailAction>CancelTemplate</ConditionFailAction>
+        <ConditionFailActionKeepDataRow>false</ConditionFailActionKeepDataRow>
+        <ConditionFailActionRemoveAllFailData>false</ConditionFailActionRemoveAllFailData>
+        <ConditionCancelTemplate />
+        <IsConditionCancelList>false</IsConditionCancelList>
+        <IsConditionFailWhenMissing>false</IsConditionFailWhenMissing>
+        <IsDuplicateCheck>false</IsDuplicateCheck>
+        <IsEmptyDuplicateCheck>true</IsEmptyDuplicateCheck>
+        <FormFieldExcludedValues />
+        <ClickedFormFieldValue />
+        <WebBrowserFrameIndex>-1</WebBrowserFrameIndex>
+        <WebFrame>
+          <FrameIndex>-1</FrameIndex>
+          <FrameName />
+          <UseNameOnly>true</UseNameOnly>
+        </WebFrame>
+        <OutputSortOrder>0</OutputSortOrder>
+        <IsOutputOrderByName>false</IsOutputOrderByName>
+        <IsSaveFileUrl>false</IsSaveFileUrl>
+        <ContentScriptOptions>
+          <ExecuteScriptAfterElement />
+          <ExecuteScript>Last</ExecuteScript>
+        </ContentScriptOptions>
+        <IsProcessLast>false</IsProcessLast>
+        <ActionEvents />
+        <IsJQueryEvent>false</IsJQueryEvent>
+        <ActionJavaScript />
+        <DelayBetweenEventsMilliseconds>0</DelayBetweenEventsMilliseconds>
+        <DelayAfterCompletedActionMilliseconds>0</DelayAfterCompletedActionMilliseconds>
+        <ErrorRetryAttempts>0</ErrorRetryAttempts>
+        <PauseWhenMissing>false</PauseWhenMissing>
+        <DataColumnNameContent />
+        <IsDownloadWithoutSessionInfo>false</IsDownloadWithoutSessionInfo>
+        <AllowAutoRedirect>false</AllowAutoRedirect>
+        <SaveInParentTable>Default</SaveInParentTable>
+        <SingleColumnValueSeparator />
+        <ContentTypeScreenConfig>
+          <FixedWidth>0</FixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <ThumbnailWidth>0</ThumbnailWidth>
+          <ThumbnailHeight>0</ThumbnailHeight>
+          <IsAdjustHeight>false</IsAdjustHeight>
+        </ContentTypeScreenConfig>
+        <TransformHtml />
+        <IsPageTransformationEnabled>true</IsPageTransformationEnabled>
+        <IsFileUpLoad>false</IsFileUpLoad>
+        <FileUpLoadOpenButtonName>&amp;OPEN</FileUpLoadOpenButtonName>
+        <IsEncrypt>false</IsEncrypt>
+        <ColumnType>ShortText</ColumnType>
+        <IsBlockMainDocumentRedirect>false</IsBlockMainDocumentRedirect>
+      </Content>
+      <Content>
+        <ID>3315763a-de0b-4385-ad66-cbb350101578</ID>
+        <RepeatedAjaxCalls>false</RepeatedAjaxCalls>
+        <RepeatedAjaxCallsMaxCount>0</RepeatedAjaxCallsMaxCount>
+        <AjaxCheckElementName />
+        <IsReselectAjaxCheckElement>false</IsReselectAjaxCheckElement>
+        <FormFieldPostbackType>AutoDetect</FormFieldPostbackType>
+        <JavaScriptAction>Asynchronous</JavaScriptAction>
+        <AjaxDelayMilliseconds>100</AjaxDelayMilliseconds>
+        <WaitForAjaxOnAsynchronousAction>true</WaitForAjaxOnAsynchronousAction>
+        <FormFieldActionOnEdit>false</FormFieldActionOnEdit>
+        <FormFieldActionAlways>false</FormFieldActionAlways>
+        <IsFormFieldOptional>false</IsFormFieldOptional>
+        <FormFieldMultipleValues>false</FormFieldMultipleValues>
+        <IsAjaxBeforeFullPageLoad>false</IsAjaxBeforeFullPageLoad>
+        <UseEmptyFormFieldValues>false</UseEmptyFormFieldValues>
+        <UseFormFieldOptionText>false</UseFormFieldOptionText>
+        <Name>PostingUniqueId</Name>
+        <IsSaveContent>true</IsSaveContent>
+        <IsCleanHtml>false</IsCleanHtml>
+        <IsCleanXml>false</IsCleanXml>
+        <IsMakeLineBreaks>false</IsMakeLineBreaks>
+        <IsCleanText>false</IsCleanText>
+        <IsAllParagraphs>false</IsAllParagraphs>
+        <IsIncludeSiblings>false</IsIncludeSiblings>
+        <SiblingCount>0</SiblingCount>
+        <PageTransformation>Custom</PageTransformation>
+        <FixedValue />
+        <FixedFileExtension />
+        <IsFilenameTransformationIncludesExtension>false</IsFilenameTransformationIncludesExtension>
+        <IsReuseExistingFiles>false</IsReuseExistingFiles>
+        <IsRequired>false</IsRequired>
+        <ContentType>PageAttribute</ContentType>
+        <ContentAttributeType>Text</ContentAttributeType>
+        <IsSaveFormElementValue>false</IsSaveFormElementValue>
+        <IsSaveFormElementText>false</IsSaveFormElementText>
+        <IsRepeatFormElement>true</IsRepeatFormElement>
+        <IsCheckFormSelectValues>false</IsCheckFormSelectValues>
+        <IsFormValuesRequired>false</IsFormValuesRequired>
+        <IsMultipleInputFields>false</IsMultipleInputFields>
+        <MultipleInputFieldsResetValue>no</MultipleInputFieldsResetValue>
+        <MultipleInputFieldsSetValue>yes</MultipleInputFieldsSetValue>
+        <FormFieldGroup />
+        <RepeatFormElementStartIndex>0</RepeatFormElementStartIndex>
+        <RepeatFormElementCount>0</RepeatFormElementCount>
+        <RepeatFormElementSkipLastRowCount>0</RepeatFormElementSkipLastRowCount>
+        <FormElementTemplateName />
+        <FormElementName />
+        <IsFormSelectValueRegexMatch>false</IsFormSelectValueRegexMatch>
+        <FormCaptchaElement />
+        <RetryCaptchaIfElementExists>true</RetryCaptchaIfElementExists>
+        <ElementCheckPoint>0</ElementCheckPoint>
+        <NodePath>
+          <Path>//span[text()="Job Number:"]/../following-sibling::span[2]</Path>
+          <IncludeAttributes />
+          <Accuracy>0</Accuracy>
+          <IsOptimizePath>true</IsOptimizePath>
+          <RepeatPathLevel>0</RepeatPathLevel>
+          <RepeatPathLevelSecondary>0</RepeatPathLevelSecondary>
+          <RepeatPathCondition />
+          <IsOptimizeWithoutIds>false</IsOptimizeWithoutIds>
+        </NodePath>
+        <PageAreaNodePath />
+        <IsSingleSelection>false</IsSingleSelection>
+        <IsLinkRedirected>false</IsLinkRedirected>
+        <IsLinkRedirectedOnMetaRefresh>false</IsLinkRedirectedOnMetaRefresh>
+        <TagAttributes />
+        <PageAttribute>Url</PageAttribute>
+        <IsManualPath>true</IsManualPath>
+        <ClickedElementPath />
+        <DataFieldMode>Manual</DataFieldMode>
+        <InputDataSource>
+          <Sql />
+          <DataSourceType>SqlDatabase</DataSourceType>
+          <IsEnabled>false</IsEnabled>
+          <SqlDatabase>
+            <Server>(local)</Server>
+            <UseWindowsAuthentication>true</UseWindowsAuthentication>
+            <UserName />
+            <Password />
+            <Database />
+          </SqlDatabase>
+          <MySqlDatabase>
+            <Server>localhost</Server>
+            <UserName />
+            <Password />
+            <CommandTimeout>30000</CommandTimeout>
+            <Port>3306</Port>
+            <CharSet />
+            <MaxIndexKeyLength>767</MaxIndexKeyLength>
+            <Database />
+          </MySqlDatabase>
+          <OleDbConnectionString />
+          <FilePath />
+          <CsvSeparator>Comma</CsvSeparator>
+          <CsvCharacterset>ANSI</CsvCharacterset>
+          <DesignRowIndex>0</DesignRowIndex>
+          <InputDataScript>
+            <IsEnabled>false</IsEnabled>
+            <ScriptType>InputDataScript</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script />
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </InputDataScript>
+          <OleDbConnectionStringEncrypt />
+        </InputDataSource>
+        <DataFieldColumn />
+        <InputDataTemplateId />
+        <PathCondition />
+        <PathAttributeCondition />
+        <PathAttributeTextCondition />
+        <PathIgnorePositionsCondition>false</PathIgnorePositionsCondition>
+        <PathSpecialCondition>None</PathSpecialCondition>
+        <IsNoAjaxWaitOnFirstLink>false</IsNoAjaxWaitOnFirstLink>
+        <IsOptionalAjaxWait>false</IsOptionalAjaxWait>
+        <IsOptionalAjaxWaitOnFirstLinkOnly>true</IsOptionalAjaxWaitOnFirstLinkOnly>
+        <TranformationScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </TranformationScript>
+        <AjaxWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </AjaxWaitConditionScript>
+        <IsWaitForAjaxAfterPageLoad>false</IsWaitForAjaxAfterPageLoad>
+        <ElementWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </ElementWaitConditionScript>
+        <Scripts>
+          <WrScript>
+            <IsEnabled>true</IsEnabled>
+            <ScriptType>ContentTransformation</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script>using System;
+using VisualWebRipper.Internal.SimpleHtmlParser;
+using VisualWebRipper;
+public class Script
+{
+	//See help for a definition of WrContentTransformationArguments.
+	public static string TransformContent(WrContentTransformationArguments args)
+	{
+		try
+		{
+			string[] arr = args.Content.Split(new string[]{"job=","&amp;"}, StringSplitOptions.None);
+			if(arr.Length &gt; 1)
+				return arr[1];
+			return args.Content;
+		}
+		catch(Exception exp)
+		{
+			//Place error handling here
+			args.WriteDebug("Custom script error: " + exp.Message);
+			return "Custom script error";
+		}
+	}
+}</Script>
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </WrScript>
+          <WrScript>
+            <IsEnabled>true</IsEnabled>
+            <ScriptType>ElementWaitScript</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script>using System;
+using mshtml;
+using VisualWebRipper;
+public class Script
+{
+	//See help for a definition of WrWaitScriptArguments.
+	public static bool IsAjaxCallCompleted(WrWaitScriptArguments args)
+	{
+		try
+		{
+			//Place your condition code here.
+			//This example waits until the old content has been replaced with new content,
+			//but waits a maximum of 3 seconds.
+
+			if(args.SecondsWaited&gt;3)
+				return true;
+
+			if(!args.OldContent.Equals(args.NewContent))
+				return true;
+
+			return false;
+		}
+		catch(Exception exp)
+		{
+			args.WriteDebug("Custom script error: " + exp.Message);
+				return true;
+		}
+	}
+}</Script>
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </WrScript>
+        </Scripts>
+        <WaitUntilElementExists>false</WaitUntilElementExists>
+        <ConditionFailAction>CancelTemplate</ConditionFailAction>
+        <ConditionFailActionKeepDataRow>false</ConditionFailActionKeepDataRow>
+        <ConditionFailActionRemoveAllFailData>false</ConditionFailActionRemoveAllFailData>
+        <ConditionCancelTemplate />
+        <IsConditionCancelList>false</IsConditionCancelList>
+        <IsConditionFailWhenMissing>false</IsConditionFailWhenMissing>
+        <IsDuplicateCheck>false</IsDuplicateCheck>
+        <IsEmptyDuplicateCheck>true</IsEmptyDuplicateCheck>
+        <FormFieldExcludedValues />
+        <ClickedFormFieldValue />
+        <WebBrowserFrameIndex>-1</WebBrowserFrameIndex>
+        <WebFrame>
+          <FrameIndex>-1</FrameIndex>
+          <FrameName />
+          <UseNameOnly>true</UseNameOnly>
+        </WebFrame>
+        <OutputSortOrder>0</OutputSortOrder>
+        <IsOutputOrderByName>false</IsOutputOrderByName>
+        <IsSaveFileUrl>false</IsSaveFileUrl>
+        <ContentScriptOptions>
+          <ExecuteScriptAfterElement />
+          <ExecuteScript>Last</ExecuteScript>
+        </ContentScriptOptions>
+        <IsProcessLast>false</IsProcessLast>
+        <ActionEvents />
+        <IsJQueryEvent>false</IsJQueryEvent>
+        <ActionJavaScript />
+        <DelayBetweenEventsMilliseconds>0</DelayBetweenEventsMilliseconds>
+        <DelayAfterCompletedActionMilliseconds>0</DelayAfterCompletedActionMilliseconds>
+        <ErrorRetryAttempts>0</ErrorRetryAttempts>
+        <PauseWhenMissing>false</PauseWhenMissing>
+        <DataColumnNameContent />
+        <IsDownloadWithoutSessionInfo>false</IsDownloadWithoutSessionInfo>
+        <AllowAutoRedirect>false</AllowAutoRedirect>
+        <SaveInParentTable>Default</SaveInParentTable>
+        <SingleColumnValueSeparator />
+        <ContentTypeScreenConfig>
+          <FixedWidth>0</FixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <ThumbnailWidth>0</ThumbnailWidth>
+          <ThumbnailHeight>0</ThumbnailHeight>
+          <IsAdjustHeight>false</IsAdjustHeight>
+        </ContentTypeScreenConfig>
+        <TransformHtml />
+        <IsPageTransformationEnabled>true</IsPageTransformationEnabled>
+        <IsFileUpLoad>false</IsFileUpLoad>
+        <FileUpLoadOpenButtonName>&amp;OPEN</FileUpLoadOpenButtonName>
+        <IsEncrypt>false</IsEncrypt>
+        <ColumnType>ShortText</ColumnType>
+        <IsBlockMainDocumentRedirect>false</IsBlockMainDocumentRedirect>
+      </Content>
+      <Content>
+        <ID>8a3b00ea-568c-4883-8411-9057fc170538</ID>
+        <RepeatedAjaxCalls>false</RepeatedAjaxCalls>
+        <RepeatedAjaxCallsMaxCount>0</RepeatedAjaxCallsMaxCount>
+        <AjaxCheckElementName />
+        <IsReselectAjaxCheckElement>false</IsReselectAjaxCheckElement>
+        <FormFieldPostbackType>AutoDetect</FormFieldPostbackType>
+        <JavaScriptAction>Asynchronous</JavaScriptAction>
+        <AjaxDelayMilliseconds>100</AjaxDelayMilliseconds>
+        <WaitForAjaxOnAsynchronousAction>true</WaitForAjaxOnAsynchronousAction>
+        <FormFieldActionOnEdit>false</FormFieldActionOnEdit>
+        <FormFieldActionAlways>false</FormFieldActionAlways>
+        <IsFormFieldOptional>false</IsFormFieldOptional>
+        <FormFieldMultipleValues>false</FormFieldMultipleValues>
+        <IsAjaxBeforeFullPageLoad>false</IsAjaxBeforeFullPageLoad>
+        <UseEmptyFormFieldValues>false</UseEmptyFormFieldValues>
+        <UseFormFieldOptionText>false</UseFormFieldOptionText>
+        <Name>WholePosting</Name>
+        <IsSaveContent>true</IsSaveContent>
+        <IsCleanHtml>false</IsCleanHtml>
+        <IsCleanXml>false</IsCleanXml>
+        <IsMakeLineBreaks>false</IsMakeLineBreaks>
+        <IsCleanText>false</IsCleanText>
+        <IsAllParagraphs>false</IsAllParagraphs>
+        <IsIncludeSiblings>false</IsIncludeSiblings>
+        <SiblingCount>0</SiblingCount>
+        <PageTransformation>Custom</PageTransformation>
+        <FixedValue />
+        <FixedFileExtension />
+        <IsFilenameTransformationIncludesExtension>false</IsFilenameTransformationIncludesExtension>
+        <IsReuseExistingFiles>false</IsReuseExistingFiles>
+        <IsRequired>false</IsRequired>
+        <ContentType>Element</ContentType>
+        <ContentAttributeType>Text</ContentAttributeType>
+        <IsSaveFormElementValue>false</IsSaveFormElementValue>
+        <IsSaveFormElementText>false</IsSaveFormElementText>
+        <IsRepeatFormElement>true</IsRepeatFormElement>
+        <IsCheckFormSelectValues>false</IsCheckFormSelectValues>
+        <IsFormValuesRequired>false</IsFormValuesRequired>
+        <IsMultipleInputFields>false</IsMultipleInputFields>
+        <MultipleInputFieldsResetValue>no</MultipleInputFieldsResetValue>
+        <MultipleInputFieldsSetValue>yes</MultipleInputFieldsSetValue>
+        <FormFieldGroup />
+        <RepeatFormElementStartIndex>0</RepeatFormElementStartIndex>
+        <RepeatFormElementCount>0</RepeatFormElementCount>
+        <RepeatFormElementSkipLastRowCount>0</RepeatFormElementSkipLastRowCount>
+        <FormElementTemplateName />
+        <FormElementName />
+        <IsFormSelectValueRegexMatch>false</IsFormSelectValueRegexMatch>
+        <FormCaptchaElement />
+        <RetryCaptchaIfElementExists>true</RetryCaptchaIfElementExists>
+        <ElementCheckPoint>0</ElementCheckPoint>
+        <NodePath>
+          <Path>//DIV[@id='requisitionDescriptionInterface.descRequisitionContainer']|//span[text()="The job is no longer available."]</Path>
+          <IncludeAttributes>id</IncludeAttributes>
+          <Accuracy>1</Accuracy>
+          <IsOptimizePath>true</IsOptimizePath>
+          <RepeatPathLevel>0</RepeatPathLevel>
+          <RepeatPathLevelSecondary>0</RepeatPathLevelSecondary>
+          <RepeatPathCondition />
+          <IsOptimizeWithoutIds>false</IsOptimizeWithoutIds>
+        </NodePath>
+        <PageAreaNodePath />
+        <IsSingleSelection>false</IsSingleSelection>
+        <IsLinkRedirected>false</IsLinkRedirected>
+        <IsLinkRedirectedOnMetaRefresh>false</IsLinkRedirectedOnMetaRefresh>
+        <TagAttributes />
+        <PageAttribute />
+        <IsManualPath>true</IsManualPath>
+        <ClickedElementPath>/BODY[1]/DIV[1]/DIV[1]/DIV[2]/FORM[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[5]</ClickedElementPath>
+        <DataFieldMode>Manual</DataFieldMode>
+        <InputDataSource>
+          <Sql />
+          <DataSourceType>SqlDatabase</DataSourceType>
+          <IsEnabled>false</IsEnabled>
+          <SqlDatabase>
+            <Server>(local)</Server>
+            <UseWindowsAuthentication>true</UseWindowsAuthentication>
+            <UserName />
+            <Password />
+            <Database />
+          </SqlDatabase>
+          <MySqlDatabase>
+            <Server>localhost</Server>
+            <UserName />
+            <Password />
+            <CommandTimeout>30000</CommandTimeout>
+            <Port>3306</Port>
+            <CharSet />
+            <MaxIndexKeyLength>767</MaxIndexKeyLength>
+            <Database />
+          </MySqlDatabase>
+          <OleDbConnectionString />
+          <FilePath />
+          <CsvSeparator>Comma</CsvSeparator>
+          <CsvCharacterset>ANSI</CsvCharacterset>
+          <DesignRowIndex>0</DesignRowIndex>
+          <InputDataScript>
+            <IsEnabled>false</IsEnabled>
+            <ScriptType>InputDataScript</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script />
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </InputDataScript>
+          <OleDbConnectionStringEncrypt />
+        </InputDataSource>
+        <DataFieldColumn />
+        <InputDataTemplateId />
+        <PathCondition />
+        <PathAttributeCondition />
+        <PathAttributeTextCondition />
+        <PathIgnorePositionsCondition>false</PathIgnorePositionsCondition>
+        <PathSpecialCondition>None</PathSpecialCondition>
+        <IsNoAjaxWaitOnFirstLink>false</IsNoAjaxWaitOnFirstLink>
+        <IsOptionalAjaxWait>false</IsOptionalAjaxWait>
+        <IsOptionalAjaxWaitOnFirstLinkOnly>true</IsOptionalAjaxWaitOnFirstLinkOnly>
+        <TranformationScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </TranformationScript>
+        <AjaxWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </AjaxWaitConditionScript>
+        <IsWaitForAjaxAfterPageLoad>false</IsWaitForAjaxAfterPageLoad>
+        <ElementWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </ElementWaitConditionScript>
+        <Scripts>
+          <WrScript>
+            <IsEnabled>true</IsEnabled>
+            <ScriptType>ContentTransformation</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script>using System;
+using VisualWebRipper.Internal.SimpleHtmlParser;
+using VisualWebRipper;
+public class Script
+{
+	//See help for a definition of WrContentTransformationArguments.
+	public static string TransformContent(WrContentTransformationArguments args)
+	{
+		try
+		{
+			if (args.Content.Contains("The job is no longer available."))
+			{
+				return "";
+			}
+			else
+			{
+				return args.Content;
+			}
+		}
+		catch(Exception exp)
+		{
+			//Place error handling here
+			args.WriteDebug("Custom script error: " + exp.Message);
+			return "Custom script error";
+		}
+	}
+}</Script>
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </WrScript>
+        </Scripts>
+        <WaitUntilElementExists>false</WaitUntilElementExists>
+        <ConditionFailAction>CancelTemplate</ConditionFailAction>
+        <ConditionFailActionKeepDataRow>false</ConditionFailActionKeepDataRow>
+        <ConditionFailActionRemoveAllFailData>false</ConditionFailActionRemoveAllFailData>
+        <ConditionCancelTemplate />
+        <IsConditionCancelList>false</IsConditionCancelList>
+        <IsConditionFailWhenMissing>false</IsConditionFailWhenMissing>
+        <IsDuplicateCheck>false</IsDuplicateCheck>
+        <IsEmptyDuplicateCheck>true</IsEmptyDuplicateCheck>
+        <FormFieldExcludedValues />
+        <ClickedFormFieldValue />
+        <WebBrowserFrameIndex>-1</WebBrowserFrameIndex>
+        <WebFrame>
+          <FrameIndex>-1</FrameIndex>
+          <FrameName />
+          <UseNameOnly>true</UseNameOnly>
+        </WebFrame>
+        <OutputSortOrder>0</OutputSortOrder>
+        <IsOutputOrderByName>false</IsOutputOrderByName>
+        <IsSaveFileUrl>false</IsSaveFileUrl>
+        <ContentScriptOptions>
+          <ExecuteScriptAfterElement />
+          <ExecuteScript>Last</ExecuteScript>
+        </ContentScriptOptions>
+        <IsProcessLast>false</IsProcessLast>
+        <ActionEvents />
+        <IsJQueryEvent>false</IsJQueryEvent>
+        <ActionJavaScript />
+        <DelayBetweenEventsMilliseconds>0</DelayBetweenEventsMilliseconds>
+        <DelayAfterCompletedActionMilliseconds>0</DelayAfterCompletedActionMilliseconds>
+        <ErrorRetryAttempts>0</ErrorRetryAttempts>
+        <PauseWhenMissing>false</PauseWhenMissing>
+        <DataColumnNameContent />
+        <IsDownloadWithoutSessionInfo>false</IsDownloadWithoutSessionInfo>
+        <AllowAutoRedirect>false</AllowAutoRedirect>
+        <SaveInParentTable>Default</SaveInParentTable>
+        <SingleColumnValueSeparator />
+        <ContentTypeScreenConfig>
+          <FixedWidth>0</FixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <ThumbnailWidth>0</ThumbnailWidth>
+          <ThumbnailHeight>0</ThumbnailHeight>
+          <IsAdjustHeight>false</IsAdjustHeight>
+        </ContentTypeScreenConfig>
+        <TransformHtml />
+        <IsPageTransformationEnabled>true</IsPageTransformationEnabled>
+        <IsFileUpLoad>false</IsFileUpLoad>
+        <FileUpLoadOpenButtonName>&amp;OPEN</FileUpLoadOpenButtonName>
+        <IsEncrypt>false</IsEncrypt>
+        <ColumnType>LongText</ColumnType>
+        <IsBlockMainDocumentRedirect>false</IsBlockMainDocumentRedirect>
+      </Content>
+      <Content>
+        <ID>0c8d6e31-2b5e-40d0-b547-36dbaadf6a7e</ID>
+        <RepeatedAjaxCalls>false</RepeatedAjaxCalls>
+        <RepeatedAjaxCallsMaxCount>0</RepeatedAjaxCallsMaxCount>
+        <AjaxCheckElementName />
+        <IsReselectAjaxCheckElement>false</IsReselectAjaxCheckElement>
+        <FormFieldPostbackType>AutoDetect</FormFieldPostbackType>
+        <JavaScriptAction>Asynchronous</JavaScriptAction>
+        <AjaxDelayMilliseconds>100</AjaxDelayMilliseconds>
+        <WaitForAjaxOnAsynchronousAction>true</WaitForAjaxOnAsynchronousAction>
+        <FormFieldActionOnEdit>false</FormFieldActionOnEdit>
+        <FormFieldActionAlways>false</FormFieldActionAlways>
+        <IsFormFieldOptional>false</IsFormFieldOptional>
+        <FormFieldMultipleValues>false</FormFieldMultipleValues>
+        <IsAjaxBeforeFullPageLoad>false</IsAjaxBeforeFullPageLoad>
+        <UseEmptyFormFieldValues>false</UseEmptyFormFieldValues>
+        <UseFormFieldOptionText>false</UseFormFieldOptionText>
+        <Name>WholePostingHtml</Name>
+        <IsSaveContent>true</IsSaveContent>
+        <IsCleanHtml>false</IsCleanHtml>
+        <IsCleanXml>false</IsCleanXml>
+        <IsMakeLineBreaks>false</IsMakeLineBreaks>
+        <IsCleanText>false</IsCleanText>
+        <IsAllParagraphs>false</IsAllParagraphs>
+        <IsIncludeSiblings>false</IsIncludeSiblings>
+        <SiblingCount>0</SiblingCount>
+        <PageTransformation>Custom</PageTransformation>
+        <FixedValue />
+        <FixedFileExtension />
+        <IsFilenameTransformationIncludesExtension>false</IsFilenameTransformationIncludesExtension>
+        <IsReuseExistingFiles>false</IsReuseExistingFiles>
+        <IsRequired>false</IsRequired>
+        <ContentType>Element</ContentType>
+        <ContentAttributeType>Html</ContentAttributeType>
+        <IsSaveFormElementValue>false</IsSaveFormElementValue>
+        <IsSaveFormElementText>false</IsSaveFormElementText>
+        <IsRepeatFormElement>true</IsRepeatFormElement>
+        <IsCheckFormSelectValues>false</IsCheckFormSelectValues>
+        <IsFormValuesRequired>false</IsFormValuesRequired>
+        <IsMultipleInputFields>false</IsMultipleInputFields>
+        <MultipleInputFieldsResetValue>no</MultipleInputFieldsResetValue>
+        <MultipleInputFieldsSetValue>yes</MultipleInputFieldsSetValue>
+        <FormFieldGroup />
+        <RepeatFormElementStartIndex>0</RepeatFormElementStartIndex>
+        <RepeatFormElementCount>0</RepeatFormElementCount>
+        <RepeatFormElementSkipLastRowCount>0</RepeatFormElementSkipLastRowCount>
+        <FormElementTemplateName />
+        <FormElementName />
+        <IsFormSelectValueRegexMatch>false</IsFormSelectValueRegexMatch>
+        <FormCaptchaElement />
+        <RetryCaptchaIfElementExists>true</RetryCaptchaIfElementExists>
+        <ElementCheckPoint>0</ElementCheckPoint>
+        <NodePath>
+          <Path>//DIV[@id='requisitionDescriptionInterface.descRequisitionContainer']|//span[text()="The job is no longer available."]</Path>
+          <IncludeAttributes />
+          <Accuracy>0</Accuracy>
+          <IsOptimizePath>true</IsOptimizePath>
+          <RepeatPathLevel>0</RepeatPathLevel>
+          <RepeatPathLevelSecondary>0</RepeatPathLevelSecondary>
+          <RepeatPathCondition />
+          <IsOptimizeWithoutIds>false</IsOptimizeWithoutIds>
+        </NodePath>
+        <PageAreaNodePath />
+        <IsSingleSelection>false</IsSingleSelection>
+        <IsLinkRedirected>false</IsLinkRedirected>
+        <IsLinkRedirectedOnMetaRefresh>false</IsLinkRedirectedOnMetaRefresh>
+        <TagAttributes />
+        <PageAttribute />
+        <IsManualPath>true</IsManualPath>
+        <ClickedElementPath />
+        <DataFieldMode>Manual</DataFieldMode>
+        <InputDataSource>
+          <Sql />
+          <DataSourceType>SqlDatabase</DataSourceType>
+          <IsEnabled>false</IsEnabled>
+          <SqlDatabase>
+            <Server>(local)</Server>
+            <UseWindowsAuthentication>true</UseWindowsAuthentication>
+            <UserName />
+            <Password />
+            <Database />
+          </SqlDatabase>
+          <MySqlDatabase>
+            <Server>localhost</Server>
+            <UserName />
+            <Password />
+            <CommandTimeout>30000</CommandTimeout>
+            <Port>3306</Port>
+            <CharSet />
+            <MaxIndexKeyLength>767</MaxIndexKeyLength>
+            <Database />
+          </MySqlDatabase>
+          <OleDbConnectionString />
+          <FilePath />
+          <CsvSeparator>Comma</CsvSeparator>
+          <CsvCharacterset>ANSI</CsvCharacterset>
+          <DesignRowIndex>0</DesignRowIndex>
+          <InputDataScript>
+            <IsEnabled>false</IsEnabled>
+            <ScriptType>InputDataScript</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script />
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </InputDataScript>
+          <OleDbConnectionStringEncrypt />
+        </InputDataSource>
+        <DataFieldColumn />
+        <InputDataTemplateId />
+        <PathCondition />
+        <PathAttributeCondition />
+        <PathAttributeTextCondition />
+        <PathIgnorePositionsCondition>false</PathIgnorePositionsCondition>
+        <PathSpecialCondition>None</PathSpecialCondition>
+        <IsNoAjaxWaitOnFirstLink>false</IsNoAjaxWaitOnFirstLink>
+        <IsOptionalAjaxWait>false</IsOptionalAjaxWait>
+        <IsOptionalAjaxWaitOnFirstLinkOnly>true</IsOptionalAjaxWaitOnFirstLinkOnly>
+        <TranformationScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </TranformationScript>
+        <AjaxWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </AjaxWaitConditionScript>
+        <IsWaitForAjaxAfterPageLoad>false</IsWaitForAjaxAfterPageLoad>
+        <ElementWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </ElementWaitConditionScript>
+        <Scripts>
+          <WrScript>
+            <IsEnabled>true</IsEnabled>
+            <ScriptType>ContentTransformation</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script>using System;
+using VisualWebRipper.Internal.SimpleHtmlParser;
+using VisualWebRipper;
+public class Script
+{
+	//See help for a definition of WrContentTransformationArguments.
+	public static string TransformContent(WrContentTransformationArguments args)
+	{
+		try
+		{
+			if (args.Content.Contains("The job is no longer available."))
+			{
+				return "";
+			}
+			else
+			{
+				return args.Content;
+			}
+		}
+		catch(Exception exp)
+		{
+			//Place error handling here
+			args.WriteDebug("Custom script error: " + exp.Message);
+			return "Custom script error";
+		}
+	}
+}</Script>
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </WrScript>
+        </Scripts>
+        <WaitUntilElementExists>false</WaitUntilElementExists>
+        <ConditionFailAction>CancelTemplate</ConditionFailAction>
+        <ConditionFailActionKeepDataRow>false</ConditionFailActionKeepDataRow>
+        <ConditionFailActionRemoveAllFailData>false</ConditionFailActionRemoveAllFailData>
+        <ConditionCancelTemplate />
+        <IsConditionCancelList>false</IsConditionCancelList>
+        <IsConditionFailWhenMissing>false</IsConditionFailWhenMissing>
+        <IsDuplicateCheck>false</IsDuplicateCheck>
+        <IsEmptyDuplicateCheck>true</IsEmptyDuplicateCheck>
+        <FormFieldExcludedValues />
+        <ClickedFormFieldValue />
+        <WebBrowserFrameIndex>-1</WebBrowserFrameIndex>
+        <WebFrame>
+          <FrameIndex>-1</FrameIndex>
+          <FrameName />
+          <UseNameOnly>true</UseNameOnly>
+        </WebFrame>
+        <OutputSortOrder>0</OutputSortOrder>
+        <IsOutputOrderByName>false</IsOutputOrderByName>
+        <IsSaveFileUrl>false</IsSaveFileUrl>
+        <ContentScriptOptions>
+          <ExecuteScriptAfterElement />
+          <ExecuteScript>Last</ExecuteScript>
+        </ContentScriptOptions>
+        <IsProcessLast>false</IsProcessLast>
+        <ActionEvents />
+        <IsJQueryEvent>false</IsJQueryEvent>
+        <ActionJavaScript />
+        <DelayBetweenEventsMilliseconds>0</DelayBetweenEventsMilliseconds>
+        <DelayAfterCompletedActionMilliseconds>0</DelayAfterCompletedActionMilliseconds>
+        <ErrorRetryAttempts>0</ErrorRetryAttempts>
+        <PauseWhenMissing>false</PauseWhenMissing>
+        <DataColumnNameContent />
+        <IsDownloadWithoutSessionInfo>false</IsDownloadWithoutSessionInfo>
+        <AllowAutoRedirect>false</AllowAutoRedirect>
+        <SaveInParentTable>Default</SaveInParentTable>
+        <SingleColumnValueSeparator />
+        <ContentTypeScreenConfig>
+          <FixedWidth>0</FixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <ThumbnailWidth>0</ThumbnailWidth>
+          <ThumbnailHeight>0</ThumbnailHeight>
+          <IsAdjustHeight>false</IsAdjustHeight>
+        </ContentTypeScreenConfig>
+        <TransformHtml />
+        <IsPageTransformationEnabled>true</IsPageTransformationEnabled>
+        <IsFileUpLoad>false</IsFileUpLoad>
+        <FileUpLoadOpenButtonName>&amp;OPEN</FileUpLoadOpenButtonName>
+        <IsEncrypt>false</IsEncrypt>
+        <ColumnType>LongText</ColumnType>
+        <IsBlockMainDocumentRedirect>false</IsBlockMainDocumentRedirect>
+      </Content>
+      <Content>
+        <ID>e34b7c57-ff2c-4b85-8ba2-37bb7beb4dd0</ID>
+        <RepeatedAjaxCalls>false</RepeatedAjaxCalls>
+        <RepeatedAjaxCallsMaxCount>0</RepeatedAjaxCallsMaxCount>
+        <AjaxCheckElementName />
+        <IsReselectAjaxCheckElement>false</IsReselectAjaxCheckElement>
+        <FormFieldPostbackType>AutoDetect</FormFieldPostbackType>
+        <JavaScriptAction>Asynchronous</JavaScriptAction>
+        <AjaxDelayMilliseconds>100</AjaxDelayMilliseconds>
+        <WaitForAjaxOnAsynchronousAction>true</WaitForAjaxOnAsynchronousAction>
+        <FormFieldActionOnEdit>false</FormFieldActionOnEdit>
+        <FormFieldActionAlways>false</FormFieldActionAlways>
+        <IsFormFieldOptional>false</IsFormFieldOptional>
+        <FormFieldMultipleValues>false</FormFieldMultipleValues>
+        <IsAjaxBeforeFullPageLoad>false</IsAjaxBeforeFullPageLoad>
+        <UseEmptyFormFieldValues>false</UseEmptyFormFieldValues>
+        <UseFormFieldOptionText>false</UseFormFieldOptionText>
+        <Name>HospitalName</Name>
+        <IsSaveContent>true</IsSaveContent>
+        <IsCleanHtml>false</IsCleanHtml>
+        <IsCleanXml>false</IsCleanXml>
+        <IsMakeLineBreaks>false</IsMakeLineBreaks>
+        <IsCleanText>false</IsCleanText>
+        <IsAllParagraphs>false</IsAllParagraphs>
+        <IsIncludeSiblings>false</IsIncludeSiblings>
+        <SiblingCount>0</SiblingCount>
+        <PageTransformation>Custom</PageTransformation>
+        <FixedValue>Dept of Early Education &amp; Care</FixedValue>
+        <FixedFileExtension />
+        <IsFilenameTransformationIncludesExtension>false</IsFilenameTransformationIncludesExtension>
+        <IsReuseExistingFiles>false</IsReuseExistingFiles>
+        <IsRequired>false</IsRequired>
+        <ContentType>FixedValue</ContentType>
+        <ContentAttributeType>Text</ContentAttributeType>
+        <IsSaveFormElementValue>false</IsSaveFormElementValue>
+        <IsSaveFormElementText>false</IsSaveFormElementText>
+        <IsRepeatFormElement>false</IsRepeatFormElement>
+        <IsCheckFormSelectValues>false</IsCheckFormSelectValues>
+        <IsFormValuesRequired>false</IsFormValuesRequired>
+        <IsMultipleInputFields>false</IsMultipleInputFields>
+        <MultipleInputFieldsResetValue>no</MultipleInputFieldsResetValue>
+        <MultipleInputFieldsSetValue>yes</MultipleInputFieldsSetValue>
+        <FormFieldGroup />
+        <RepeatFormElementStartIndex>0</RepeatFormElementStartIndex>
+        <RepeatFormElementCount>0</RepeatFormElementCount>
+        <RepeatFormElementSkipLastRowCount>0</RepeatFormElementSkipLastRowCount>
+        <FormElementTemplateName />
+        <FormElementName />
+        <IsFormSelectValueRegexMatch>false</IsFormSelectValueRegexMatch>
+        <FormCaptchaElement />
+        <RetryCaptchaIfElementExists>true</RetryCaptchaIfElementExists>
+        <ElementCheckPoint>0</ElementCheckPoint>
+        <NodePath>
+          <IncludeAttributes />
+          <Accuracy>0</Accuracy>
+          <IsOptimizePath>true</IsOptimizePath>
+          <RepeatPathLevel>0</RepeatPathLevel>
+          <RepeatPathLevelSecondary>0</RepeatPathLevelSecondary>
+          <RepeatPathCondition />
+          <IsOptimizeWithoutIds>false</IsOptimizeWithoutIds>
+        </NodePath>
+        <PageAreaNodePath />
+        <IsSingleSelection>false</IsSingleSelection>
+        <IsLinkRedirected>false</IsLinkRedirected>
+        <IsLinkRedirectedOnMetaRefresh>false</IsLinkRedirectedOnMetaRefresh>
+        <TagAttributes />
+        <PageAttribute />
+        <IsManualPath>true</IsManualPath>
+        <ClickedElementPath />
+        <DataFieldMode>DataField</DataFieldMode>
+        <InputDataSource>
+          <Sql />
+          <DataSourceType>SqlDatabase</DataSourceType>
+          <IsEnabled>false</IsEnabled>
+          <SqlDatabase>
+            <Server>(local)</Server>
+            <UseWindowsAuthentication>true</UseWindowsAuthentication>
+            <UserName />
+            <Password />
+            <Database />
+          </SqlDatabase>
+          <MySqlDatabase>
+            <Server>localhost</Server>
+            <UserName />
+            <Password />
+            <CommandTimeout>30000</CommandTimeout>
+            <Port>3306</Port>
+            <CharSet />
+            <MaxIndexKeyLength>767</MaxIndexKeyLength>
+            <Database />
+          </MySqlDatabase>
+          <OleDbConnectionString />
+          <FilePath />
+          <CsvSeparator>Comma</CsvSeparator>
+          <CsvCharacterset>ANSI</CsvCharacterset>
+          <DesignRowIndex>0</DesignRowIndex>
+          <InputDataScript>
+            <IsEnabled>false</IsEnabled>
+            <ScriptType>InputDataScript</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script />
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </InputDataScript>
+          <OleDbConnectionStringEncrypt />
+        </InputDataSource>
+        <DataFieldColumn>HospitalName</DataFieldColumn>
+        <InputDataTemplateId>a5d7a05d-756d-4771-aa7f-855fe1b72f74</InputDataTemplateId>
+        <PathCondition />
+        <PathAttributeCondition />
+        <PathAttributeTextCondition />
+        <PathIgnorePositionsCondition>false</PathIgnorePositionsCondition>
+        <PathSpecialCondition>None</PathSpecialCondition>
+        <IsNoAjaxWaitOnFirstLink>false</IsNoAjaxWaitOnFirstLink>
+        <IsOptionalAjaxWait>false</IsOptionalAjaxWait>
+        <IsOptionalAjaxWaitOnFirstLinkOnly>true</IsOptionalAjaxWaitOnFirstLinkOnly>
+        <TranformationScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </TranformationScript>
+        <AjaxWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </AjaxWaitConditionScript>
+        <IsWaitForAjaxAfterPageLoad>false</IsWaitForAjaxAfterPageLoad>
+        <ElementWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </ElementWaitConditionScript>
+        <Scripts />
+        <WaitUntilElementExists>false</WaitUntilElementExists>
+        <ConditionFailAction>CancelTemplate</ConditionFailAction>
+        <ConditionFailActionKeepDataRow>false</ConditionFailActionKeepDataRow>
+        <ConditionFailActionRemoveAllFailData>false</ConditionFailActionRemoveAllFailData>
+        <ConditionCancelTemplate />
+        <IsConditionCancelList>false</IsConditionCancelList>
+        <IsConditionFailWhenMissing>false</IsConditionFailWhenMissing>
+        <IsDuplicateCheck>false</IsDuplicateCheck>
+        <IsEmptyDuplicateCheck>true</IsEmptyDuplicateCheck>
+        <FormFieldExcludedValues />
+        <ClickedFormFieldValue />
+        <WebBrowserFrameIndex>-1</WebBrowserFrameIndex>
+        <WebFrame>
+          <FrameIndex>-1</FrameIndex>
+          <FrameName />
+          <UseNameOnly>true</UseNameOnly>
+        </WebFrame>
+        <OutputSortOrder>0</OutputSortOrder>
+        <IsOutputOrderByName>false</IsOutputOrderByName>
+        <IsSaveFileUrl>false</IsSaveFileUrl>
+        <ContentScriptOptions>
+          <ExecuteScriptAfterElement />
+          <ExecuteScript>Last</ExecuteScript>
+        </ContentScriptOptions>
+        <IsProcessLast>false</IsProcessLast>
+        <ActionEvents />
+        <IsJQueryEvent>false</IsJQueryEvent>
+        <ActionJavaScript />
+        <DelayBetweenEventsMilliseconds>0</DelayBetweenEventsMilliseconds>
+        <DelayAfterCompletedActionMilliseconds>0</DelayAfterCompletedActionMilliseconds>
+        <ErrorRetryAttempts>0</ErrorRetryAttempts>
+        <PauseWhenMissing>false</PauseWhenMissing>
+        <DataColumnNameContent />
+        <IsDownloadWithoutSessionInfo>false</IsDownloadWithoutSessionInfo>
+        <AllowAutoRedirect>false</AllowAutoRedirect>
+        <SaveInParentTable>Default</SaveInParentTable>
+        <SingleColumnValueSeparator />
+        <ContentTypeScreenConfig>
+          <FixedWidth>0</FixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <ThumbnailWidth>0</ThumbnailWidth>
+          <ThumbnailHeight>0</ThumbnailHeight>
+          <IsAdjustHeight>false</IsAdjustHeight>
+        </ContentTypeScreenConfig>
+        <TransformHtml />
+        <IsPageTransformationEnabled>true</IsPageTransformationEnabled>
+        <IsFileUpLoad>false</IsFileUpLoad>
+        <FileUpLoadOpenButtonName>&amp;OPEN</FileUpLoadOpenButtonName>
+        <IsEncrypt>false</IsEncrypt>
+        <ColumnType>ShortText</ColumnType>
+        <IsBlockMainDocumentRedirect>false</IsBlockMainDocumentRedirect>
+      </Content>
+      <Content>
+        <ID>bc6f31dd-df3b-4265-a6d1-2ddf6f504bfa</ID>
+        <RepeatedAjaxCalls>false</RepeatedAjaxCalls>
+        <RepeatedAjaxCallsMaxCount>0</RepeatedAjaxCallsMaxCount>
+        <AjaxCheckElementName />
+        <IsReselectAjaxCheckElement>false</IsReselectAjaxCheckElement>
+        <FormFieldPostbackType>AutoDetect</FormFieldPostbackType>
+        <JavaScriptAction>Asynchronous</JavaScriptAction>
+        <AjaxDelayMilliseconds>100</AjaxDelayMilliseconds>
+        <WaitForAjaxOnAsynchronousAction>true</WaitForAjaxOnAsynchronousAction>
+        <FormFieldActionOnEdit>false</FormFieldActionOnEdit>
+        <FormFieldActionAlways>false</FormFieldActionAlways>
+        <IsFormFieldOptional>false</IsFormFieldOptional>
+        <FormFieldMultipleValues>false</FormFieldMultipleValues>
+        <IsAjaxBeforeFullPageLoad>false</IsAjaxBeforeFullPageLoad>
+        <UseEmptyFormFieldValues>false</UseEmptyFormFieldValues>
+        <UseFormFieldOptionText>false</UseFormFieldOptionText>
+        <Name>TimeOfDay</Name>
+        <IsSaveContent>true</IsSaveContent>
+        <IsCleanHtml>false</IsCleanHtml>
+        <IsCleanXml>false</IsCleanXml>
+        <IsMakeLineBreaks>false</IsMakeLineBreaks>
+        <IsCleanText>false</IsCleanText>
+        <IsAllParagraphs>false</IsAllParagraphs>
+        <IsIncludeSiblings>false</IsIncludeSiblings>
+        <SiblingCount>0</SiblingCount>
+        <PageTransformation>Custom</PageTransformation>
+        <FixedValue />
+        <FixedFileExtension />
+        <IsFilenameTransformationIncludesExtension>false</IsFilenameTransformationIncludesExtension>
+        <IsReuseExistingFiles>false</IsReuseExistingFiles>
+        <IsRequired>false</IsRequired>
+        <ContentType>Element</ContentType>
+        <ContentAttributeType>Text</ContentAttributeType>
+        <IsSaveFormElementValue>false</IsSaveFormElementValue>
+        <IsSaveFormElementText>false</IsSaveFormElementText>
+        <IsRepeatFormElement>false</IsRepeatFormElement>
+        <IsCheckFormSelectValues>false</IsCheckFormSelectValues>
+        <IsFormValuesRequired>false</IsFormValuesRequired>
+        <IsMultipleInputFields>false</IsMultipleInputFields>
+        <MultipleInputFieldsResetValue>no</MultipleInputFieldsResetValue>
+        <MultipleInputFieldsSetValue>yes</MultipleInputFieldsSetValue>
+        <FormFieldGroup />
+        <RepeatFormElementStartIndex>0</RepeatFormElementStartIndex>
+        <RepeatFormElementCount>0</RepeatFormElementCount>
+        <RepeatFormElementSkipLastRowCount>0</RepeatFormElementSkipLastRowCount>
+        <FormElementTemplateName />
+        <FormElementName />
+        <IsFormSelectValueRegexMatch>false</IsFormSelectValueRegexMatch>
+        <FormCaptchaElement />
+        <RetryCaptchaIfElementExists>true</RetryCaptchaIfElementExists>
+        <ElementCheckPoint>0</ElementCheckPoint>
+        <NodePath>
+          <Path>//DIV[@class='contentlinepanel']/H2/SPAN[.="Shift"]/../../SPAN[3]</Path>
+          <IncludeAttributes>id</IncludeAttributes>
+          <Accuracy>1</Accuracy>
+          <IsOptimizePath>true</IsOptimizePath>
+          <RepeatPathLevel>0</RepeatPathLevel>
+          <RepeatPathLevelSecondary>0</RepeatPathLevelSecondary>
+          <RepeatPathCondition />
+          <IsOptimizeWithoutIds>false</IsOptimizeWithoutIds>
+        </NodePath>
+        <PageAreaNodePath />
+        <IsSingleSelection>false</IsSingleSelection>
+        <IsLinkRedirected>false</IsLinkRedirected>
+        <IsLinkRedirectedOnMetaRefresh>false</IsLinkRedirectedOnMetaRefresh>
+        <TagAttributes />
+        <PageAttribute />
+        <IsManualPath>true</IsManualPath>
+        <ClickedElementPath>/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[4]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/DIV[1]/DIV[3]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/DIV[1]/DIV[9]</ClickedElementPath>
+        <DataFieldMode>DataField</DataFieldMode>
+        <InputDataSource>
+          <Sql />
+          <DataSourceType>SqlDatabase</DataSourceType>
+          <IsEnabled>false</IsEnabled>
+          <SqlDatabase>
+            <Server>(local)</Server>
+            <UseWindowsAuthentication>true</UseWindowsAuthentication>
+            <UserName />
+            <Password />
+            <Database />
+          </SqlDatabase>
+          <MySqlDatabase>
+            <Server>localhost</Server>
+            <UserName />
+            <Password />
+            <CommandTimeout>30000</CommandTimeout>
+            <Port>3306</Port>
+            <CharSet />
+            <MaxIndexKeyLength>767</MaxIndexKeyLength>
+            <Database />
+          </MySqlDatabase>
+          <OleDbConnectionString />
+          <FilePath />
+          <CsvSeparator>Comma</CsvSeparator>
+          <CsvCharacterset>ANSI</CsvCharacterset>
+          <DesignRowIndex>0</DesignRowIndex>
+          <InputDataScript>
+            <IsEnabled>false</IsEnabled>
+            <ScriptType>InputDataScript</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script />
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </InputDataScript>
+          <OleDbConnectionStringEncrypt />
+        </InputDataSource>
+        <DataFieldColumn>TimeOfDay</DataFieldColumn>
+        <InputDataTemplateId>a5d7a05d-756d-4771-aa7f-855fe1b72f74</InputDataTemplateId>
+        <PathCondition />
+        <PathAttributeCondition />
+        <PathAttributeTextCondition />
+        <PathIgnorePositionsCondition>false</PathIgnorePositionsCondition>
+        <PathSpecialCondition>None</PathSpecialCondition>
+        <IsNoAjaxWaitOnFirstLink>false</IsNoAjaxWaitOnFirstLink>
+        <IsOptionalAjaxWait>false</IsOptionalAjaxWait>
+        <IsOptionalAjaxWaitOnFirstLinkOnly>true</IsOptionalAjaxWaitOnFirstLinkOnly>
+        <TranformationScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </TranformationScript>
+        <AjaxWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </AjaxWaitConditionScript>
+        <IsWaitForAjaxAfterPageLoad>false</IsWaitForAjaxAfterPageLoad>
+        <ElementWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </ElementWaitConditionScript>
+        <Scripts />
+        <WaitUntilElementExists>false</WaitUntilElementExists>
+        <ConditionFailAction>CancelTemplate</ConditionFailAction>
+        <ConditionFailActionKeepDataRow>false</ConditionFailActionKeepDataRow>
+        <ConditionFailActionRemoveAllFailData>false</ConditionFailActionRemoveAllFailData>
+        <ConditionCancelTemplate />
+        <IsConditionCancelList>false</IsConditionCancelList>
+        <IsConditionFailWhenMissing>false</IsConditionFailWhenMissing>
+        <IsDuplicateCheck>false</IsDuplicateCheck>
+        <IsEmptyDuplicateCheck>true</IsEmptyDuplicateCheck>
+        <FormFieldExcludedValues />
+        <ClickedFormFieldValue />
+        <WebBrowserFrameIndex>-1</WebBrowserFrameIndex>
+        <WebFrame>
+          <FrameIndex>-1</FrameIndex>
+          <FrameName />
+          <UseNameOnly>true</UseNameOnly>
+        </WebFrame>
+        <OutputSortOrder>0</OutputSortOrder>
+        <IsOutputOrderByName>false</IsOutputOrderByName>
+        <IsSaveFileUrl>false</IsSaveFileUrl>
+        <ContentScriptOptions>
+          <ExecuteScriptAfterElement />
+          <ExecuteScript>Last</ExecuteScript>
+        </ContentScriptOptions>
+        <IsProcessLast>false</IsProcessLast>
+        <ActionEvents />
+        <IsJQueryEvent>false</IsJQueryEvent>
+        <ActionJavaScript />
+        <DelayBetweenEventsMilliseconds>0</DelayBetweenEventsMilliseconds>
+        <DelayAfterCompletedActionMilliseconds>0</DelayAfterCompletedActionMilliseconds>
+        <ErrorRetryAttempts>0</ErrorRetryAttempts>
+        <PauseWhenMissing>false</PauseWhenMissing>
+        <DataColumnNameContent />
+        <IsDownloadWithoutSessionInfo>false</IsDownloadWithoutSessionInfo>
+        <AllowAutoRedirect>false</AllowAutoRedirect>
+        <SaveInParentTable>Default</SaveInParentTable>
+        <SingleColumnValueSeparator />
+        <ContentTypeScreenConfig>
+          <FixedWidth>0</FixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <ThumbnailWidth>0</ThumbnailWidth>
+          <ThumbnailHeight>0</ThumbnailHeight>
+          <IsAdjustHeight>false</IsAdjustHeight>
+        </ContentTypeScreenConfig>
+        <TransformHtml />
+        <IsPageTransformationEnabled>true</IsPageTransformationEnabled>
+        <IsFileUpLoad>false</IsFileUpLoad>
+        <FileUpLoadOpenButtonName>&amp;OPEN</FileUpLoadOpenButtonName>
+        <IsEncrypt>false</IsEncrypt>
+        <ColumnType>ShortText</ColumnType>
+        <IsBlockMainDocumentRedirect>false</IsBlockMainDocumentRedirect>
+      </Content>
+      <Content>
+        <ID>de386e0c-9bd5-4d3c-bfb1-2f36fba45df5</ID>
+        <RepeatedAjaxCalls>false</RepeatedAjaxCalls>
+        <RepeatedAjaxCallsMaxCount>0</RepeatedAjaxCallsMaxCount>
+        <AjaxCheckElementName />
+        <IsReselectAjaxCheckElement>false</IsReselectAjaxCheckElement>
+        <FormFieldPostbackType>AutoDetect</FormFieldPostbackType>
+        <JavaScriptAction>Asynchronous</JavaScriptAction>
+        <AjaxDelayMilliseconds>100</AjaxDelayMilliseconds>
+        <WaitForAjaxOnAsynchronousAction>true</WaitForAjaxOnAsynchronousAction>
+        <FormFieldActionOnEdit>false</FormFieldActionOnEdit>
+        <FormFieldActionAlways>false</FormFieldActionAlways>
+        <IsFormFieldOptional>false</IsFormFieldOptional>
+        <FormFieldMultipleValues>false</FormFieldMultipleValues>
+        <IsAjaxBeforeFullPageLoad>false</IsAjaxBeforeFullPageLoad>
+        <UseEmptyFormFieldValues>false</UseEmptyFormFieldValues>
+        <UseFormFieldOptionText>false</UseFormFieldOptionText>
+        <Name>EmploymentType</Name>
+        <IsSaveContent>true</IsSaveContent>
+        <IsCleanHtml>false</IsCleanHtml>
+        <IsCleanXml>false</IsCleanXml>
+        <IsMakeLineBreaks>false</IsMakeLineBreaks>
+        <IsCleanText>false</IsCleanText>
+        <IsAllParagraphs>false</IsAllParagraphs>
+        <IsIncludeSiblings>false</IsIncludeSiblings>
+        <SiblingCount>0</SiblingCount>
+        <PageTransformation>Custom</PageTransformation>
+        <FixedValue />
+        <FixedFileExtension />
+        <IsFilenameTransformationIncludesExtension>false</IsFilenameTransformationIncludesExtension>
+        <IsReuseExistingFiles>false</IsReuseExistingFiles>
+        <IsRequired>false</IsRequired>
+        <ContentType>Element</ContentType>
+        <ContentAttributeType>Text</ContentAttributeType>
+        <IsSaveFormElementValue>false</IsSaveFormElementValue>
+        <IsSaveFormElementText>false</IsSaveFormElementText>
+        <IsRepeatFormElement>true</IsRepeatFormElement>
+        <IsCheckFormSelectValues>false</IsCheckFormSelectValues>
+        <IsFormValuesRequired>false</IsFormValuesRequired>
+        <IsMultipleInputFields>false</IsMultipleInputFields>
+        <MultipleInputFieldsResetValue>no</MultipleInputFieldsResetValue>
+        <MultipleInputFieldsSetValue>yes</MultipleInputFieldsSetValue>
+        <FormFieldGroup />
+        <RepeatFormElementStartIndex>0</RepeatFormElementStartIndex>
+        <RepeatFormElementCount>0</RepeatFormElementCount>
+        <RepeatFormElementSkipLastRowCount>0</RepeatFormElementSkipLastRowCount>
+        <FormElementTemplateName />
+        <FormElementName />
+        <IsFormSelectValueRegexMatch>false</IsFormSelectValueRegexMatch>
+        <FormCaptchaElement />
+        <RetryCaptchaIfElementExists>true</RetryCaptchaIfElementExists>
+        <ElementCheckPoint>0</ElementCheckPoint>
+        <NodePath>
+          <Path>//DIV[@class='contentlinepanel']/H2/SPAN[.="Schedule"]/../../SPAN[3]</Path>
+          <IncludeAttributes />
+          <Accuracy>0</Accuracy>
+          <IsOptimizePath>true</IsOptimizePath>
+          <RepeatPathLevel>0</RepeatPathLevel>
+          <RepeatPathLevelSecondary>0</RepeatPathLevelSecondary>
+          <RepeatPathCondition />
+          <IsOptimizeWithoutIds>false</IsOptimizeWithoutIds>
+        </NodePath>
+        <PageAreaNodePath />
+        <IsSingleSelection>false</IsSingleSelection>
+        <IsLinkRedirected>false</IsLinkRedirected>
+        <IsLinkRedirectedOnMetaRefresh>false</IsLinkRedirectedOnMetaRefresh>
+        <TagAttributes />
+        <PageAttribute />
+        <IsManualPath>true</IsManualPath>
+        <ClickedElementPath />
+        <DataFieldMode>Manual</DataFieldMode>
+        <InputDataSource>
+          <Sql />
+          <DataSourceType>SqlDatabase</DataSourceType>
+          <IsEnabled>false</IsEnabled>
+          <SqlDatabase>
+            <Server>(local)</Server>
+            <UseWindowsAuthentication>true</UseWindowsAuthentication>
+            <UserName />
+            <Password />
+            <Database />
+          </SqlDatabase>
+          <MySqlDatabase>
+            <Server>localhost</Server>
+            <UserName />
+            <Password />
+            <CommandTimeout>30000</CommandTimeout>
+            <Port>3306</Port>
+            <CharSet />
+            <MaxIndexKeyLength>767</MaxIndexKeyLength>
+            <Database />
+          </MySqlDatabase>
+          <OleDbConnectionString />
+          <FilePath />
+          <CsvSeparator>Comma</CsvSeparator>
+          <CsvCharacterset>ANSI</CsvCharacterset>
+          <DesignRowIndex>0</DesignRowIndex>
+          <InputDataScript>
+            <IsEnabled>false</IsEnabled>
+            <ScriptType>InputDataScript</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script />
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </InputDataScript>
+          <OleDbConnectionStringEncrypt />
+        </InputDataSource>
+        <DataFieldColumn />
+        <InputDataTemplateId />
+        <PathCondition />
+        <PathAttributeCondition />
+        <PathAttributeTextCondition />
+        <PathIgnorePositionsCondition>false</PathIgnorePositionsCondition>
+        <PathSpecialCondition>None</PathSpecialCondition>
+        <IsNoAjaxWaitOnFirstLink>false</IsNoAjaxWaitOnFirstLink>
+        <IsOptionalAjaxWait>false</IsOptionalAjaxWait>
+        <IsOptionalAjaxWaitOnFirstLinkOnly>true</IsOptionalAjaxWaitOnFirstLinkOnly>
+        <TranformationScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </TranformationScript>
+        <AjaxWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </AjaxWaitConditionScript>
+        <IsWaitForAjaxAfterPageLoad>false</IsWaitForAjaxAfterPageLoad>
+        <ElementWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </ElementWaitConditionScript>
+        <Scripts />
+        <WaitUntilElementExists>false</WaitUntilElementExists>
+        <ConditionFailAction>CancelTemplate</ConditionFailAction>
+        <ConditionFailActionKeepDataRow>false</ConditionFailActionKeepDataRow>
+        <ConditionFailActionRemoveAllFailData>false</ConditionFailActionRemoveAllFailData>
+        <ConditionCancelTemplate />
+        <IsConditionCancelList>false</IsConditionCancelList>
+        <IsConditionFailWhenMissing>false</IsConditionFailWhenMissing>
+        <IsDuplicateCheck>false</IsDuplicateCheck>
+        <IsEmptyDuplicateCheck>true</IsEmptyDuplicateCheck>
+        <FormFieldExcludedValues />
+        <ClickedFormFieldValue />
+        <WebBrowserFrameIndex>-1</WebBrowserFrameIndex>
+        <WebFrame>
+          <FrameIndex>-1</FrameIndex>
+          <FrameName />
+          <UseNameOnly>true</UseNameOnly>
+        </WebFrame>
+        <OutputSortOrder>0</OutputSortOrder>
+        <IsOutputOrderByName>false</IsOutputOrderByName>
+        <IsSaveFileUrl>false</IsSaveFileUrl>
+        <ContentScriptOptions>
+          <ExecuteScriptAfterElement />
+          <ExecuteScript>Last</ExecuteScript>
+        </ContentScriptOptions>
+        <IsProcessLast>false</IsProcessLast>
+        <ActionEvents />
+        <IsJQueryEvent>false</IsJQueryEvent>
+        <ActionJavaScript />
+        <DelayBetweenEventsMilliseconds>0</DelayBetweenEventsMilliseconds>
+        <DelayAfterCompletedActionMilliseconds>0</DelayAfterCompletedActionMilliseconds>
+        <ErrorRetryAttempts>0</ErrorRetryAttempts>
+        <PauseWhenMissing>false</PauseWhenMissing>
+        <DataColumnNameContent />
+        <IsDownloadWithoutSessionInfo>false</IsDownloadWithoutSessionInfo>
+        <AllowAutoRedirect>false</AllowAutoRedirect>
+        <SaveInParentTable>Default</SaveInParentTable>
+        <SingleColumnValueSeparator />
+        <ContentTypeScreenConfig>
+          <FixedWidth>0</FixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <ThumbnailWidth>0</ThumbnailWidth>
+          <ThumbnailHeight>0</ThumbnailHeight>
+          <IsAdjustHeight>false</IsAdjustHeight>
+        </ContentTypeScreenConfig>
+        <TransformHtml />
+        <IsPageTransformationEnabled>true</IsPageTransformationEnabled>
+        <IsFileUpLoad>false</IsFileUpLoad>
+        <FileUpLoadOpenButtonName>&amp;OPEN</FileUpLoadOpenButtonName>
+        <IsEncrypt>false</IsEncrypt>
+        <ColumnType>ShortText</ColumnType>
+        <IsBlockMainDocumentRedirect>false</IsBlockMainDocumentRedirect>
+      </Content>
+      <Content>
+        <ID>1d4f052c-523a-4b53-9a66-e7e4eb72f138</ID>
+        <RepeatedAjaxCalls>false</RepeatedAjaxCalls>
+        <RepeatedAjaxCallsMaxCount>0</RepeatedAjaxCallsMaxCount>
+        <AjaxCheckElementName />
+        <IsReselectAjaxCheckElement>false</IsReselectAjaxCheckElement>
+        <FormFieldPostbackType>AutoDetect</FormFieldPostbackType>
+        <JavaScriptAction>Asynchronous</JavaScriptAction>
+        <AjaxDelayMilliseconds>100</AjaxDelayMilliseconds>
+        <WaitForAjaxOnAsynchronousAction>true</WaitForAjaxOnAsynchronousAction>
+        <FormFieldActionOnEdit>false</FormFieldActionOnEdit>
+        <FormFieldActionAlways>false</FormFieldActionAlways>
+        <IsFormFieldOptional>false</IsFormFieldOptional>
+        <FormFieldMultipleValues>false</FormFieldMultipleValues>
+        <IsAjaxBeforeFullPageLoad>false</IsAjaxBeforeFullPageLoad>
+        <UseEmptyFormFieldValues>false</UseEmptyFormFieldValues>
+        <UseFormFieldOptionText>false</UseFormFieldOptionText>
+        <Name>City</Name>
+        <IsSaveContent>true</IsSaveContent>
+        <IsCleanHtml>false</IsCleanHtml>
+        <IsCleanXml>false</IsCleanXml>
+        <IsMakeLineBreaks>false</IsMakeLineBreaks>
+        <IsCleanText>false</IsCleanText>
+        <IsAllParagraphs>false</IsAllParagraphs>
+        <IsIncludeSiblings>false</IsIncludeSiblings>
+        <SiblingCount>0</SiblingCount>
+        <PageTransformation>Custom</PageTransformation>
+        <FixedValue />
+        <FixedFileExtension />
+        <IsFilenameTransformationIncludesExtension>false</IsFilenameTransformationIncludesExtension>
+        <IsReuseExistingFiles>false</IsReuseExistingFiles>
+        <IsRequired>false</IsRequired>
+        <ContentType>Element</ContentType>
+        <ContentAttributeType>Text</ContentAttributeType>
+        <IsSaveFormElementValue>false</IsSaveFormElementValue>
+        <IsSaveFormElementText>false</IsSaveFormElementText>
+        <IsRepeatFormElement>true</IsRepeatFormElement>
+        <IsCheckFormSelectValues>false</IsCheckFormSelectValues>
+        <IsFormValuesRequired>false</IsFormValuesRequired>
+        <IsMultipleInputFields>false</IsMultipleInputFields>
+        <MultipleInputFieldsResetValue>no</MultipleInputFieldsResetValue>
+        <MultipleInputFieldsSetValue>yes</MultipleInputFieldsSetValue>
+        <FormFieldGroup />
+        <RepeatFormElementStartIndex>0</RepeatFormElementStartIndex>
+        <RepeatFormElementCount>0</RepeatFormElementCount>
+        <RepeatFormElementSkipLastRowCount>0</RepeatFormElementSkipLastRowCount>
+        <FormElementTemplateName />
+        <FormElementName />
+        <IsFormSelectValueRegexMatch>false</IsFormSelectValueRegexMatch>
+        <FormCaptchaElement />
+        <RetryCaptchaIfElementExists>true</RetryCaptchaIfElementExists>
+        <ElementCheckPoint>0</ElementCheckPoint>
+        <NodePath>
+          <Path>//DIV[@class='contentlinepanel']/H2/SPAN[.="Primary Location"]/../../SPAN[3]</Path>
+          <IncludeAttributes />
+          <Accuracy>0</Accuracy>
+          <IsOptimizePath>true</IsOptimizePath>
+          <RepeatPathLevel>0</RepeatPathLevel>
+          <RepeatPathLevelSecondary>0</RepeatPathLevelSecondary>
+          <RepeatPathCondition />
+          <IsOptimizeWithoutIds>false</IsOptimizeWithoutIds>
+        </NodePath>
+        <PageAreaNodePath />
+        <IsSingleSelection>false</IsSingleSelection>
+        <IsLinkRedirected>false</IsLinkRedirected>
+        <IsLinkRedirectedOnMetaRefresh>false</IsLinkRedirectedOnMetaRefresh>
+        <TagAttributes />
+        <PageAttribute />
+        <IsManualPath>true</IsManualPath>
+        <ClickedElementPath />
+        <DataFieldMode>Manual</DataFieldMode>
+        <InputDataSource>
+          <Sql />
+          <DataSourceType>SqlDatabase</DataSourceType>
+          <IsEnabled>false</IsEnabled>
+          <SqlDatabase>
+            <Server>(local)</Server>
+            <UseWindowsAuthentication>true</UseWindowsAuthentication>
+            <UserName />
+            <Password />
+            <Database />
+          </SqlDatabase>
+          <MySqlDatabase>
+            <Server>localhost</Server>
+            <UserName />
+            <Password />
+            <CommandTimeout>30000</CommandTimeout>
+            <Port>3306</Port>
+            <CharSet />
+            <MaxIndexKeyLength>767</MaxIndexKeyLength>
+            <Database />
+          </MySqlDatabase>
+          <OleDbConnectionString />
+          <FilePath />
+          <CsvSeparator>Comma</CsvSeparator>
+          <CsvCharacterset>ANSI</CsvCharacterset>
+          <DesignRowIndex>0</DesignRowIndex>
+          <InputDataScript>
+            <IsEnabled>false</IsEnabled>
+            <ScriptType>InputDataScript</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script />
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </InputDataScript>
+          <OleDbConnectionStringEncrypt />
+        </InputDataSource>
+        <DataFieldColumn />
+        <InputDataTemplateId />
+        <PathCondition />
+        <PathAttributeCondition />
+        <PathAttributeTextCondition />
+        <PathIgnorePositionsCondition>false</PathIgnorePositionsCondition>
+        <PathSpecialCondition>None</PathSpecialCondition>
+        <IsNoAjaxWaitOnFirstLink>false</IsNoAjaxWaitOnFirstLink>
+        <IsOptionalAjaxWait>false</IsOptionalAjaxWait>
+        <IsOptionalAjaxWaitOnFirstLinkOnly>true</IsOptionalAjaxWaitOnFirstLinkOnly>
+        <TranformationScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </TranformationScript>
+        <AjaxWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </AjaxWaitConditionScript>
+        <IsWaitForAjaxAfterPageLoad>false</IsWaitForAjaxAfterPageLoad>
+        <ElementWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </ElementWaitConditionScript>
+        <Scripts>
+          <WrScript>
+            <IsEnabled>false</IsEnabled>
+            <ScriptType>ContentTransformation</ScriptType>
+            <ScriptLanguage>Regex</ScriptLanguage>
+            <Script />
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </WrScript>
+        </Scripts>
+        <WaitUntilElementExists>false</WaitUntilElementExists>
+        <ConditionFailAction>CancelTemplate</ConditionFailAction>
+        <ConditionFailActionKeepDataRow>false</ConditionFailActionKeepDataRow>
+        <ConditionFailActionRemoveAllFailData>false</ConditionFailActionRemoveAllFailData>
+        <ConditionCancelTemplate />
+        <IsConditionCancelList>false</IsConditionCancelList>
+        <IsConditionFailWhenMissing>false</IsConditionFailWhenMissing>
+        <IsDuplicateCheck>false</IsDuplicateCheck>
+        <IsEmptyDuplicateCheck>true</IsEmptyDuplicateCheck>
+        <FormFieldExcludedValues />
+        <ClickedFormFieldValue />
+        <WebBrowserFrameIndex>-1</WebBrowserFrameIndex>
+        <WebFrame>
+          <FrameIndex>-1</FrameIndex>
+          <FrameName />
+          <UseNameOnly>true</UseNameOnly>
+        </WebFrame>
+        <OutputSortOrder>0</OutputSortOrder>
+        <IsOutputOrderByName>false</IsOutputOrderByName>
+        <IsSaveFileUrl>false</IsSaveFileUrl>
+        <ContentScriptOptions>
+          <ExecuteScriptAfterElement />
+          <ExecuteScript>Last</ExecuteScript>
+        </ContentScriptOptions>
+        <IsProcessLast>false</IsProcessLast>
+        <ActionEvents />
+        <IsJQueryEvent>false</IsJQueryEvent>
+        <ActionJavaScript />
+        <DelayBetweenEventsMilliseconds>0</DelayBetweenEventsMilliseconds>
+        <DelayAfterCompletedActionMilliseconds>0</DelayAfterCompletedActionMilliseconds>
+        <ErrorRetryAttempts>0</ErrorRetryAttempts>
+        <PauseWhenMissing>false</PauseWhenMissing>
+        <DataColumnNameContent />
+        <IsDownloadWithoutSessionInfo>false</IsDownloadWithoutSessionInfo>
+        <AllowAutoRedirect>false</AllowAutoRedirect>
+        <SaveInParentTable>Default</SaveInParentTable>
+        <SingleColumnValueSeparator />
+        <ContentTypeScreenConfig>
+          <FixedWidth>0</FixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <ThumbnailWidth>0</ThumbnailWidth>
+          <ThumbnailHeight>0</ThumbnailHeight>
+          <IsAdjustHeight>false</IsAdjustHeight>
+        </ContentTypeScreenConfig>
+        <TransformHtml />
+        <IsPageTransformationEnabled>true</IsPageTransformationEnabled>
+        <IsFileUpLoad>false</IsFileUpLoad>
+        <FileUpLoadOpenButtonName>&amp;OPEN</FileUpLoadOpenButtonName>
+        <IsEncrypt>false</IsEncrypt>
+        <ColumnType>ShortText</ColumnType>
+        <IsBlockMainDocumentRedirect>false</IsBlockMainDocumentRedirect>
+      </Content>
+      <Content>
+        <ID>078f8a2c-97b4-4982-ae4c-f514e4ea9232</ID>
+        <RepeatedAjaxCalls>false</RepeatedAjaxCalls>
+        <RepeatedAjaxCallsMaxCount>0</RepeatedAjaxCallsMaxCount>
+        <AjaxCheckElementName />
+        <IsReselectAjaxCheckElement>false</IsReselectAjaxCheckElement>
+        <FormFieldPostbackType>AutoDetect</FormFieldPostbackType>
+        <JavaScriptAction>Asynchronous</JavaScriptAction>
+        <AjaxDelayMilliseconds>100</AjaxDelayMilliseconds>
+        <WaitForAjaxOnAsynchronousAction>true</WaitForAjaxOnAsynchronousAction>
+        <FormFieldActionOnEdit>false</FormFieldActionOnEdit>
+        <FormFieldActionAlways>false</FormFieldActionAlways>
+        <IsFormFieldOptional>false</IsFormFieldOptional>
+        <FormFieldMultipleValues>false</FormFieldMultipleValues>
+        <IsAjaxBeforeFullPageLoad>false</IsAjaxBeforeFullPageLoad>
+        <UseEmptyFormFieldValues>false</UseEmptyFormFieldValues>
+        <UseFormFieldOptionText>false</UseFormFieldOptionText>
+        <Name>ApplyUrl</Name>
+        <IsSaveContent>true</IsSaveContent>
+        <IsCleanHtml>false</IsCleanHtml>
+        <IsCleanXml>false</IsCleanXml>
+        <IsMakeLineBreaks>false</IsMakeLineBreaks>
+        <IsCleanText>false</IsCleanText>
+        <IsAllParagraphs>false</IsAllParagraphs>
+        <IsIncludeSiblings>false</IsIncludeSiblings>
+        <SiblingCount>0</SiblingCount>
+        <PageTransformation>Custom</PageTransformation>
+        <FixedValue>https://massanf.taleo.net/careersection/application.jss?type=1&amp;lang=en&amp;portal=101430233&amp;reqNo=599742</FixedValue>
+        <FixedFileExtension />
+        <IsFilenameTransformationIncludesExtension>false</IsFilenameTransformationIncludesExtension>
+        <IsReuseExistingFiles>false</IsReuseExistingFiles>
+        <IsRequired>false</IsRequired>
+        <ContentType>FixedValue</ContentType>
+        <ContentAttributeType>Text</ContentAttributeType>
+        <IsSaveFormElementValue>false</IsSaveFormElementValue>
+        <IsSaveFormElementText>false</IsSaveFormElementText>
+        <IsRepeatFormElement>false</IsRepeatFormElement>
+        <IsCheckFormSelectValues>false</IsCheckFormSelectValues>
+        <IsFormValuesRequired>false</IsFormValuesRequired>
+        <IsMultipleInputFields>false</IsMultipleInputFields>
+        <MultipleInputFieldsResetValue>no</MultipleInputFieldsResetValue>
+        <MultipleInputFieldsSetValue>yes</MultipleInputFieldsSetValue>
+        <FormFieldGroup />
+        <RepeatFormElementStartIndex>0</RepeatFormElementStartIndex>
+        <RepeatFormElementCount>0</RepeatFormElementCount>
+        <RepeatFormElementSkipLastRowCount>0</RepeatFormElementSkipLastRowCount>
+        <FormElementTemplateName />
+        <FormElementName />
+        <IsFormSelectValueRegexMatch>false</IsFormSelectValueRegexMatch>
+        <FormCaptchaElement />
+        <RetryCaptchaIfElementExists>true</RetryCaptchaIfElementExists>
+        <ElementCheckPoint>0</ElementCheckPoint>
+        <NodePath>
+          <Path />
+          <IncludeAttributes />
+          <Accuracy>0</Accuracy>
+          <IsOptimizePath>true</IsOptimizePath>
+          <RepeatPathLevel>0</RepeatPathLevel>
+          <RepeatPathLevelSecondary>0</RepeatPathLevelSecondary>
+          <RepeatPathCondition />
+          <IsOptimizeWithoutIds>false</IsOptimizeWithoutIds>
+        </NodePath>
+        <PageAreaNodePath />
+        <IsSingleSelection>false</IsSingleSelection>
+        <IsLinkRedirected>false</IsLinkRedirected>
+        <IsLinkRedirectedOnMetaRefresh>false</IsLinkRedirectedOnMetaRefresh>
+        <TagAttributes />
+        <PageAttribute />
+        <IsManualPath>false</IsManualPath>
+        <ClickedElementPath />
+        <DataFieldMode>DataField</DataFieldMode>
+        <InputDataSource>
+          <Sql />
+          <DataSourceType>SqlDatabase</DataSourceType>
+          <IsEnabled>false</IsEnabled>
+          <SqlDatabase>
+            <Server>(local)</Server>
+            <UseWindowsAuthentication>true</UseWindowsAuthentication>
+            <UserName />
+            <Password />
+            <Database />
+          </SqlDatabase>
+          <MySqlDatabase>
+            <Server>localhost</Server>
+            <UserName />
+            <Password />
+            <CommandTimeout>30000</CommandTimeout>
+            <Port>3306</Port>
+            <CharSet />
+            <MaxIndexKeyLength>767</MaxIndexKeyLength>
+            <Database />
+          </MySqlDatabase>
+          <OleDbConnectionString />
+          <FilePath />
+          <CsvSeparator>Comma</CsvSeparator>
+          <CsvCharacterset>ANSI</CsvCharacterset>
+          <DesignRowIndex>0</DesignRowIndex>
+          <InputDataScript>
+            <IsEnabled>false</IsEnabled>
+            <ScriptType>InputDataScript</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script />
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </InputDataScript>
+          <OleDbConnectionStringEncrypt />
+        </InputDataSource>
+        <DataFieldColumn>ApplyUrl</DataFieldColumn>
+        <InputDataTemplateId>a5d7a05d-756d-4771-aa7f-855fe1b72f74</InputDataTemplateId>
+        <PathCondition />
+        <PathAttributeCondition />
+        <PathAttributeTextCondition />
+        <PathIgnorePositionsCondition>false</PathIgnorePositionsCondition>
+        <PathSpecialCondition>None</PathSpecialCondition>
+        <IsNoAjaxWaitOnFirstLink>false</IsNoAjaxWaitOnFirstLink>
+        <IsOptionalAjaxWait>false</IsOptionalAjaxWait>
+        <IsOptionalAjaxWaitOnFirstLinkOnly>true</IsOptionalAjaxWaitOnFirstLinkOnly>
+        <TranformationScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </TranformationScript>
+        <AjaxWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </AjaxWaitConditionScript>
+        <IsWaitForAjaxAfterPageLoad>false</IsWaitForAjaxAfterPageLoad>
+        <ElementWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </ElementWaitConditionScript>
+        <Scripts />
+        <WaitUntilElementExists>false</WaitUntilElementExists>
+        <ConditionFailAction>CancelTemplate</ConditionFailAction>
+        <ConditionFailActionKeepDataRow>false</ConditionFailActionKeepDataRow>
+        <ConditionFailActionRemoveAllFailData>false</ConditionFailActionRemoveAllFailData>
+        <ConditionCancelTemplate />
+        <IsConditionCancelList>false</IsConditionCancelList>
+        <IsConditionFailWhenMissing>false</IsConditionFailWhenMissing>
+        <IsDuplicateCheck>false</IsDuplicateCheck>
+        <IsEmptyDuplicateCheck>true</IsEmptyDuplicateCheck>
+        <FormFieldExcludedValues />
+        <ClickedFormFieldValue />
+        <WebBrowserFrameIndex>-1</WebBrowserFrameIndex>
+        <WebFrame>
+          <FrameIndex>-1</FrameIndex>
+          <FrameName />
+          <UseNameOnly>true</UseNameOnly>
+        </WebFrame>
+        <OutputSortOrder>0</OutputSortOrder>
+        <IsOutputOrderByName>false</IsOutputOrderByName>
+        <IsSaveFileUrl>false</IsSaveFileUrl>
+        <ContentScriptOptions>
+          <ExecuteScriptAfterElement />
+          <ExecuteScript>Last</ExecuteScript>
+        </ContentScriptOptions>
+        <IsProcessLast>false</IsProcessLast>
+        <ActionEvents />
+        <IsJQueryEvent>false</IsJQueryEvent>
+        <ActionJavaScript />
+        <DelayBetweenEventsMilliseconds>0</DelayBetweenEventsMilliseconds>
+        <DelayAfterCompletedActionMilliseconds>0</DelayAfterCompletedActionMilliseconds>
+        <ErrorRetryAttempts>0</ErrorRetryAttempts>
+        <PauseWhenMissing>false</PauseWhenMissing>
+        <DataColumnNameContent />
+        <IsDownloadWithoutSessionInfo>false</IsDownloadWithoutSessionInfo>
+        <AllowAutoRedirect>false</AllowAutoRedirect>
+        <SaveInParentTable>Default</SaveInParentTable>
+        <SingleColumnValueSeparator />
+        <ContentTypeScreenConfig>
+          <FixedWidth>0</FixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <ThumbnailWidth>0</ThumbnailWidth>
+          <ThumbnailHeight>0</ThumbnailHeight>
+          <IsAdjustHeight>false</IsAdjustHeight>
+        </ContentTypeScreenConfig>
+        <TransformHtml />
+        <IsPageTransformationEnabled>true</IsPageTransformationEnabled>
+        <IsFileUpLoad>false</IsFileUpLoad>
+        <FileUpLoadOpenButtonName>&amp;OPEN</FileUpLoadOpenButtonName>
+        <IsEncrypt>false</IsEncrypt>
+        <ColumnType>ShortText</ColumnType>
+        <IsBlockMainDocumentRedirect>false</IsBlockMainDocumentRedirect>
+      </Content>
+      <Content>
+        <ID>c95fe865-a3aa-4e27-920d-05a391c97c9e</ID>
+        <RepeatedAjaxCalls>false</RepeatedAjaxCalls>
+        <RepeatedAjaxCallsMaxCount>0</RepeatedAjaxCallsMaxCount>
+        <AjaxCheckElementName />
+        <IsReselectAjaxCheckElement>false</IsReselectAjaxCheckElement>
+        <FormFieldPostbackType>AutoDetect</FormFieldPostbackType>
+        <JavaScriptAction>Asynchronous</JavaScriptAction>
+        <AjaxDelayMilliseconds>100</AjaxDelayMilliseconds>
+        <WaitForAjaxOnAsynchronousAction>true</WaitForAjaxOnAsynchronousAction>
+        <FormFieldActionOnEdit>false</FormFieldActionOnEdit>
+        <FormFieldActionAlways>false</FormFieldActionAlways>
+        <IsFormFieldOptional>false</IsFormFieldOptional>
+        <FormFieldMultipleValues>false</FormFieldMultipleValues>
+        <IsAjaxBeforeFullPageLoad>false</IsAjaxBeforeFullPageLoad>
+        <UseEmptyFormFieldValues>false</UseEmptyFormFieldValues>
+        <UseFormFieldOptionText>false</UseFormFieldOptionText>
+        <Name>TotalJobs</Name>
+        <IsSaveContent>true</IsSaveContent>
+        <IsCleanHtml>false</IsCleanHtml>
+        <IsCleanXml>false</IsCleanXml>
+        <IsMakeLineBreaks>false</IsMakeLineBreaks>
+        <IsCleanText>false</IsCleanText>
+        <IsAllParagraphs>false</IsAllParagraphs>
+        <IsIncludeSiblings>false</IsIncludeSiblings>
+        <SiblingCount>0</SiblingCount>
+        <PageTransformation>Custom</PageTransformation>
+        <FixedValue>624</FixedValue>
+        <FixedFileExtension />
+        <IsFilenameTransformationIncludesExtension>false</IsFilenameTransformationIncludesExtension>
+        <IsReuseExistingFiles>false</IsReuseExistingFiles>
+        <IsRequired>false</IsRequired>
+        <ContentType>FixedValue</ContentType>
+        <ContentAttributeType>Text</ContentAttributeType>
+        <IsSaveFormElementValue>false</IsSaveFormElementValue>
+        <IsSaveFormElementText>false</IsSaveFormElementText>
+        <IsRepeatFormElement>false</IsRepeatFormElement>
+        <IsCheckFormSelectValues>false</IsCheckFormSelectValues>
+        <IsFormValuesRequired>false</IsFormValuesRequired>
+        <IsMultipleInputFields>false</IsMultipleInputFields>
+        <MultipleInputFieldsResetValue>no</MultipleInputFieldsResetValue>
+        <MultipleInputFieldsSetValue>yes</MultipleInputFieldsSetValue>
+        <FormFieldGroup />
+        <RepeatFormElementStartIndex>0</RepeatFormElementStartIndex>
+        <RepeatFormElementCount>0</RepeatFormElementCount>
+        <RepeatFormElementSkipLastRowCount>0</RepeatFormElementSkipLastRowCount>
+        <FormElementTemplateName />
+        <FormElementName />
+        <IsFormSelectValueRegexMatch>false</IsFormSelectValueRegexMatch>
+        <FormCaptchaElement />
+        <RetryCaptchaIfElementExists>true</RetryCaptchaIfElementExists>
+        <ElementCheckPoint>0</ElementCheckPoint>
+        <NodePath>
+          <Path />
+          <IncludeAttributes />
+          <Accuracy>0</Accuracy>
+          <IsOptimizePath>true</IsOptimizePath>
+          <RepeatPathLevel>0</RepeatPathLevel>
+          <RepeatPathLevelSecondary>0</RepeatPathLevelSecondary>
+          <RepeatPathCondition />
+          <IsOptimizeWithoutIds>false</IsOptimizeWithoutIds>
+        </NodePath>
+        <PageAreaNodePath />
+        <IsSingleSelection>false</IsSingleSelection>
+        <IsLinkRedirected>false</IsLinkRedirected>
+        <IsLinkRedirectedOnMetaRefresh>false</IsLinkRedirectedOnMetaRefresh>
+        <TagAttributes />
+        <PageAttribute />
+        <IsManualPath>false</IsManualPath>
+        <ClickedElementPath />
+        <DataFieldMode>DataField</DataFieldMode>
+        <InputDataSource>
+          <Sql />
+          <DataSourceType>SqlDatabase</DataSourceType>
+          <IsEnabled>false</IsEnabled>
+          <SqlDatabase>
+            <Server>(local)</Server>
+            <UseWindowsAuthentication>true</UseWindowsAuthentication>
+            <UserName />
+            <Password />
+            <Database />
+          </SqlDatabase>
+          <MySqlDatabase>
+            <Server>localhost</Server>
+            <UserName />
+            <Password />
+            <CommandTimeout>30000</CommandTimeout>
+            <Port>3306</Port>
+            <CharSet />
+            <MaxIndexKeyLength>767</MaxIndexKeyLength>
+            <Database />
+          </MySqlDatabase>
+          <OleDbConnectionString />
+          <FilePath />
+          <CsvSeparator>Comma</CsvSeparator>
+          <CsvCharacterset>ANSI</CsvCharacterset>
+          <DesignRowIndex>0</DesignRowIndex>
+          <InputDataScript>
+            <IsEnabled>false</IsEnabled>
+            <ScriptType>InputDataScript</ScriptType>
+            <ScriptLanguage>Csharp</ScriptLanguage>
+            <Script />
+            <IsRegexOnHtml>false</IsRegexOnHtml>
+          </InputDataScript>
+          <OleDbConnectionStringEncrypt />
+        </InputDataSource>
+        <DataFieldColumn>TotalJobs</DataFieldColumn>
+        <InputDataTemplateId>a5d7a05d-756d-4771-aa7f-855fe1b72f74</InputDataTemplateId>
+        <PathCondition />
+        <PathAttributeCondition />
+        <PathAttributeTextCondition />
+        <PathIgnorePositionsCondition>false</PathIgnorePositionsCondition>
+        <PathSpecialCondition>None</PathSpecialCondition>
+        <IsNoAjaxWaitOnFirstLink>false</IsNoAjaxWaitOnFirstLink>
+        <IsOptionalAjaxWait>false</IsOptionalAjaxWait>
+        <IsOptionalAjaxWaitOnFirstLinkOnly>true</IsOptionalAjaxWaitOnFirstLinkOnly>
+        <TranformationScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </TranformationScript>
+        <AjaxWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </AjaxWaitConditionScript>
+        <IsWaitForAjaxAfterPageLoad>false</IsWaitForAjaxAfterPageLoad>
+        <ElementWaitConditionScript>
+          <IsEnabled>false</IsEnabled>
+          <ScriptType>ContentTransformation</ScriptType>
+          <ScriptLanguage>Csharp</ScriptLanguage>
+          <Script />
+          <IsRegexOnHtml>false</IsRegexOnHtml>
+        </ElementWaitConditionScript>
+        <Scripts />
+        <WaitUntilElementExists>false</WaitUntilElementExists>
+        <ConditionFailAction>CancelTemplate</ConditionFailAction>
+        <ConditionFailActionKeepDataRow>false</ConditionFailActionKeepDataRow>
+        <ConditionFailActionRemoveAllFailData>false</ConditionFailActionRemoveAllFailData>
+        <ConditionCancelTemplate />
+        <IsConditionCancelList>false</IsConditionCancelList>
+        <IsConditionFailWhenMissing>false</IsConditionFailWhenMissing>
+        <IsDuplicateCheck>false</IsDuplicateCheck>
+        <IsEmptyDuplicateCheck>true</IsEmptyDuplicateCheck>
+        <FormFieldExcludedValues />
+        <ClickedFormFieldValue />
+        <WebBrowserFrameIndex>-1</WebBrowserFrameIndex>
+        <WebFrame>
+          <FrameIndex>-1</FrameIndex>
+          <FrameName />
+          <UseNameOnly>true</UseNameOnly>
+        </WebFrame>
+        <OutputSortOrder>0</OutputSortOrder>
+        <IsOutputOrderByName>false</IsOutputOrderByName>
+        <IsSaveFileUrl>false</IsSaveFileUrl>
+        <ContentScriptOptions>
+          <ExecuteScriptAfterElement />
+          <ExecuteScript>Last</ExecuteScript>
+        </ContentScriptOptions>
+        <IsProcessLast>false</IsProcessLast>
+        <ActionEvents />
+        <IsJQueryEvent>false</IsJQueryEvent>
+        <ActionJavaScript />
+        <DelayBetweenEventsMilliseconds>0</DelayBetweenEventsMilliseconds>
+        <DelayAfterCompletedActionMilliseconds>0</DelayAfterCompletedActionMilliseconds>
+        <ErrorRetryAttempts>0</ErrorRetryAttempts>
+        <PauseWhenMissing>false</PauseWhenMissing>
+        <DataColumnNameContent />
+        <IsDownloadWithoutSessionInfo>false</IsDownloadWithoutSessionInfo>
+        <AllowAutoRedirect>false</AllowAutoRedirect>
+        <SaveInParentTable>Default</SaveInParentTable>
+        <SingleColumnValueSeparator />
+        <ContentTypeScreenConfig>
+          <FixedWidth>0</FixedWidth>
+          <FixedHeight>0</FixedHeight>
+          <ThumbnailWidth>0</ThumbnailWidth>
+          <ThumbnailHeight>0</ThumbnailHeight>
+          <IsAdjustHeight>false</IsAdjustHeight>
+        </ContentTypeScreenConfig>
+        <TransformHtml />
+        <IsPageTransformationEnabled>true</IsPageTransformationEnabled>
+        <IsFileUpLoad>false</IsFileUpLoad>
+        <FileUpLoadOpenButtonName>&amp;OPEN</FileUpLoadOpenButtonName>
+        <IsEncrypt>false</IsEncrypt>
+        <ColumnType>ShortText</ColumnType>
+        <IsBlockMainDocumentRedirect>false</IsBlockMainDocumentRedirect>
+      </Content>
+    </Contents>
+    <Templates />
+    <BackOptions>
+      <ClickToMoveBack>false</ClickToMoveBack>
+      <UseBrowserBackHistory>true</UseBrowserBackHistory>
+      <MoveBackFromSkippedTemplate>false</MoveBackFromSkippedTemplate>
+      <MustReturnToPreviousUrl>true</MustReturnToPreviousUrl>
+      <DoNotMoveBackToPreviousPage>false</DoNotMoveBackToPreviousPage>
+    </BackOptions>
+    <DoNotFlattenTemplate>false</DoNotFlattenTemplate>
+    <OutputTableName />
+    <InsertEmptyRowsWhenFlattening>false</InsertEmptyRowsWhenFlattening>
+    <AlwaysHtml>false</AlwaysHtml>
+    <Duplicate>
+      <Action>NoAction</Action>
+      <DuplicateCheckMethod>OldAndNewData</DuplicateCheckMethod>
+      <IsDiscardOldDataAfterUse>false</IsDiscardOldDataAfterUse>
+      <MinimumCancelDataRowChecks>0</MinimumCancelDataRowChecks>
+      <CancelTemplateId>a5d7a05d-756d-4771-aa7f-855fe1b72f74</CancelTemplateId>
+      <IsCancelList>false</IsCancelList>
+      <IsDuplicateCheckAtEndOfTemplate>false</IsDuplicateCheckAtEndOfTemplate>
+      <IsKeepParentDataRows>false</IsKeepParentDataRows>
+    </Duplicate>
+    <RedirectOnMetaRefresh>true</RedirectOnMetaRefresh>
+    <IsRecursive>false</IsRecursive>
+    <ExcludeTemplate>false</ExcludeTemplate>
+    <IsBlockPopup>false</IsBlockPopup>
+    <IsNavigateBack>true</IsNavigateBack>
+    <IsInjectJavascriptIntoAllFrames>false</IsInjectJavascriptIntoAllFrames>
+    <IsRefreshAfterPageLoad>false</IsRefreshAfterPageLoad>
+    <IsSaveAllContentInParentTable>false</IsSaveAllContentInParentTable>
+    <IsParserWebCrawlerHtml>true</IsParserWebCrawlerHtml>
+    <SaveDataMethod>Default</SaveDataMethod>
+    <AlwaysExportParentData>Default</AlwaysExportParentData>
+    <TemplateProcessingMode>Default</TemplateProcessingMode>
+    <RetryAction>
+      <MaxRetries>0</MaxRetries>
+      <DelayBetweenRetriesSeconds>1</DelayBetweenRetriesSeconds>
+    </RetryAction>
+    <IsDownloadAndConvertDocument>false</IsDownloadAndConvertDocument>
+    <IsCachePageAreaContent>true</IsCachePageAreaContent>
+    <WaitForUrlRegex />
+    <IsDialogYesOk>true</IsDialogYesOk>
+    <IsClearCookies>false</IsClearCookies>
+    <IsPageLoadFailureOnMissingRequiredElements>false</IsPageLoadFailureOnMissingRequiredElements>
+    <IsSkipOnFailure>false</IsSkipOnFailure>
+    <IsBlockPageLoadOnAjaxAction>false</IsBlockPageLoadOnAjaxAction>
+    <DialogsHookButtons>OK
+&amp;YES</DialogsHookButtons>
+    <IsIgnoreDisabledOrHiddenLinks>true</IsIgnoreDisabledOrHiddenLinks>
+  </Template>
+  <DefaultCollector>WebBrowser</DefaultCollector>
+  <UseDefaultProxyInWebCrawlerMode>false</UseDefaultProxyInWebCrawlerMode>
+  <DownloadImagesInThread>true</DownloadImagesInThread>
+  <LocalProxy>
+    <IsEnabled>false</IsEnabled>
+    <BlockedContentTypes>
+      <string>image/.*</string>
+    </BlockedContentTypes>
+    <BlockedUrls>
+      <string>www.google-analytics.com</string>
+      <string>doubleclick.net</string>
+      <string>(\.gif$) | (\.gif\?)</string>
+      <string>(\.jpeg$) | (\.jpeg\?)</string>
+      <string>(\.png$) | (\.png\?)</string>
+      <string>(\.cab$) | (\.cab\?)</string>
+    </BlockedUrls>
+    <TransformationScript>
+      <IsEnabled>true</IsEnabled>
+      <ScriptLanguage>Regex</ScriptLanguage>
+      <Script />
+    </TransformationScript>
+    <IsTransformHtmlOnly>true</IsTransformHtmlOnly>
+    <ScriptAssemblyReferences />
+    <IsRemoveFlash>true</IsRemoveFlash>
+    <IsInjectJavascripts>true</IsInjectJavascripts>
+    <CustomJavascripts />
+  </LocalProxy>
+  <WebCrawlerWorkerThreads>2</WebCrawlerWorkerThreads>
+  <PageLoadTimeoutSeconds>60</PageLoadTimeoutSeconds>
+  <MainFrameTimeoutSeconds>20</MainFrameTimeoutSeconds>
+  <SubframeTimeoutSeconds>10</SubframeTimeoutSeconds>
+  <IsPartialPageLoad>true</IsPartialPageLoad>
+  <AjaxCallTimeoutSeconds>30</AjaxCallTimeoutSeconds>
+  <AjaxWaitForBusyBrowser>true</AjaxWaitForBusyBrowser>
+  <PageLoadDelayMilliseconds>1000</PageLoadDelayMilliseconds>
+  <PageLoadDelayMaxMilliseconds>5000</PageLoadDelayMaxMilliseconds>
+  <IsRandomPageLoadDelay>false</IsRandomPageLoadDelay>
+  <ScriptAssemblyReferences />
+  <BlockedUrls />
+  <InputParameters />
+  <DocumentPath />
+  <Postprocessing>
+    <IsEnabled>false</IsEnabled>
+    <PostprocessingType>Script</PostprocessingType>
+    <Procedure />
+    <Assembly />
+    <IsPostProcessAfterDataConversion>false</IsPostProcessAfterDataConversion>
+    <IsPostProcessRawData>false</IsPostProcessRawData>
+    <Script>
+      <IsEnabled>false</IsEnabled>
+      <ScriptType>Postprocessing</ScriptType>
+      <ScriptLanguage>Csharp</ScriptLanguage>
+      <Script />
+      <IsRegexOnHtml>false</IsRegexOnHtml>
+    </Script>
+  </Postprocessing>
+  <XpathFunctions>
+    <IsEnabled>false</IsEnabled>
+    <ScriptType>XpathFunctions</ScriptType>
+    <ScriptLanguage>Csharp</ScriptLanguage>
+    <Script />
+    <IsRegexOnHtml>false</IsRegexOnHtml>
+  </XpathFunctions>
+  <DataConfiguration>
+    <IsTruncateTable>false</IsTruncateTable>
+    <IsResetData>false</IsResetData>
+    <InputDataSource>
+      <Sql />
+      <DataSourceType>SqlDatabase</DataSourceType>
+      <IsEnabled>false</IsEnabled>
+      <SqlDatabase>
+        <Server>(local)</Server>
+        <UseWindowsAuthentication>true</UseWindowsAuthentication>
+        <UserName />
+        <Password />
+        <Database />
+      </SqlDatabase>
+      <MySqlDatabase>
+        <Server>localhost</Server>
+        <UserName />
+        <Password />
+        <CommandTimeout>30000</CommandTimeout>
+        <Port>3306</Port>
+        <CharSet />
+        <MaxIndexKeyLength>767</MaxIndexKeyLength>
+        <Database />
+      </MySqlDatabase>
+      <OleDbConnectionString />
+      <FilePath />
+      <CsvSeparator>Comma</CsvSeparator>
+      <CsvCharacterset>ANSI</CsvCharacterset>
+      <DesignRowIndex>0</DesignRowIndex>
+      <InputDataScript>
+        <IsEnabled>false</IsEnabled>
+        <ScriptType>InputDataScript</ScriptType>
+        <ScriptLanguage>Csharp</ScriptLanguage>
+        <Script />
+        <IsRegexOnHtml>false</IsRegexOnHtml>
+      </InputDataScript>
+      <OleDbConnectionStringEncrypt />
+    </InputDataSource>
+    <MainTableName />
+    <DataSource>
+      <DataSourceType>XLS</DataSourceType>
+      <SqlDatabase>
+        <Server>(local)</Server>
+        <UseWindowsAuthentication>true</UseWindowsAuthentication>
+        <UserName />
+        <Password />
+        <Database />
+      </SqlDatabase>
+      <MySqlDatabase>
+        <Server>localhost</Server>
+        <UserName />
+        <Password />
+        <CommandTimeout>30000</CommandTimeout>
+        <Port>3306</Port>
+        <CharSet />
+        <MaxIndexKeyLength>767</MaxIndexKeyLength>
+        <Database />
+      </MySqlDatabase>
+      <OleDbConnectionString />
+      <OleDbKeyType />
+      <OleDbTextType />
+      <OutputFolder />
+      <LogFolder />
+      <FilesOutputFolder />
+      <CsvFileEncoding>ascii</CsvFileEncoding>
+      <CsvSeparator>,</CsvSeparator>
+      <IsDefaultOutputFolder>true</IsDefaultOutputFolder>
+      <IsFlattenData>false</IsFlattenData>
+      <IsTimeStampOutputFile>false</IsTimeStampOutputFile>
+      <IsClearOutputFolder>false</IsClearOutputFolder>
+      <UseOriginalFileNames>false</UseOriginalFileNames>
+      <IsSynchDatabaseKeys>false</IsSynchDatabaseKeys>
+      <IsTruncateTable>true</IsTruncateTable>
+      <IsResetData>true</IsResetData>
+      <DataExtractionMethod>ReplaceExistingData</DataExtractionMethod>
+    </DataSource>
+    <SaveDuplicateReferenceData>true</SaveDuplicateReferenceData>
+    <SharedDatabaseConfiguration>
+      <DataSourceType>SqlDatabase</DataSourceType>
+      <IsEnabled>false</IsEnabled>
+      <SqlDatabase>
+        <Server>(local)</Server>
+        <UseWindowsAuthentication>true</UseWindowsAuthentication>
+        <UserName />
+        <Password />
+        <Database />
+      </SqlDatabase>
+      <MySqlDatabase>
+        <Server>localhost</Server>
+        <UserName />
+        <Password />
+        <CommandTimeout>30000</CommandTimeout>
+        <Port>3306</Port>
+        <CharSet />
+        <MaxIndexKeyLength>767</MaxIndexKeyLength>
+        <Database />
+      </MySqlDatabase>
+      <OleDbConnectionString />
+      <OracleConnectionString>aMM3k8MrXKjKMkviLl1JftbFCVn8WnCU2FQF9eAhg8MxvbKug0Ddr4IeF91r02WIVLlVLJ3sFoHxKrfcCp4qmMdAx8litOocLXvYukl5rsrUzM2mKOsfoNkh45GOAG3JvACM25HS5QjSFbL+zAxsrEJeyXbm</OracleConnectionString>
+      <OleDbConnectionStringEncrypt />
+      <OracleConnectionStringEncrypt>Data Source=//localhost:1521/SID;User Id=USER_NAME;Password=PASSWORD;</OracleConnectionStringEncrypt>
+    </SharedDatabaseConfiguration>
+  </DataConfiguration>
+  <IgnorePageLoadErrorCodes>false</IgnorePageLoadErrorCodes>
+  <AllowUnsafeHeaderParsing>true</AllowUnsafeHeaderParsing>
+  <ProjectInitialize>
+    <IsEnabled>false</IsEnabled>
+    <ScriptType>ProjectInitialize</ScriptType>
+    <ScriptLanguage>Csharp</ScriptLanguage>
+    <Script />
+    <IsRegexOnHtml>false</IsRegexOnHtml>
+  </ProjectInitialize>
+  <SaveFullLocalPath>true</SaveFullLocalPath>
+  <MaxMemoryUsageMb>1024</MaxMemoryUsageMb>
+  <RestartBrowserIntervalMinutes>0</RestartBrowserIntervalMinutes>
+  <Restart>Default</Restart>
+  <MinAvailableMemoryMb>200</MinAvailableMemoryMb>
+  <CacheMinutes>0</CacheMinutes>
+  <IsCacheExport>false</IsCacheExport>
+  <IsCacheRestartBrowser>false</IsCacheRestartBrowser>
+  <MaxEditorCaptureLength>0</MaxEditorCaptureLength>
+  <WebCrawlerParser>BackwardCompatibility</WebCrawlerParser>
+  <IsMaintainWebCrawlerCookies>true</IsMaintainWebCrawlerCookies>
+  <IsIgnorePageLoadErrorCodes>true</IsIgnorePageLoadErrorCodes>
+  <IsKeepConnectionsAlive>true</IsKeepConnectionsAlive>
+  <CustomUserAgent>chrome</CustomUserAgent>
+  <SaveDataMethod>Default</SaveDataMethod>
+  <AlwaysExportParentData>true</AlwaysExportParentData>
+  <AgentVersion>2</AgentVersion>
+  <InternalDatabaseConfiguration>
+    <DatabaseType>SQLite</DatabaseType>
+    <SqlServerDatabase>
+      <Server>(local)</Server>
+      <UseWindowsAuthentication>true</UseWindowsAuthentication>
+      <UserName />
+      <Password />
+      <Database />
+    </SqlServerDatabase>
+    <MySqlDatabase>
+      <Server>localhost</Server>
+      <UserName />
+      <Password />
+      <CommandTimeout>30000</CommandTimeout>
+      <Port>3306</Port>
+      <CharSet />
+      <MaxIndexKeyLength>767</MaxIndexKeyLength>
+      <Database />
+    </MySqlDatabase>
+    <OracleConnectionString>Data Source=//localhost:1521/SID;User Id=USER_NAME;Password=PASSWORD;</OracleConnectionString>
+    <LogDatabasePath />
+    <ProcessDatabasePath />
+    <ExportDatabasePath />
+    <InternalDatabasePath />
+    <IsDefaultDatabaseLocations>true</IsDefaultDatabaseLocations>
+    <IsDefaultFilesFolder>true</IsDefaultFilesFolder>
+    <FilesFolder>C:\Users\Administrator\Documents\Visual Web Ripper\Output\MassachusettsBureauOfPublicHealthFacilities_11722_0_Main\Files</FilesFolder>
+    <ConversionFilesFolder />
+    <IsSaveFilesToDisk>false</IsSaveFilesToDisk>
+    <IsOverwriteInternalData>false</IsOverwriteInternalData>
+    <ExportLastSegment>false</ExportLastSegment>
+    <DataExtractionMethod>ReplaceExistingData</DataExtractionMethod>
+  </InternalDatabaseConfiguration>
+  <ExternalDataConfiguration>
+    <DataSourceType>CSV</DataSourceType>
+    <SqlDatabase>
+      <Server>(local)</Server>
+      <UseWindowsAuthentication>true</UseWindowsAuthentication>
+      <UserName />
+      <Password />
+      <Database />
+    </SqlDatabase>
+    <MySqlDatabase>
+      <Server>localhost</Server>
+      <UserName />
+      <Password />
+      <CommandTimeout>30000</CommandTimeout>
+      <Port>3306</Port>
+      <CharSet />
+      <MaxIndexKeyLength>767</MaxIndexKeyLength>
+      <Database />
+    </MySqlDatabase>
+    <ExportScript>
+      <IsEnabled>false</IsEnabled>
+      <ScriptType>DataExport</ScriptType>
+      <ScriptLanguage>Csharp</ScriptLanguage>
+      <Script />
+      <IsRegexOnHtml>false</IsRegexOnHtml>
+    </ExportScript>
+    <OracleConnectionString>irWWT35bYyeFetlZRanJqFjwhe0VZfg/ZBrNtJhJ8TlTvnVYtVA3IT5FIYOnbx5W59qWRvbxLQSQnSZ4OzCJktPwgsp6sk8nlinejOite0TBKDA0eFZbDf2EY0TJD18KBmNmQ6VqLDCFFc4vQG35AgHc3+6QajHj1/z+DYmsI8asaT450Verl+WNeksExQ==</OracleConnectionString>
+    <OleDbConnectionString />
+    <OleDbKeyType />
+    <OleDbTextType />
+    <OleDbBinaryType />
+    <OleDbShortTextType />
+    <OleDbParameters />
+    <LogFolder />
+    <FilesOutputFolder>V:\Output</FilesOutputFolder>
+    <FilePath>V:\Output\MassachusettsBureauOfPublicHealthFacilities_11722_0_Main.csv</FilePath>
+    <CsvAppendData>false</CsvAppendData>
+    <CsvFileEncoding>unicode</CsvFileEncoding>
+    <CsvSeparator>,</CsvSeparator>
+    <IsTimeStampOutputFile>false</IsTimeStampOutputFile>
+    <IsExcelWriteImagesToDisk>false</IsExcelWriteImagesToDisk>
+    <IsExcelRepeatMainHeadersWhenChildTable>true</IsExcelRepeatMainHeadersWhenChildTable>
+    <IsExcelOutlineFirstChildTable>true</IsExcelOutlineFirstChildTable>
+    <IsPdfWriteImagesToDisk>false</IsPdfWriteImagesToDisk>
+    <IsPdfRepeatMainHeadersWhenChildTable>true</IsPdfRepeatMainHeadersWhenChildTable>
+    <OracleConnectionStringEncrypt>Provider=OraOLEDB.Oracle;Data Source=//localhost:1521/SID;User Id=USER_NAME;Password=PASSWORD;</OracleConnectionStringEncrypt>
+    <OleDbConnectionStringEncrypt />
+  </ExternalDataConfiguration>
+  <DuplicateCheckOnExport>false</DuplicateCheckOnExport>
+  <RetryErrorsOnResume>false</RetryErrorsOnResume>
+  <RetryCountOnCompletedWithErrors>0</RetryCountOnCompletedWithErrors>
+  <RedirectToModalDialogs>false</RedirectToModalDialogs>
+  <BasicAuthenticationUsername />
+  <BasicAuthenticationPassword />
+  <UseSizedInvisibleBrowserWindows>false</UseSizedInvisibleBrowserWindows>
+  <SizedInvisibleBrowserWidth>1000</SizedInvisibleBrowserWidth>
+  <SizedInvisibleBrowserHeight>1000</SizedInvisibleBrowserHeight>
+  <InjectEventHooksInDesign>false</InjectEventHooksInDesign>
+  <IsInjectDialogsHook>false</IsInjectDialogsHook>
+  <IsTrustedWebsite>false</IsTrustedWebsite>
+  <PluginName />
+  <PluginParameters />
+  <NeverDeleteDataFromExternalDatabase>false</NeverDeleteDataFromExternalDatabase>
+  <LogTimestampFormat>yy-MM-dd HH:mm:ss</LogTimestampFormat>
+  <IsRestartBrowserOnFailure>false</IsRestartBrowserOnFailure>
+  <IsDetectEncoding>true</IsDetectEncoding>
+  <IsPageLoadErrorOnCertErrors>false</IsPageLoadErrorOnCertErrors>
+  <IsPageLoadErrorOnSSL3>false</IsPageLoadErrorOnSSL3>
+  <IsGenerateExportData>true</IsGenerateExportData>
+  <WebCrawlerWebPageCache>Default</WebCrawlerWebPageCache>
+  <BrowserOptions>
+    <ModifyBrowserBehaviour>true</ModifyBrowserBehaviour>
+    <DislayImages>true</DislayImages>
+    <DisplayFlash>true</DisplayFlash>
+    <IgnoreCache>false</IgnoreCache>
+    <ExecuteScripts>true</ExecuteScripts>
+    <LoadFrames>true</LoadFrames>
+  </BrowserOptions>
+  <Notes />
+  <HideSelectionStyles>false</HideSelectionStyles>
+  <l>MjAxMDA1MDc=</l>
+  <SupportKey>a4rAPXqL9YKe4ILS7czQovBu%2BA3W2DvmZeUz8oiNv14ZWpdICzULxmhTOf3oqpfLVaW4k9jm7aVNblWhNemEc7dMrXkppWDGzG86hRqPY%2BsNQw%2FsFRalDMMsZ8%2FItwxGsPir7VifSBPYcIbkeuBxvy%2BRiGTtn8azTi8mYF5M%2F%2Bk%3D</SupportKey>
+  <mpl>MA==</mpl>
+  <vd>MjAyMDA3MTU=</vd>
+</WrProject>

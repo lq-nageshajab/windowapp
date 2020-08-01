@@ -1,0 +1,3 @@
+
+
+ripFile.Descendants("Name").ElementAt(2).Parent.Name=="Content"

@@ -1,0 +1,34 @@
+**************BHISeniorLiving_90199_0_Main.rip**************
+
+JobDescription      //DIV[@class='job-posting']
+JobDescriptionHTML  //DIV[@class='job-posting']
+JobTitle            Fixed Value         
+
+* Proxies not present in this file
+
+
+
+
+**************BHISeniorLiving_90199_0_StartUrls.rip**************
+
+JobDetailUrl        //H4[@class='list-group-item-heading']/A[1]
+Jobs                //LI[@class='list-group-item']
+Next                //li[@class!="disabled"]/a[.="¯"]
+
+* Required element TotalJobs not found
+
+
+
+
+**************BHISeniorLiving_90199_0_StartUrls_2.rip**************
+
+JobDetailUrl        //H4[@class='list-group-item-heading']/A[1]
+Jobs                //LI[@class='list-group-item']
+Next                //li[@class!="disabled"]/a[.="¯"]
+
+* Required element TotalJobs not found
+
+
+
+
+Press enter to exit....

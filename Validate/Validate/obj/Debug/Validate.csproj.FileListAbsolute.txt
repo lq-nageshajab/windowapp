@@ -1,0 +1,21 @@
+E:\Nagesh\Projects\LiquidCompass\AutomationTool\Validate\Validate\bin\Debug\Validate.exe.config
+E:\Nagesh\Projects\LiquidCompass\AutomationTool\Validate\Validate\bin\Debug\Validate.exe
+E:\Nagesh\Projects\LiquidCompass\AutomationTool\Validate\Validate\bin\Debug\Validate.pdb
+E:\Nagesh\Projects\LiquidCompass\AutomationTool\Validate\Validate\obj\Debug\Validate.csprojAssemblyReference.cache
+E:\Nagesh\Projects\LiquidCompass\AutomationTool\Validate\Validate\obj\Debug\Validate.csproj.CoreCompileInputs.cache
+E:\Nagesh\Projects\LiquidCompass\AutomationTool\Validate\Validate\obj\Debug\Validate.exe
+E:\Nagesh\Projects\LiquidCompass\AutomationTool\Validate\Validate\obj\Debug\Validate.pdb
+D:\Users\najab\Downloads\Validate\Validate\Validate\bin\Debug\Validate.exe.config
+D:\Users\najab\Downloads\Validate\Validate\Validate\bin\Debug\Validate.exe
+D:\Users\najab\Downloads\Validate\Validate\Validate\bin\Debug\Validate.pdb
+D:\Users\najab\Downloads\Validate\Validate\Validate\obj\Debug\Validate.csprojAssemblyReference.cache
+D:\Users\najab\Downloads\Validate\Validate\Validate\obj\Debug\Validate.csproj.CoreCompileInputs.cache
+D:\Users\najab\Downloads\Validate\Validate\Validate\obj\Debug\Validate.exe
+D:\Users\najab\Downloads\Validate\Validate\Validate\obj\Debug\Validate.pdb
+D:\Users\najab\Google Drive\Window App\Validate\Validate\Validate\bin\Debug\Validate.exe.config
+D:\Users\najab\Google Drive\Window App\Validate\Validate\Validate\bin\Debug\Validate.exe
+D:\Users\najab\Google Drive\Window App\Validate\Validate\Validate\bin\Debug\Validate.pdb
+D:\Users\najab\Google Drive\Window App\Validate\Validate\Validate\obj\Debug\Validate.csprojAssemblyReference.cache
+D:\Users\najab\Google Drive\Window App\Validate\Validate\Validate\obj\Debug\Validate.csproj.CoreCompileInputs.cache
+D:\Users\najab\Google Drive\Window App\Validate\Validate\Validate\obj\Debug\Validate.exe
+D:\Users\najab\Google Drive\Window App\Validate\Validate\Validate\obj\Debug\Validate.pdb
