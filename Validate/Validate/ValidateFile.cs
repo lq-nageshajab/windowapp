@@ -3,6 +3,7 @@ using System.Collections;
 using System.IO;
 using System.Linq;
 using System.Xml.Linq;
+using static Validate.Common;
 
 namespace Validate
 {
@@ -13,24 +14,45 @@ namespace Validate
 
         static XElement element;
 
+        public static ArrayList IsValid()
+        {
+            AreProxiesPresent();
+            ProjectAdvancedProperties();
+            SaveContentFalse();
+            PageNavigationAutoDetect();
+            if (Common.Filename.Contains("StartUrls"))
+                StartFile.TestStartFile();
+            else if (Common.Filename.Contains("Main"))
+                MainFile.TestMainFile();
+            else
+                StandaloneFile.testStandaloneFile();
+
+            return Common.ErrorList;
+        }
+
         /// <summary>
         /// Print element with xpath
         /// </summary>
         /// <param name="elementToFind"></param>
         /// <param name="ContentOrTemplate"></param>
         /// <param name="required"></param>
-        private static void PrintElement(string elementToFind, string ContentOrTemplate = "Content", bool required = false)
-        {
+        public static void PrintElement(string elementToFind, ElementType elementType, bool required = false)
+        {            
+
             ElementSpecificProperties(elementToFind);
-            element = Common.FindElement(elementToFind, ContentOrTemplate);
+            element = Common.FindElement(elementToFind, elementType);
 
             if (element != null)
             {
-                var contentType = element.Ancestors(ContentOrTemplate).Descendants("ContentType").FirstOrDefault().Value;
+                var contentType = element.Ancestors(elementType.ToString()).Descendants("ContentType").FirstOrDefault().Value;
 
                 if (contentType != "FixedValue")
                 {
-                    xpath = element.Ancestors(ContentOrTemplate).Descendants("NodePath").Descendants("Path").FirstOrDefault().Value;
+                    xpath = element.Ancestors(elementType.ToString()).Descendants("NodePath").Descendants("Path").FirstOrDefault().Value;
+                    if (string.IsNullOrWhiteSpace(xpath))
+                    {
+                        xpath = element.Ancestors(elementType.ToString()).Descendants("PageAreaNodePath").FirstOrDefault().Value;
+                    }
                 }
                 else
                 {
@@ -86,9 +108,9 @@ namespace Validate
                 Common.ErrorList.Add("IgnorePageLoadErrorCodes property is true in this file");
             if (Common.RipFile.Descendants("IsRefreshAfterPageLoad").FirstOrDefault().Value.Trim().ToLower() == "true")
                 Common.ErrorList.Add("IsRefreshAfterPageLoad property is true in this file");
-            if(Common.RipFile.Descendants("AjaxDelayMilliseconds").
-                Where(e=>e.Parent.Name== "Template").
-                FirstOrDefault().Value.Trim()!="100")
+            if (Common.RipFile.Descendants("AjaxDelayMilliseconds").
+                Where(e => e.Parent.Name == "Template").
+                FirstOrDefault().Value.Trim() != "100")
                 Common.ErrorList.Add("project advanced properties - Delay after ajax call milliseconds should be set default to 100");
             if (Common.RipFile.Descendants("DelayAfterCompletedActionMilliseconds").
                 Where(e => e.Parent.Name == "Template").
@@ -102,14 +124,14 @@ namespace Validate
                 Where(e => e.Parent.Name == "Template").
                 FirstOrDefault().Value.Trim() != "false")
                 Common.ErrorList.Add("project advanced properties -IsWaitForAjaxAfterPageLoad should be set to false");
-            if (Common.RipFile.Descendants("IsRandomPageLoadDelay")?.                
+            if (Common.RipFile.Descendants("IsRandomPageLoadDelay")?.
                 FirstOrDefault()?.Value?.Trim() == "true")
                 Common.ErrorList.Add("project advanced properties - IsRandomPageLoadDelay should be set to false");
 
 
             var PageLoadDelayMilliseconds = Common.RipFile.Descendants("PageLoadDelayMilliseconds")?.
                 FirstOrDefault()?.Value?.Trim();
-            if (PageLoadDelayMilliseconds!=null && PageLoadDelayMilliseconds!="1000")
+            if (PageLoadDelayMilliseconds != null && PageLoadDelayMilliseconds != "1000")
                 Common.ErrorList.Add("project advanced properties - Min page load dealy should be set to 1000");
 
             var PageLoadDelayMaxMilliseconds = Common.RipFile.Descendants("PageLoadDelayMaxMilliseconds")?.
@@ -123,56 +145,6 @@ namespace Validate
 
         }
 
-        public static ArrayList IsValid()
-        {
-            AreProxiesPresent();
-            ProjectAdvancedProperties();
-            SaveContentFalse();
-            PageNavigationAutoDetect();
-            if (Common.Filename.Contains("StartUrls"))
-                TestStartFile();
-            else if (Common.Filename.Contains("Main"))
-                TestMainFile();
-            else
-                testStandaloneFile();
-
-            return Common.ErrorList;
-
-        }
-
-        private static void TestStartFile()
-        {
-            //required elements
-            PrintElement("TotalJobs", "Content", true);
-            PrintElement("JobDetailUrl", "Content", true);
-
-            //optional elements
-            PrintElement("Jobs", "Template");
-            PrintElement("Next", "Template");
-            PrintElement("JobTitle", "Content");
-            PrintElement("HospitalJobId", "Content");
-            PrintElement("HospitalName", "Content");
-            PrintElement("JobCategory", "Content");
-            PrintElement("City", "Content");
-            PrintElement("State", "Content");
-            PrintElement("TimeOfDay", "Content");
-            PrintElement("Note", "Content");
-        }
-        private static void TestMainFile()
-        {
-            if (Common.RipFile.Descendants("IsExtractText").FirstOrDefault().Value == "false")
-                Common.ErrorList.Add("The Main script should ALWAYS have the “Include Start URLs in data output” checkbox checked");
-
-            //required elements
-            PrintElement("JobDescription", "Content", true);
-            PrintElement("JobDescriptionHTML", "Content", true);
-            //check starturl element property 
-            //FindElement("JobDetailUrl");
-            PrintElement("JobTitle", "Content", true);
-        }
-        private static void testStandaloneFile()
-        {
-
-        }
+       
     }
 }

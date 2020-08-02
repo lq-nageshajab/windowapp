@@ -7,7 +7,6 @@ namespace Validate
 {
     class Program
     {
-
         static void Main(string[] args)
         {
             FileInfo file;
@@ -37,7 +36,7 @@ namespace Validate
                 }
 
                 i++;
-                Console.Write("\n\n\n\n");
+                Console.Write("\n\n\n");
             }
             Console.WriteLine("Press enter to exit....");
             Console.ReadLine();

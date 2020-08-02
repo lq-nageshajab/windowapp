@@ -19,3 +19,10 @@ D:\Users\najab\Google Drive\Window App\Validate\Validate\Validate\obj\Debug\Vali
 D:\Users\najab\Google Drive\Window App\Validate\Validate\Validate\obj\Debug\Validate.csproj.CoreCompileInputs.cache
 D:\Users\najab\Google Drive\Window App\Validate\Validate\Validate\obj\Debug\Validate.exe
 D:\Users\najab\Google Drive\Window App\Validate\Validate\Validate\obj\Debug\Validate.pdb
+V:\Synerzip\Nagesh2\windowapp\Validate\Validate\bin\Debug\Validate.exe.config
+V:\Synerzip\Nagesh2\windowapp\Validate\Validate\bin\Debug\Validate.exe
+V:\Synerzip\Nagesh2\windowapp\Validate\Validate\bin\Debug\Validate.pdb
+V:\Synerzip\Nagesh2\windowapp\Validate\Validate\obj\Debug\Validate.csprojAssemblyReference.cache
+V:\Synerzip\Nagesh2\windowapp\Validate\Validate\obj\Debug\Validate.csproj.CoreCompileInputs.cache
+V:\Synerzip\Nagesh2\windowapp\Validate\Validate\obj\Debug\Validate.exe
+V:\Synerzip\Nagesh2\windowapp\Validate\Validate\obj\Debug\Validate.pdb

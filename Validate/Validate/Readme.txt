@@ -1,8 +1,11 @@
 ﻿1. Print each element with xpath
-2. Find mandatory element not present in start and main file(some configuration pending in code)
+2. Find mandatory element not present in start and main file
 3. page navigation should not have autoDetect set as action
 4. check proxies are present or not
 5. Note element having name 'DONOTUSE' should have their Misc-Save Content property always be false
+
+--start file
+if element TotalJobs_DONOTUSE is present then do not show error 'Required element TotalJobs do not exists'
 
 --project properties
 6. RunActiveXAndFlash property should be false

@@ -1,5 +1,4 @@
-﻿
-Against burn in excel 
+﻿Against burn in excel 
 1. IsRestartPeriodically should always be set to “Y”.
 2. proxies are set to Y or not
 
@@ -15,5 +14,5 @@ Check csv output file
 I noticed that IsNoProxies is set to Y and the scrape is set to run with RestartMethod = EntireProcess, so I set it back to the default values of IsNoProxies = N, RestartMethod = WebBrowser and RestartInterval  = 20
 
 //DONOTUSE
-I noticed if TotalJobs_DONTUSE element is present in the scrape in that case it should not show error for TotalJobs
+I noticed if TotalJobs_DONOTUSE element is present in the scrape in that case it should not show error for TotalJobs
 as 'Reqiured element TotalJobs not found' in this case only one element will be present at time.
