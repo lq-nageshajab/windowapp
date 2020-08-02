@@ -15,10 +15,13 @@ if element TotalJobs_DONOTUSE is present then do not show error 'Required elemen
 8. IgnorePageLoadErrorCodes property should be false
 9. IsRefreshAfterPageLoad property should be false
 
-10. Delay after ajax call milliseconds should be set default to 100
-11. Delay after completed action milliseconds should be set default to 0
-12. Wait for main document redirect should be set to false
-13. IsRandomPageLoadDelay should be set to false
-14. Min page load dealy should be set to 1000
-15. Max page load dealy should be set to 5000
-16. IsWaitForAjaxAfterPageLoad should be set to false
+--template advanced properties
+10. IsRefreshAfterPageLoad property should be false
+
+11. Delay after ajax call milliseconds should be set default to 100
+12. Delay after completed action milliseconds should be set default to 0
+13. Wait for main document redirect should be set to false
+14. IsRandomPageLoadDelay should be set to false
+15. Min page load dealy should be set to 1000
+16. Max page load dealy should be set to 5000
+17. IsWaitForAjaxAfterPageLoad should be set to false

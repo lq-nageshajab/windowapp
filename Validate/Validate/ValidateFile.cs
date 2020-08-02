@@ -37,7 +37,7 @@ namespace Validate
         /// <param name="ContentOrTemplate"></param>
         /// <param name="required"></param>
         public static void PrintElement(string elementToFind, ElementType elementType, bool required = false)
-        {            
+        {
 
             ElementSpecificProperties(elementToFind);
             element = Common.FindElement(elementToFind, elementType);
@@ -106,26 +106,32 @@ namespace Validate
                 Common.ErrorList.Add("RunActiveXAndFlash property is true in this file");
             if (Common.RipFile.Descendants("IgnorePageLoadErrorCodes").FirstOrDefault().Value.Trim().ToLower() == "true")
                 Common.ErrorList.Add("Project Advanced -> Action -> IgnorePageLoadErrorCodes property should be false by default.");
-            /************************/            
-            if (Common.RipFile.Descendants("Name").Where(e => e.Value == Common.ShortFileName()).Ancestors().Where(f => f.Name == "Template").Descendants("IsRefreshAfterPageLoad").FirstOrDefault().Value.Trim().ToLower()=="true")
-                Common.ErrorList.Add("IsRefreshAfterPageLoad property is true in this file");
-                
+
+            if (Common.RipFile.Descendants("IsRefreshAfterPageLoad").Where(e => e.Value == "true").Count() > 0)
+                Common.ErrorList.Add("IsRefreshAfterPageLoad property is true in this file. Check template & project advanced properties");
+
+            if (Common.RipFile.Descendants("DelayBetweenEventsMilliseconds").Where(e => e.Value != "0").Count() > 0)
+                Common.ErrorList.Add("DelayBetweenEventsMilliseconds property is not equal to 0 in this file. Check template advanced properties");
+
             if (Common.RipFile.Descendants("AjaxDelayMilliseconds").
                 Where(e => e.Parent.Name == "Template").
                 FirstOrDefault().Value.Trim() != "100")
                 Common.ErrorList.Add("project advanced properties - Delay after ajax call milliseconds should be set default to 100");
+
             if (Common.RipFile.Descendants("DelayAfterCompletedActionMilliseconds").
                 Where(e => e.Parent.Name == "Template").
                 FirstOrDefault().Value.Trim() != "0")
                 Common.ErrorList.Add("project advanced properties - Delay after completed action milliseconds should be set default to 0");
+
             if (Common.RipFile.Descendants("IsWaitForMainDocumentRedirect").
                 Where(e => e.Parent.Name == "Template").
                 FirstOrDefault().Value.Trim() != "false")
                 Common.ErrorList.Add("project advanced properties - Wait for main document redirect should be set to false");//
+
             if (Common.RipFile.Descendants("IsWaitForAjaxAfterPageLoad").
-                Where(e => e.Parent.Name == "Template").
-                FirstOrDefault().Value.Trim() != "false")
+                Where(e => e.Value == "true").Count()>0)
                 Common.ErrorList.Add("project advanced properties -IsWaitForAjaxAfterPageLoad should be set to false");
+
             if (Common.RipFile.Descendants("IsRandomPageLoadDelay")?.
                 FirstOrDefault()?.Value?.Trim() == "true")
                 Common.ErrorList.Add("project advanced properties - IsRandomPageLoadDelay should be set to false");
@@ -147,6 +153,6 @@ namespace Validate
 
         }
 
-       
+
     }
 }
