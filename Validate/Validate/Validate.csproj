@@ -55,10 +55,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="scrapeToTest\MassachusettsBureauOfPublicHealthFacilities_11722_0_Main.rip" />
-    <None Include="scrapeToTest\MassachusettsBureauOfPublicHealthFacilities_11722_0_StartUrls.rip" />
-    <None Include="scrapeToTest\PrimeHealthcareServices_11874_0_Main.rip" />
-    <None Include="scrapeToTest\PrimeHealthcareServices_11874_0_StartUrls.rip" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="improvement.txt" />

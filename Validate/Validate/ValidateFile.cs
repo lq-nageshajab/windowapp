@@ -105,9 +105,11 @@ namespace Validate
             if (Common.RipFile.Descendants("BrowserOptions").Descendants("DisplayFlash").FirstOrDefault().Value.Trim().ToLower() == "true")
                 Common.ErrorList.Add("RunActiveXAndFlash property is true in this file");
             if (Common.RipFile.Descendants("IgnorePageLoadErrorCodes").FirstOrDefault().Value.Trim().ToLower() == "true")
-                Common.ErrorList.Add("IgnorePageLoadErrorCodes property is true in this file");
-            if (Common.RipFile.Descendants("IsRefreshAfterPageLoad").FirstOrDefault().Value.Trim().ToLower() == "true")
+                Common.ErrorList.Add("Project Advanced -> Action -> IgnorePageLoadErrorCodes property should be false by default.");
+            /************************/            
+            if (Common.RipFile.Descendants("Name").Where(e => e.Value == Common.ShortFileName()).Ancestors().Where(f => f.Name == "Template").Descendants("IsRefreshAfterPageLoad").FirstOrDefault().Value.Trim().ToLower()=="true")
                 Common.ErrorList.Add("IsRefreshAfterPageLoad property is true in this file");
+                
             if (Common.RipFile.Descendants("AjaxDelayMilliseconds").
                 Where(e => e.Parent.Name == "Template").
                 FirstOrDefault().Value.Trim() != "100")

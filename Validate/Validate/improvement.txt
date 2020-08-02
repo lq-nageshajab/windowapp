@@ -1,18 +1,13 @@
-﻿Against burn in excel 
+﻿--burn in excel 
 1. IsRestartPeriodically should always be set to “Y”.
 2. proxies are set to Y or not
 
-Against scrape maintenance sheet
+--scrape maintenance sheet
 1. compare scrape url from scrape maintenance sheet with VWR url
 2. scrape start name should match with that from scrape maintenance
 
-Check csv output file
+--csv output file
 1. posting Url length should not be greater than 450
-
 
 //Misc
 I noticed that IsNoProxies is set to Y and the scrape is set to run with RestartMethod = EntireProcess, so I set it back to the default values of IsNoProxies = N, RestartMethod = WebBrowser and RestartInterval  = 20
-
-//DONOTUSE
-I noticed if TotalJobs_DONOTUSE element is present in the scrape in that case it should not show error for TotalJobs
-as 'Reqiured element TotalJobs not found' in this case only one element will be present at time.
