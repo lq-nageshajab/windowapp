@@ -1,4 +1,7 @@
-﻿--burn in excel 
+﻿--scrape file
+1. check input and output file path
+
+--burn in excel 
 1. IsRestartPeriodically should always be set to “Y”.
 2. proxies are set to Y or not
 
