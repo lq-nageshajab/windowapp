@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Xml.Linq;
@@ -123,13 +124,23 @@ namespace Validate
                 FirstOrDefault().Value.Trim() != "0")
                 Common.ErrorList.Add("project advanced properties - Delay after completed action milliseconds should be set default to 0");
 
+            IEnumerable<XElement> lstTemplateDelayAfterCompletedActionMilliseconds = Common.RipFile.Descendants("DelayAfterCompletedActionMilliseconds").Where(e => e.Parent.Name == "Template").Where(e => e.Value != "0");
+            if (lstTemplateDelayAfterCompletedActionMilliseconds.Count() != 0)
+            {
+                foreach (XElement xe in lstTemplateDelayAfterCompletedActionMilliseconds)
+                {
+                    var templateName = xe.Parent.Descendants("Name").FirstOrDefault().Value;
+                    Common.ErrorList.Add(string.Format("Template {0} advanced properties - Delay after completed action milliseconds should be set default to 0",templateName));
+                }
+            }
+
             if (Common.RipFile.Descendants("IsWaitForMainDocumentRedirect").
                 Where(e => e.Parent.Name == "Template").
                 FirstOrDefault().Value.Trim() != "false")
                 Common.ErrorList.Add("project advanced properties - Wait for main document redirect should be set to false");//
 
             if (Common.RipFile.Descendants("IsWaitForAjaxAfterPageLoad").
-                Where(e => e.Value == "true").Count()>0)
+                Where(e => e.Value == "true").Count() > 0)
                 Common.ErrorList.Add("project advanced properties -IsWaitForAjaxAfterPageLoad should be set to false");
 
             if (Common.RipFile.Descendants("IsRandomPageLoadDelay")?.

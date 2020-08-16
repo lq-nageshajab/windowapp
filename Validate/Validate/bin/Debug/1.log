@@ -1,33 +1,43 @@
-**************BHISeniorLiving_90199_0_Main.rip**************
+**************TenderTouchRehab_74482_0_Main.rip**************
 
-JobDescription      //DIV[@class='job-posting']
-JobDescriptionHTML  //DIV[@class='job-posting']
+JobDescription      //DIV[@class='col-xs-12 col-sm-12 col-md-8']/P[5]
+JobDescriptionHTML  //DIV[@class='col-xs-12 col-sm-12 col-md-8']/P[5]
 JobTitle            Fixed Value         
+ScrapeTime          Fixed Value         
+UniqueJobKey        Fixed Value         
+WholePosting        //DIV[@class='col-xs-12 col-sm-12 col-md-8']
+WholePostingHTML    //DIV[@class='col-xs-12 col-sm-12 col-md-8']
+HospitalName        Fixed Value         
+TotalJobs           Fixed Value         
+
+* Required element City not found
+
+
+
+**************TenderTouchRehab_74482_0_StartUrls.rip**************
+
+TotalJobs           //h3[.="Positions Matched"]/following-sibling::span
+Jobs                //DIV[@class='jscroll-inner']/DIV
+JobTitle            //A[1]              
 
 * Proxies not present in this file
+* RunActiveXAndFlash property is true in this file
+* Template LoadMore advanced properties - Delay after completed action milliseconds should be set default to 0
+* Required element JobDetailUrl not found
 
 
 
+**************TenderTouchRehab_74482_0_StartUrls_modified.rip**************
 
-**************BHISeniorLiving_90199_0_StartUrls.rip**************
+TotalJobs           //h3[.="Positions Matched"]/following-sibling::span
+Jobs                //DIV[@class='jscroll-inner']/DIV
+JobTitle            //A[1]              
 
-JobDetailUrl        //H4[@class='list-group-item-heading']/A[1]
-Jobs                //LI[@class='list-group-item']
-Next                //li[@class!="disabled"]/a[.="¯"]
-
-* Required element TotalJobs not found
-
-
-
-
-**************BHISeniorLiving_90199_0_StartUrls_2.rip**************
-
-JobDetailUrl        //H4[@class='list-group-item-heading']/A[1]
-Jobs                //LI[@class='list-group-item']
-Next                //li[@class!="disabled"]/a[.="¯"]
-
-* Required element TotalJobs not found
-
+* Proxies not present in this file
+* RunActiveXAndFlash property is true in this file
+* Template ApplyNow advanced properties - Delay after completed action milliseconds should be set default to 0
+* Template LoadMore advanced properties - Delay after completed action milliseconds should be set default to 0
+* Required element JobDetailUrl not found
 
 
 
