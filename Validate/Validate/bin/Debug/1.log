@@ -10,6 +10,7 @@ WholePostingHTML    //DIV[@class='col-xs-12 col-sm-12 col-md-8']
 HospitalName        Fixed Value         
 TotalJobs           Fixed Value         
 
+* Proxies not present in this file
 * Required element City not found
 
 
@@ -20,22 +21,7 @@ TotalJobs           //h3[.="Positions Matched"]/following-sibling::span
 Jobs                //DIV[@class='jscroll-inner']/DIV
 JobTitle            //A[1]              
 
-* Proxies not present in this file
 * RunActiveXAndFlash property is true in this file
-* Template LoadMore advanced properties - Delay after completed action milliseconds should be set default to 0
-* Required element JobDetailUrl not found
-
-
-
-**************TenderTouchRehab_74482_0_StartUrls_modified.rip**************
-
-TotalJobs           //h3[.="Positions Matched"]/following-sibling::span
-Jobs                //DIV[@class='jscroll-inner']/DIV
-JobTitle            //A[1]              
-
-* Proxies not present in this file
-* RunActiveXAndFlash property is true in this file
-* Template ApplyNow advanced properties - Delay after completed action milliseconds should be set default to 0
 * Template LoadMore advanced properties - Delay after completed action milliseconds should be set default to 0
 * Required element JobDetailUrl not found
 

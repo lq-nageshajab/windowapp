@@ -86,7 +86,7 @@ namespace Validate
         private static void AreProxiesPresent()
         {
             int count = Common.RipFile.Descendants("ProxyAddresses").Descendants("ProxyAddress").Count();
-            if (count == 0)
+            if (Common.RipFile.Descendants("ProxySource").FirstOrDefault().Value != "ProxyList" || count == 0)
                 Common.ErrorList.Add("Proxies not present in this file");
         }
 
@@ -94,7 +94,7 @@ namespace Validate
         private static void SaveContentFalse()
         {
             var x = Common.RipFile.Descendants("Name")
-                .Where(e => e.Value.Contains("DoNotUse") && e.Parent.Name == "Content")?
+                .Where(e => e.Value.ToLower().Contains("donotuse") && e.Parent.Name == "Content")?
                 .FirstOrDefault()?.Parent;
             if (x != null)
                 if (x?.Descendants("IsSaveContent")?.FirstOrDefault()?.Value == "true")
@@ -130,7 +130,7 @@ namespace Validate
                 foreach (XElement xe in lstTemplateDelayAfterCompletedActionMilliseconds)
                 {
                     var templateName = xe.Parent.Descendants("Name").FirstOrDefault().Value;
-                    Common.ErrorList.Add(string.Format("Template {0} advanced properties - Delay after completed action milliseconds should be set default to 0",templateName));
+                    Common.ErrorList.Add(string.Format("Template {0} advanced properties - Delay after completed action milliseconds should be set default to 0", templateName));
                 }
             }
 
