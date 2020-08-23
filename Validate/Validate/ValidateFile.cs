@@ -12,7 +12,6 @@ namespace Validate
     {
         static string elementName;
         static string xpath = string.Empty;
-
         static XElement element;
 
         public static ArrayList IsValid()
@@ -21,16 +20,15 @@ namespace Validate
             ProjectAdvancedProperties();
             SaveContentFalse();
             PageNavigationAutoDetect();
-            if (Common.Filename.Contains("StartUrls"))
+            if (Filename.Contains("StartUrls"))
                 StartFile.TestStartFile();
-            else if (Common.Filename.Contains("Main"))
+            else if (Filename.Contains("Main"))
                 MainFile.TestMainFile();
             else
                 StandaloneFile.testStandaloneFile();
 
-            return Common.ErrorList;
+            return ErrorList;
         }
-
         /// <summary>
         /// Print element with xpath
         /// </summary>
@@ -70,7 +68,6 @@ namespace Validate
                     Common.ErrorList.Add(string.Format("Required element {0} not found", elementToFind));
             }
         }
-
         //page navigation should not have autoDetect set as action
         private static void PageNavigationAutoDetect()
         {
@@ -81,7 +78,6 @@ namespace Validate
                     Common.ErrorList.Add("Next page navigation action set to AutoDetect");
 
         }
-
         //check proxies are present or not
         private static void AreProxiesPresent()
         {
@@ -89,7 +85,6 @@ namespace Validate
             if (Common.RipFile.Descendants("ProxySource").FirstOrDefault().Value != "ProxyList" || count == 0)
                 Common.ErrorList.Add("Proxies not present in this file");
         }
-
         //Note element Misc-Save Content property should be false
         private static void SaveContentFalse()
         {
@@ -158,12 +153,10 @@ namespace Validate
             if (PageLoadDelayMaxMilliseconds != null && PageLoadDelayMaxMilliseconds != "5000")
                 Common.ErrorList.Add("project advanced properties - Max page load dealy should be set to 5000");
         }
-
         private static void ElementSpecificProperties(string elementToFind)
         {
 
         }
-
 
     }
 }

@@ -22,6 +22,9 @@ D:\Users\najab\Google Drive\Window App\Validate\Validate\Validate\obj\Debug\Vali
 V:\Synerzip\Nagesh2\windowapp\Validate\Validate\bin\Debug\Validate.exe.config
 V:\Synerzip\Nagesh2\windowapp\Validate\Validate\bin\Debug\Validate.exe
 V:\Synerzip\Nagesh2\windowapp\Validate\Validate\bin\Debug\Validate.pdb
+V:\Synerzip\Nagesh2\windowapp\Validate\Validate\bin\Debug\Newtonsoft.Json.dll
+V:\Synerzip\Nagesh2\windowapp\Validate\Validate\bin\Debug\Newtonsoft.Json.xml
 V:\Synerzip\Nagesh2\windowapp\Validate\Validate\obj\Debug\Validate.csproj.CoreCompileInputs.cache
+V:\Synerzip\Nagesh2\windowapp\Validate\Validate\obj\Debug\Validate.csproj.CopyComplete
 V:\Synerzip\Nagesh2\windowapp\Validate\Validate\obj\Debug\Validate.exe
 V:\Synerzip\Nagesh2\windowapp\Validate\Validate\obj\Debug\Validate.pdb

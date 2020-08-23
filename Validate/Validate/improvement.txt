@@ -1,4 +1,11 @@
-﻿--scrape file
+﻿
+--Scrape file
+*1. For Page Navigation-It should show which kind of action is selected for the perticular Navigation Template(Next).
+*2. If PageNavigation template (Next) is under- LoadMore[Group] for this case, automation tool does not show error pop-up 
+    for Action--> JAVA Script(Including AJAX), which wait for element selected A)Asynchronous B)Synchronous C)AJAX
+
+
+--scrape file
 1. check input and output file path
 
 --burn in excel 

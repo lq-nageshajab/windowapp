@@ -1,30 +1,64 @@
-**************TenderTouchRehab_74482_0_Main.rip**************
 
-JobDescription      //DIV[@class='col-xs-12 col-sm-12 col-md-8']/P[5]
-JobDescriptionHTML  //DIV[@class='col-xs-12 col-sm-12 col-md-8']/P[5]
+**************MillenniumTheTakedaOncologyCompany_28757_0_Main.rip**************
+
+JobDescription      //DIV[@class='ats-description']|//DIV[@class='content-wrapper error']
+JobDescriptionHTML  //DIV[@class='ats-description']|//DIV[@class='content-wrapper error']
 JobTitle            Fixed Value         
 ScrapeTime          Fixed Value         
-UniqueJobKey        Fixed Value         
-WholePosting        //DIV[@class='col-xs-12 col-sm-12 col-md-8']
-WholePostingHTML    //DIV[@class='col-xs-12 col-sm-12 col-md-8']
+WholePosting        //DIV[@class='ats-description']/../..|//DIV[@class='content-wrapper error']
+WholePostingHTML    //DIV[@class='ats-description']/../..|//DIV[@class='content-wrapper error']
+DatePosted          //SPAN[@class='job-date job-info']
 HospitalName        Fixed Value         
 TotalJobs           Fixed Value         
 
 * Proxies not present in this file
+* RunActiveXAndFlash property is true in this file
+* Required element UniqueJobKey not found
 * Required element City not found
 
+**************MillenniumTheTakedaOncologyCompany_28757_0_StartUrls.rip**************
 
+TotalJobs           //H1[@ role="status"]
+Jobs                //SECTION[@id='search-results-list']/UL/LI/A
+Next                //A[.='Next'][@ class="next"]
+JobTitle            //H2                
 
-**************TenderTouchRehab_74482_0_StartUrls.rip**************
-
-TotalJobs           //h3[.="Positions Matched"]/following-sibling::span
-Jobs                //DIV[@class='jscroll-inner']/DIV
-JobTitle            //A[1]              
-
+* Proxies not present in this file
 * RunActiveXAndFlash property is true in this file
-* Template LoadMore advanced properties - Delay after completed action milliseconds should be set default to 0
+* Project Advanced -> Action -> IgnorePageLoadErrorCodes property should be false by default.
+* project advanced properties - Delay after completed action milliseconds should be set default to 0
+* Template MillenniumTheTakedaOncologyCompany_28757_0_StartUrls advanced properties - Delay after completed action milliseconds should be set default to 0
+* project advanced properties - Wait for main document redirect should be set to false
+* project advanced properties - IsRandomPageLoadDelay should be set to false
 * Required element JobDetailUrl not found
 
+********************burn in result ******************
+scrapeerrormessage   successind    similarnumberofrowsind    errorcodethrownfortemplateind    lastsuccessfulscrapedrowcnt    lastsuccessfulscrapeend    lastsuccessfulscrapestart    scrapedrowcnt    scrapeended             scrapestarted           
+                     Y             Y                         N                                654                            8/21/2020 1:03:41 PM       8/21/2020 12:25:38 PM        654              8/21/2020 1:03:41 PM    8/21/2020 12:25:38 PM   
+                     Y             Y                         N                                654                            8/21/2020 1:03:41 PM       8/21/2020 12:25:38 PM        656              8/21/2020 8:52:17 AM    8/21/2020 8:15:30 AM    
+                     Y             Y                         N                                654                            8/21/2020 1:03:41 PM       8/21/2020 12:25:38 PM        444              10/24/2016 8:33:35 PM   10/24/2016 7:36:30 PM   
 
+********************sandbox result ******************
+total   open    closed    org    noorg    title    notitle    openorg    opennoorg    
+1733    655     1078      1416   317      911      822        654        1            
 
+*******last success data - sandbox - RowChangeReason <> Removed*******
+uniquejobkey   hospitalname    city                   state           jobtitle                                                                                                                                      
+16743124       Main Location   Thousand Oaks          California      Manager, Reliability Engineering                                                                                                              
+16555618       Main Location   Lexington              Massachusetts   Senior Director Field Medical Neuroscience                                                                                                    
+16966217       Main Location   Grand Rapids           Michigan        Medical Customer Service/Phlebotomist in Training - Day 1 Benefits Package! Accelerated Advancement Opportunity! East Paris Ave SE Location   
+
+*******last success data - sandbox - RowChangeReason = Removed*******
+uniquejobkey   hospitalname    city                   state           jobtitle                                                                               
+16142862       Main Location                          Massachusetts   Global Clinical Development Lead, Medical Device and Combination Products (Director)   
+17092089       Main Location                          Massachusetts   Senior Counsel Device IP                                                               
+               Main Location   Zurich, Switzerland;                   Senior Medical Director, VBD                                                           
+
+*******last success data - prod - RowChangeReason <> Removed*******
+uniquejobkey   hospitalname    city                                        state    jobtitle                                                                                   
+               Main Location   Beijing, Beijing Municipality, China;                (Sr.) District Manager_Beijing                                                             
+               Main Location                                                        Senior Statistician                                                                        
+               Main Location   Samara, Samarskaya Oblast', Russia;                  Medical Representatiye/??????????? ?????????????                                           
+
+*******last success data - prod - RowChangeReason = Removed*******
 Press enter to exit....
